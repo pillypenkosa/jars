@@ -167,7 +167,7 @@ const arrJars = [
 	note: 'Червона, вставка у вигляді чорного кота з жовтими очима',
 },
 { 
-	id: 'guarana_aphrodisiac_025_cactus', 
+	id: 'guarana_025_cactus', 
 	title: 'Guarana', 
 	taste: 'Cactus', 
 	volume: '.25', 
@@ -419,6 +419,15 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '590 2854 103140',
 	note: 'Червона, чорний верх, чорні літери',
+},
+{ 
+	id: 'ngine_025_classic', 
+	title: 'Ngine', 
+	taste: 'Classic', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 0552 029564',
+	note: 'Синя тема',
 },
 { 
 	id: 'non_stop_025_jungle', 
