@@ -86,6 +86,15 @@ const arrJars = [
 	note: 'Верх чорний, низ зелений, вогонь зелений',
 },
 { 
+	id: 'burn_025_dark_energy', 
+	title: 'Burn', 
+	taste: 'Dark Energy', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '506 0608 749898',
+	note: 'Верх чорний, низ помаранчевий, вогонь помаранчевий',
+},
+{ 
 	id: 'burn_025_original', 
 	title: 'Burn', 
 	taste: 'Original', 
@@ -626,6 +635,15 @@ const arrJars = [
 	type: { drink: 1, },
 	barcode: '544 9000 290380',
 	note: 'Жовта бліда',
+},
+{ 
+	id: 'schweppes_025_pink_grapefruit', 
+	title: 'Schweppes', 
+	taste: 'Pink Grapefruit', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '544 9000 287915',
+	note: 'Рожева',
 },
 { 
 	id: 'schweppes_025_spritz_aperitivo', 
