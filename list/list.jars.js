@@ -1037,6 +1037,15 @@ const arrJars = [
 	note: 'Coca-Cola-стиль',
 },
 { 
+	id: 'zhivchik_05_orange', 
+	title: 'Живчик', 
+	taste: 'Orange', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0193 035704',
+	note: 'Помаранева з апельсином',
+},
+{ 
 	id: 'limonady_cherkaschini_05_baykal', 
 	title: 'Лимонади Черкащини', 
 	taste: 'Байкал', 
