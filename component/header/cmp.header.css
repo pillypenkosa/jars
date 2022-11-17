@@ -22,8 +22,8 @@ cmp-header {
 		right: 10px;
 
 		/*font-weight: bold;*/
-		margin: -10px 0 -20px 0;
-		font-size: 60px;
+		margin: -6px 0 -20px 0;
+		font-size: 40px;
 		cursor: pointer;
 	}
 		cmp-header .btn-menu:hover {
