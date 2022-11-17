@@ -27,9 +27,11 @@ class ComponentMiddle {
 
 
 		if ( id == '025' ) {
-			arrJars.forEach( k => {
+			let num = 1;
+			arrJars.forEach( ( k, i ) => {
 				if ( k.volume == '.25' ) {
 					html += `<div class="each">
+						<div class="num">${ num++ }</div>
 						<img src="img/jars/${ k.id }.jpg" alt="Jar: ${ k.title }">
 					</div>`;
 				}
@@ -37,10 +39,13 @@ class ComponentMiddle {
 		}
 
 
+
 		if ( id == '033' ) {
-			arrJars.forEach( k => {
+			let num = 1;
+			arrJars.forEach( ( k, i ) => {
 				if ( k.volume == '.33' ) {
 					html += `<div class="each">
+						<div class="num">${ num++ }</div>
 						<img src="img/jars/${ k.id }.jpg" alt="Jar: ${ k.title }">
 					</div>`;
 				}
@@ -50,15 +55,16 @@ class ComponentMiddle {
 
 
 		if ( id == '05' ) {
-			arrJars.forEach( k => {
+			let num = 1;
+			arrJars.forEach( ( k, i ) => {
 				if ( k.volume == '.5' ) {
 					html += `<div class="each">
+						<div class="num">${ num++ }</div>
 						<img src="img/jars/${ k.id }.jpg" alt="Jar: ${ k.title }">
 					</div>`;
 				}
 			});
 		}
-
 
 
 

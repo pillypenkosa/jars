@@ -7,6 +7,7 @@ cmp-middle {
 		width: 80px;
 		height: 200px;
 		display: inline-block;
+		position: relative;
 		margin: 1px;
 	}
 		cmp-middle .each img {
@@ -15,6 +16,16 @@ cmp-middle {
 			border-radius: 5px;
 		}
 
+	cmp-middle .each .num {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 35px;
+		border-radius: 5px;
+		text-align: center;
+		background: linear-gradient( to bottom, #009, #099 );
+		color: #fff;
+	}
 
 
 
