@@ -167,13 +167,13 @@ const arrJars = [
 	note: 'Зелена',
 },
 { 
-	id: 'guarana_aphrodisiac_025_passion_fruit', 
+	id: 'guarana_025_aphrodisiac', 
 	title: 'Guarana', 
-	taste: 'Aphrodisiac Passion Fruit', 
+	taste: 'Aphrodisiac', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '860 0037 655338',
-	note: 'Червона, вставка у вигляді чорного кота з жовтими очима',
+	note: 'Червона, вставка у вигляді чорного кота ',
 },
 { 
 	id: 'guarana_025_cactus', 
@@ -183,6 +183,15 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '860 0037 655451',
 	note: 'Жовта, вставка у вигляді чорного кота',
+},
+{ 
+	id: 'guarana_025_classic', 
+	title: 'Guarana', 
+	taste: 'Classic', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 7264 167165',
+	note: 'Зелена, вставка у вигляді чорного кота',
 },
 { 
 	id: 'hell_025_classic', 
