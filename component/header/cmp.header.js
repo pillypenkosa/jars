@@ -35,7 +35,9 @@ class ComponentHeader {
 
 		let innerHTML = `
 			<div class="title">Jars</div>
-			<div class="btn-menu" onclick="ComponentHeader.clc()">&#9776;</div>
+			<div class="btn-menu" onclick="ComponentHeader.clc()">
+				<img src="img/pic/menu.png" alt="menu">
+			</div>
 			<div class="nav"></div>
 		`;
 
