@@ -3,40 +3,19 @@
 
 
 
-
-
-
-
-
 class ComponentMiddle {
 
-	static template = `
-<div>Middle</div>
-`;
 
 
+	static html() {
 
 
-
-
-
-	static index() {
-
-		return `
-<div id="cmp_middle">
-	<aside>
-		${ ComponentAside.html() }
-	</aside>
-
-	<div id="content"></div>
-</div>
-
-
-
-
-`;
+		return getComponentHtml({ tag: 'middle',
+			innerHTML: `
+				<div id="content"></div>
+			`, 
+		});
 	}
-
 
 
 

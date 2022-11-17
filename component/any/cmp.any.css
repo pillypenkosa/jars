@@ -1,0 +1,16 @@
+cmp-any {
+	all: unset;
+	display: block;
+
+	font-family: Courier;
+	color: lime;
+}
+	cmp-any .clc {
+		cursor: pointer;
+	}
+		cmp-any .clc:hover {
+			color: yellow;
+		}
+
+
+
