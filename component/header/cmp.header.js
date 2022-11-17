@@ -70,18 +70,58 @@ class ComponentHeader {
 
 		let cpHtml = '';
 		this.cp.forEach( k => {
+			cpHtml += `<div class="btn-filter" onclick="ComponentHeader.clcBtn( '${ k.id }' )">${ k.title }</div>`;
+		});
+
+
+		content.innerHTML = cpHtml;
+	}
+
+
+
+
+
+
+	static clcBtn( id ) {
+
+		//alert( id );
+		//let content = document.querySelectorAll( 'cmp-header .nav' )[ 0 ];
+
+
+		document.querySelectorAll( 'cmp-header .nav' )[ 0 ].innerHTML = '';
+
+		//console.log( div );
+
+		
+
+
+		ComponentMiddle.innerHtml( id );
+
+
+/*
+
+		let cpHtml = '';
+		this.cp.forEach( k => {
 			cpHtml += `<div class="btn-filter">${ k.title }</div>`;
 		});
 
 
-
-
 		content.innerHTML = cpHtml;
 
-
-
+*/
 
 	}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,11 +1,19 @@
 cmp-middle {
 	all: initial;
-
-	display: flex;
-	
+	display: flex;	
 }
 
-
+	cmp-middle .each {
+		width: 80px;
+		height: 200px;
+		display: inline-block;
+		margin: 1px;
+	}
+		cmp-middle .each img {
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
 
 
 
