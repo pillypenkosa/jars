@@ -511,6 +511,15 @@ const arrJars = [
 	note: 'Чорна',
 },
 { 
+	id: 'pulse_025_white', 
+	title: 'Pulse', 
+	taste: '', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '477 1632 314211',
+	note: 'Біла',
+},
+{ 
 	id: 'pulse_025_mango', 
 	title: 'Pulse', 
 	taste: 'Mango', 
