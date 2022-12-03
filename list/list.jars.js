@@ -29,6 +29,7 @@ const arrJars = [
 */
 
 
+// 0.25 ---------------------------------------------------------------------------------------------------------------------------
 
 
 { 
@@ -66,6 +67,24 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '599 8811 756665',
 	note: 'Червоний відтінок',
+},
+{ 
+	id: 'b_025_chery_flavour', 
+	title: 'B! Bomba Collect!on', 
+	taste: 'Chery Flavour', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 7861 700123',
+	note: 'Біла з рожевим принтом',
+},
+{ 
+	id: 'b_025_mojito', 
+	title: 'B! Bomba Virgin', 
+	taste: 'Mojito', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '900 2349 038776',
+	note: 'Зелений відтінок джунглі',
 },
 { 
 	id: 'b52_025', 
@@ -732,6 +751,7 @@ const arrJars = [
 
 
 
+// 0.33 ---------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -760,6 +780,131 @@ const arrJars = [
 
 
 
+
+
+
+
+
+
+// 0.5 ---------------------------------------------------------------------------------------------------------------------------
+
+{ 
+	id: 'baltika_05_ba', 
+	title: 'Baltika 0', 
+	taste: '0', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0000 451659',
+	note: 'Біла',
+},
+{ 
+	id: 'baltika_05_ba_grapefruit', 
+	title: 'Baltika 0', 
+	taste: 'Грейпфрут', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0000 459020',
+	note: 'Розова бліда',
+},
+{ 
+	id: 'baltika_05_ba_lime', 
+	title: 'Baltika 0', 
+	taste: 'Лайм', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0000 459860',
+	note: 'Зелена',
+},
+{ 
+	id: 'baltika_05_ba_malina', 
+	title: 'Baltika 0', 
+	taste: 'Малина', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 940101',
+	note: 'Червона',
+},
+{ 
+	id: 'baltika_05_ba_phenichny_solod', 
+	title: 'Baltika 0', 
+	taste: 'Пшеничний солод', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0000 458276',
+	note: 'Синя',
+},
+{ 
+	id: 'bavaria_05_ba_original', 
+	title: 'Bavaria 0', 
+	taste: '0,0 % Premium Original', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 011426',
+	note: 'Червона з синім вставка на сталевому',
+},
+{ 
+	id: 'bavaria_05_ba', 
+	title: 'Bavaria 0', 
+	taste: '0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 011426',
+	note: 'Біла з червоним верхом',
+},
+{ 
+	id: 'bavaria_05_ba_jf_swinkels', 
+	title: 'Bavaria 0', 
+	taste: '0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 011426',
+	note: 'Біла з червоним верхом. Johannes Swinkels',
+},
+{ 
+	id: 'bavaria_05_ba_apple', 
+	title: 'Bavaria 0', 
+	taste: 'Apple 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 017602',
+	note: 'Біла з зеленою вставкою. Яблуко',
+},
+{ 
+	id: 'bavaria_05_ba_ginger_lime', 
+	title: 'Bavaria 0', 
+	taste: 'Ginger Lime 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 036030',
+	note: 'Біла з вставкою кольору маринованого солоного огірка. Лайм',
+},
+{ 
+	id: 'bavaria_05_ba_pomegranate', 
+	title: 'Bavaria 0', 
+	taste: 'Pomegranate 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 040846',
+	note: 'Біла з темно-рожевою вставкою. Гранат',
+},
+{ 
+	id: 'bud_05_ba_non_alcoholic', 
+	title: 'Bud', 
+	taste: 'Non-alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0034 923443',
+	note: 'Під стиль газети або грошей',
+},
+{ 
+	id: 'bud_05_ba_zero', 
+	title: 'Bud Zero', 
+	taste: '0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0034 924891',
+	note: 'Біла з червоним літерами',
+},
 { 
 	id: 'burn_05_apple_kiwi_green', 
 	title: 'Burn', 
@@ -797,6 +942,87 @@ const arrJars = [
 	note: 'Червона з чорним, вогонь звичайний',
 },
 { 
+	id: 'carlsberg_05_ba_premium', 
+	title: 'Carlsberg', 
+	taste: 'Alcohol free', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941962',
+	note: 'Синя бліда темна, з блакитними та білими літерами',
+},
+{ 
+	id: 'cortes_05_ba_ananas', 
+	title: 'Cortes', 
+	taste: 'Ananas', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '590 0535 016604',
+	note: 'Біла з жовтим, синій верх',
+},
+{ 
+	id: 'cortes_05_ba_arbuz_melon', 
+	title: 'Cortes', 
+	taste: 'Arbuz Melon', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '590 0535 016642',
+	note: 'Біла з червоним, синій верх',
+},
+{ 
+	id: 'cortes_05_ba_kivi_liczi', 
+	title: 'Cortes', 
+	taste: 'Kivi Liczi', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '590 0535 016628',
+	note: 'Біла з зеленим, синій верх',
+},
+{ 
+	id: 'edelmeister_05', 
+	title: 'Edelmeister', 
+	taste: '', 
+	volume: '', 
+	type: { beer : 1, },
+	barcode: '',
+	note: 'Зелена',
+},
+{ 
+	id: 'edelmeister_05_ba', 
+	title: 'Edelmeister', 
+	taste: '0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '590 0535 013801',
+	note: 'Синя',
+},
+{ 
+	id: 'feldschloesschen_05_ba_alcohol_free', 
+	title: 'Feldschloesschen', 
+	taste: 'Alcohol-Free', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '425 0594 210224',
+	note: 'Зелена',
+},
+{ 
+	id: 'garage_05_ba_fun_zero_lime', 
+	title: 'Garage Fun zero', 
+	taste: 'Lime', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941894',
+	note: 'Зелена',
+},
+{ 
+	id: 'garage_05_ba_fun_zero_grapefruit', 
+	title: 'Garage Fun zero', 
+	taste: 'Grapefruit', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941948',
+	note: 'Рожева',
+},
+{ 
 	id: 'gorilla_05', 
 	title: 'Gorilla', 
 	taste: '', 
@@ -822,6 +1048,51 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '599 9884 034209',
 	note: 'Стандартний червоний з чорними літерами',
+},
+{ 
+	id: 'hike_05_ba_zero', 
+	title: 'Hike', 
+	taste: '0.0 Zero', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 034349',
+	note: 'Біла',
+},
+{ 
+	id: 'ice_cool_05_mojito', 
+	title: 'Ice Cool', 
+	taste: 'Mojito', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0137 825248',
+	note: 'Ведмідь зелений, пальми, гори',
+},
+{ 
+	id: 'ice_cool_05_multivitamin', 
+	title: 'Ice Cool', 
+	taste: 'Multivitamin', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0137 825231',
+	note: 'Ведмідь жовтий, пальми, гори',
+},
+{ 
+	id: 'ice_cool_05_pomelo', 
+	title: 'Ice Cool', 
+	taste: 'Pomelo', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0137 825217',
+	note: 'Ведмідь фіолетовий, пальми, гори',
+},
+{ 
+	id: 'ice_cool_05_strawberry', 
+	title: 'Ice Cool', 
+	taste: 'Strawberry', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0137 825224',
+	note: 'Ведмідь червоний, пальми, гори',
 },
 { 
 	id: 'jaguar_05_free', 
@@ -878,6 +1149,24 @@ const arrJars = [
 	note: 'Біла з червоним',
 },
 { 
+	id: 'kalnapilis_05_ba_0', 
+	title: 'Kalnapilis', 
+	taste: '0.0', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '477 0477 227540',
+	note: 'Біла з зеленим',
+},
+{ 
+	id: 'kalnapilis_05_ba_lite_cherry', 
+	title: 'Kalnapilis', 
+	taste: 'Lite 0.0 cherry', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '477 0477 230618',
+	note: 'Біла з червоним, з вишнями',
+},
+{ 
 	id: 'kok_05', 
 	title: 'Kok', 
 	taste: '', 
@@ -885,6 +1174,15 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '477 1632 313016',
 	note: 'Зелена з чорним, білі літери',
+},
+{ 
+	id: 'krombacher_05_ba', 
+	title: 'Krombacher', 
+	taste: '0.0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '40 08287 929829',
+	note: 'Синя',
 },
 { 
 	id: 'non_stop_05_boost', 
@@ -932,6 +1230,24 @@ const arrJars = [
 	note: 'Синя, зі львом',
 },
 { 
+	id: 'schlitz_05', 
+	title: 'Schlitz', 
+	taste: 'Non alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '40 54500 121532',
+	note: 'Біла з червоною вставкою',
+},
+{ 
+	id: 'tuborg_05_raspberry', 
+	title: 'Tuborg', 
+	taste: 'Zero Raspberry ', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 942105',
+	note: 'Блакитна, з малиною',
+},
+{ 
 	id: 'ukie_05', 
 	title: 'Ukie', 
 	taste: '', 
@@ -940,84 +1256,79 @@ const arrJars = [
 	barcode: '482 0046 964991',
 	note: 'Чорна з червоним',
 },
-
-
-
-
-
 { 
-	id: 'selo_i_lyudi_05', 
-	title: 'Село і люди', 
+	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane', 
+	title: '0 Нефільтроване', 
+	taste: 'Non Alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 032994',
+	note: 'Біла з блакитним',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_lemon_lime', 
+	title: '1 приватна броварня', 
+	taste: 'Фірмове Лимон Лайм', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964786',
+	note: 'Біла, зелений верх',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_grapefruit_orange', 
+	title: '1 приватна броварня', 
+	taste: 'Фірмове Грейпфрут Апельсин', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964779',
+	note: 'Біла, помаранчевий верх',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_specialne', 
+	title: '1 приватна броварня', 
+	taste: 'Нефільтроване', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 963369',
+	note: 'Біла з синіми смугами, низ синій',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_svitle', 
+	title: '1 приватна броварня', 
+	taste: 'Нефільтроване світле', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 963369',
+	note: 'Блакитний блідий відтінок, синій верх',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_firmove', 
+	title: '1 приватна броварня', 
+	taste: 'Нефільтроване світле', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964304',
+	note: 'Світлий відтінок, блакитний верх с зеленим листям',
+},
+{ 
+	id: 'bile_05', 
+	title: 'Біле', 
 	taste: '', 
 	volume: '.5', 
-	type: { kvass: 1, },
-	barcode: '482 0000 457521',
-	note: 'Тематика українського села',
+	type: { beer: 1, },
+	barcode: '482 0034 920336',
+	alco: '5.0',
+	note: 'Жовтий відтінок',
 },
 { 
-	id: 'taras_05_bily', 
-	title: 'Тарас', 
-	taste: 'Білий', 
+	id: 'bile_05_ba', 
+	title: 'Біле', 
+	taste: '0 Alco', 
 	volume: '.5', 
-	type: { kvass: 1, },
-	barcode: '482 0000 457514',
-	note: 'Золотиста',
+	type: { beer0: 1, },
+	barcode: '482 0034 925263',
+	note: 'Зелений відтінок',
 },
-{ 
-	id: 'taras_05_chorny', 
-	title: 'Тарас', 
-	taste: 'Чорний', 
-	volume: '.5', 
-	type: { kvass: 1, },
-	barcode: '482 0000 457521',
-	note: 'Чорна',
-},
-
-
-
-
-
-
-
-{ 
-	id: 'ice_cool_05_mojito', 
-	title: 'Ice Cool', 
-	taste: 'Mojito', 
-	volume: '.5', 
-	type: { drink: 1, },
-	barcode: '482 0137 825248',
-	note: 'Ведмідь зелений, пальми, гори',
-},
-{ 
-	id: 'ice_cool_05_multivitamin', 
-	title: 'Ice Cool', 
-	taste: 'Multivitamin', 
-	volume: '.5', 
-	type: { drink: 1, },
-	barcode: '482 0137 825231',
-	note: 'Ведмідь жовтий, пальми, гори',
-},
-{ 
-	id: 'ice_cool_05_pomelo', 
-	title: 'Ice Cool', 
-	taste: 'Pomelo', 
-	volume: '.5', 
-	type: { drink: 1, },
-	barcode: '482 0137 825217',
-	note: 'Ведмідь фіолетовий, пальми, гори',
-},
-{ 
-	id: 'ice_cool_05_strawberry', 
-	title: 'Ice Cool', 
-	taste: 'Strawberry', 
-	volume: '.5', 
-	type: { drink: 1, },
-	barcode: '482 0137 825224',
-	note: 'Ведмідь червоний, пальми, гори',
-},
-
-
-
 { 
 	id: 'vyatrachok_05_dushes', 
 	title: 'Вятрачок', 
@@ -1100,6 +1411,15 @@ const arrJars = [
 	note: 'Зелена з темним, тархун',
 },
 { 
+	id: 'pivovarnya_n1_05_ba', 
+	title: 'Пиво безалкогольне', 
+	taste: 'Пивоварня №1', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '299 9300 014634',
+	note: 'Світло-сірий відтінок',
+},
+{ 
 	id: 'rozmay_lisovy_05_dushes', 
 	title: 'Розмай лісовий', 
 	taste: 'Дюшес', 
@@ -1117,347 +1437,32 @@ const arrJars = [
 	barcode: '482 0250 941887',
 	note: 'Біла, з апельсинами',
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 { 
-	id: 'bile_05', 
-	title: 'Біле', 
+	id: 'selo_i_lyudi_05', 
+	title: 'Село і люди', 
 	taste: '', 
 	volume: '.5', 
-	type: { beer: 1, },
-	barcode: '482 0034 920336',
-	alco: '5.0',
-	note: 'Жовтий відтінок',
-},
-
-
-
-
-
-
-
-
-
-{ 
-	id: 'baltika_05_ba', 
-	title: 'Baltika 0', 
-	taste: '0', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0000 451659',
-	note: 'Біла',
+	type: { kvass: 1, },
+	barcode: '482 0000 457521',
+	note: 'Тематика українського села',
 },
 { 
-	id: 'baltika_05_ba_grapefruit', 
-	title: 'Baltika 0', 
-	taste: 'Грейпфрут', 
+	id: 'taras_05_bily', 
+	title: 'Тарас', 
+	taste: 'Білий', 
 	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0000 459020',
-	note: 'Розова бліда',
+	type: { kvass: 1, },
+	barcode: '482 0000 457514',
+	note: 'Золотиста',
 },
 { 
-	id: 'baltika_05_ba_lime', 
-	title: 'Baltika 0', 
-	taste: 'Лайм', 
+	id: 'taras_05_chorny', 
+	title: 'Тарас', 
+	taste: 'Чорний', 
 	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0000 459860',
-	note: 'Зелена',
-},
-{ 
-	id: 'baltika_05_ba_malina', 
-	title: 'Baltika 0', 
-	taste: 'Малина', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 940101',
-	note: 'Червона',
-},
-{ 
-	id: 'baltika_05_ba_phenichny_solod', 
-	title: 'Baltika 0', 
-	taste: 'Пшеничний солод', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0000 458276',
-	note: 'Синя',
-},
-{ 
-	id: 'bavaria_05_ba_original', 
-	title: 'Bavaria 0', 
-	taste: '0,0 % Premium Original', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '871 4800 011426',
-	note: 'Червона з синім вставка на сталевому',
-},
-{ 
-	id: 'bavaria_05_ba ', 
-	title: 'Bavaria 0', 
-	taste: '0,0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '871 4800 011426',
-	note: 'Біла з червоним верхом',
-},
-{ 
-	id: 'bavaria_05_ba_jf_swinkels', 
-	title: 'Bavaria 0', 
-	taste: '0,0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '871 4800 011426',
-	note: 'Біла з червоним верхом. Johannes Swinkels',
-},
-{ 
-	id: 'bud_05_ba_non_alcoholic', 
-	title: 'Bud', 
-	taste: 'Non-alcoholic', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0034 923443',
-	note: 'Під стиль газети або грошей',
-},
-{ 
-	id: 'bud_05_ba_zero', 
-	title: 'Bud Zero', 
-	taste: '0,0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0034 924891',
-	note: 'Біла з червоним літерами',
-},
-
-
-
-
-{ 
-	id: 'carlsberg_05_ba_premium', 
-	title: 'Carlsberg', 
-	taste: 'Alcohol free', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 941962',
-	note: 'Синя бліда темна, з блакитними та білими літерами',
-},
-
-
-
-
-
-
-
-
-
-
-{ 
-	id: 'cortes_05_ba_ananas', 
-	title: 'Cortes', 
-	taste: 'Ananas', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '590 0535 016604',
-	note: 'Біла з жовтим, синій верх',
-},
-{ 
-	id: 'cortes_05_ba_arbuz_melon', 
-	title: 'Cortes', 
-	taste: 'Arbuz Melon', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '590 0535 016642',
-	note: 'Біла з червоним, синій верх',
-},
-{ 
-	id: 'cortes_05_ba_kivi_liczi', 
-	title: 'Cortes', 
-	taste: 'Kivi Liczi', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '590 0535 016628',
-	note: 'Біла з зеленим, синій верх',
-},
-{ 
-	id: 'edelmeister_05_ba', 
-	title: 'Edelmeister', 
-	taste: '0,0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '590 0535 013801',
-	note: 'Синя',
-},
-{ 
-	id: 'feldschloesschen_05_ba_alcohol_free', 
-	title: 'Feldschloesschen', 
-	taste: 'Alcohol-Free', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '425 0594 210224',
-	note: 'Зелена',
-},
-{ 
-	id: 'garage_05_ba_fun_zero_lime', 
-	title: 'Garage Fun zero', 
-	taste: 'Lime', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 941894',
-	note: 'Зелена',
-},
-{ 
-	id: 'garage_05_ba_fun_zero_grapefruit', 
-	title: 'Garage Fun zero', 
-	taste: 'Grapefruit', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 941948',
-	note: 'Рожева',
-},
-{ 
-	id: 'hike_05_ba_zero', 
-	title: 'Hike', 
-	taste: '0.0 Zero', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0193 034349',
-	note: 'Біла',
-},
-{ 
-	id: 'kalnapilis_05_ba_0', 
-	title: 'Kalnapilis', 
-	taste: '0.0', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '477 0477 227540',
-	note: 'Біла з зеленим',
-},
-{ 
-	id: 'kalnapilis_05_ba_lite_cherry', 
-	title: 'Kalnapilis', 
-	taste: 'Lite 0.0 cherry', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '477 0477 230618',
-	note: 'Біла з червоним, з вишнями',
-},
-{ 
-	id: 'krombacher_05_ba', 
-	title: 'Krombacher', 
-	taste: '0.0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '40 08287 929829',
-	note: 'Синя',
-},
-{ 
-	id: 'schlitz_05', 
-	title: 'Schlitz', 
-	taste: 'Non alcoholic', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '40 54500 121532',
-	note: 'Біла з червоною вставкою',
-},
-{ 
-	id: 'tuborg_05_raspberry', 
-	title: 'Tuborg', 
-	taste: 'Zero Raspberry ', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 942105',
-	note: 'Блакитна, з малиною',
-},
-
-
-
-
-
-{ 
-	id: '0_nefiltrovane_05_ba', 
-	title: '0 Нефільтроване', 
-	taste: 'Non Alcoholic', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0193 032994',
-	note: 'Біла з блакитним',
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_lemon_lime', 
-	title: '1 приватна броварня', 
-	taste: 'Фірмове Лимон Лайм', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964786',
-	note: 'Біла, зелений верх',
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_grapefruit_orange', 
-	title: '1 приватна броварня', 
-	taste: 'Фірмове Грейпфрут Апельсин', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964779',
-	note: 'Біла, помаранчевий верх',
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_specialne', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 963369',
-	note: 'Біла з синіми смугами, низ синій',
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_svitle', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване світле', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 963369',
-	note: 'Блакитний блідий відтінок, синій верх',
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_firmove', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване світле', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964304',
-	note: 'Світлий відтінок, блакитний верх с зеленим листям',
-},
-{ 
-	id: 'bile_05_ba', 
-	title: 'Біле', 
-	taste: '0 Alco', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0034 925263',
-	note: 'Зелений відтінок',
-},
-{ 
-	id: 'bile_05_ba_pivovarnya_n1', 
-	title: 'Пиво безалкогольне', 
-	taste: 'Пивоварня №1', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '299 9300 014634',
-	note: 'Світлий відтінок',
+	type: { kvass: 1, },
+	barcode: '482 0000 457521',
+	note: 'Чорна',
 },
 { 
 	id: 'chernigivske_05_ba_blue', 
@@ -1477,11 +1482,6 @@ const arrJars = [
 	barcode: '482 0034 923634',
 	note: 'Біла',
 },
-
-
-
-
-
 
 
 
