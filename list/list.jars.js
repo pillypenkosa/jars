@@ -248,7 +248,15 @@ const arrJars = [
 	barcode: '599 9860 497899',
 	note: 'Темний відтінок з жовтим, літери напів білі та сталеві',
 },
-
+{ 
+	id: 'hell_025_multi_plus', 
+	title: 'Hell', 
+	taste: 'Multi +', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9885 747023',
+	note: 'Біла з помаранчевим відтінком',
+},
 { 
 	id: 'hell_025_nordic_red_ice_cool_pomegranate', 
 	title: 'Hell Nordic Red', 
