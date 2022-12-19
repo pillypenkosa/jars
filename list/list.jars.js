@@ -923,6 +923,15 @@ const arrJars = [
 	note: 'Біла з вставкою кольору маринованого солоного огірка. Лайм',
 },
 { 
+	id: 'bavaria_05_ba_original_2', 
+	title: 'Bavaria 0', 
+	taste: 'Original 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 011426',
+	note: 'Біла з темно-рожевою вставкою. Колос',
+},
+{ 
 	id: 'bavaria_05_ba_pomegranate', 
 	title: 'Bavaria 0', 
 	taste: 'Pomegranate 0,0 %', 
@@ -930,6 +939,15 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '871 4800 040846',
 	note: 'Біла з темно-рожевою вставкою. Гранат',
+},
+{ 
+	id: 'bavaria_05_ba_strawberry', 
+	title: 'Bavaria 0', 
+	taste: 'Strawberry 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 040822',
+	note: 'Біла з червоною вставкою. Полуниця',
 },
 { 
 	id: 'bud_05_ba_non_alcoholic', 
