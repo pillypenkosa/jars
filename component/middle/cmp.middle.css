@@ -6,7 +6,7 @@ cmp-middle {
 
 	cmp-middle .each {
 		width: 75px;
-		height: 200px;
+		/*height: 200px;*/
 		display: inline-block;
 		position: relative;
 		margin: 1px;

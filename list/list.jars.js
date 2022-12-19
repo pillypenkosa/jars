@@ -753,15 +753,11 @@ const arrJars = [
 	barcode: '544 9000 000729',
 	note: 'Стандартна зелена з жовтим',
 },
-{ 
-	id: 'power_plus_033', 
-	title: 'Power+', 
-	taste: '', 
-	volume: '.33', 
-	type: { energy: 1, },
-	barcode: '629 8044 116250',
-	note: 'Чорна, верх червоний',
-},
+
+
+
+
+// 0.33 ---------------------------------------------------------------------------------------------------------------------------
 { 
 	id: '7up_033', 
 	title: '7up', 
@@ -781,25 +777,6 @@ const arrJars = [
 	note: 'Рожеві та бежеві смуги',
 },
 { 
-	id: 'mirinda_033_orange', 
-	title: 'Mirinda', 
-	taste: 'Orange', 
-	volume: '.33', 
-	type: { drink: 1, },
-	barcode: '482 3063 111812',
-	note: 'Стандартна помаранчева',
-},
-
-
-
-
-
-
-// 0.33 ---------------------------------------------------------------------------------------------------------------------------
-
-
-
-{ 
 	id: 'brewdog_033_nanny_state', 
 	title: 'Brewdog', 
 	taste: 'Nanny State', 
@@ -815,10 +792,80 @@ const arrJars = [
 	volume: '.33', 
 	type: { beer0: 1, },
 	barcode: '505 6025 421387',
-	note: 'Блкитна',
+	note: 'Блакитна',
 },
-
-
+{ 
+	id: 'crazy_033_kvas_orange', 
+	title: 'Crazy', 
+	taste: 'Kvas Orange', 
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '482 0000 458115',
+	note: 'Помаранчева',
+},
+{ 
+	id: 'crazy_033_kvas_strawberry', 
+	title: 'Crazy', 
+	taste: 'Kvas Strawberry', 
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '482 0000 459310',
+	note: 'Червона с зеленим. Полуниця',
+},
+{ 
+	id: 'hoegaarden_033_ba', 
+	title: 'Hoegaarden', 
+	taste: '0.0 Wit Blanche',	
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '541 0228 202929',
+	note: 'Біла. Принт синій',
+},
+{ 
+	id: 'kronenbourg_033_1664_blanc', 
+	title: 'Kronenbourg', 
+	taste: '1664 Blanc',	
+	volume: '.33', 
+	type: { beer: 1, },
+	barcode: '482 0000 457309',
+	note: 'Синя, біла вставка',
+},
+{ 
+	id: 'leffe_033_ba', 
+	title: 'Leffe', 
+	taste: '0.0 Blonde',
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '541 0228 253624',
+	note: 'Сіра. Вставка жовта',
+},
+{ 
+	id: 'mirinda_033_orange', 
+	title: 'Mirinda', 
+	taste: 'Orange', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '482 3063 111812',
+	note: 'Стандартна помаранчева',
+},
+{ 
+	id: 'oettinger_033_ba_original', 
+	title: 'Oettinger', 
+	taste: 'Original Free', 
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '401 4086 020612',
+	note: 'Біла. Принт зелений та червоний',
+},
+{ 
+	id: 'power_plus_033', 
+	title: 'Power+', 
+	taste: '', 
+	volume: '.33', 
+	type: { energy: 1, },
+	barcode: '629 8044 116250',
+	note: 'Чорна, верх червоний',
+},
 
 
 
