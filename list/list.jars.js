@@ -983,6 +983,54 @@ const arrJars = [
 	barcode: '501 0102 119659',
 	note: 'Жовта з малиновим. Малина',
 },
+{ 
+	id: 'sinkist_033_fruit_mix', 
+	title: 'Sinkist', 
+	taste: 'Fruit Mix', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '425 0843 945037',
+	note: 'Рожево-фіолетова',
+},
+{ 
+	id: 'sinkist_033_lemon_lime', 
+	title: 'Sinkist', 
+	taste: 'Lemon-Lime', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '425 0843 945020',
+	note: 'Жовта',
+},
+{ 
+	id: 'sinkist_033_orange', 
+	title: 'Sinkist', 
+	taste: 'Orange', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '425 0843 945013',
+	note: 'Помаранчева',
+},
+{ 
+	id: 'sinkist_033_watermelon', 
+	title: 'Sinkist', 
+	taste: 'Watermelon', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '425 0843 945044',
+	note: 'Рожево-помаранчева. Кавун',
+},
+{ 
+	id: 'stella_artois_033_ba', 
+	title: 'Stella Artois', 
+	taste: '0.0', 
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '541 02228 277118',
+	note: 'Біла з фіолетовим. Вставка червона',
+},
+
+
+
 
 
 
@@ -993,6 +1041,8 @@ const arrJars = [
 
 
 // 0.5 ---------------------------------------------------------------------------------------------------------------------------
+
+
 
 { 
 	id: 'baltika_05_ba', 
@@ -1128,6 +1178,15 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '482 0034 924891',
 	note: 'Біла з червоним літерами',
+},
+{ 
+	id: 'budvar_05_ba_nealko', 
+	title: 'Budvar', 
+	taste: 'Nealko', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '859 4403 707663',
+	note: 'Хвилясті білі смуги на блакитно-зеленуватому фоні. Низ блакитний',
 },
 { 
 	id: 'burn_05_apple_kiwi_green', 
@@ -1508,31 +1567,58 @@ const arrJars = [
 	note: 'Чорна з червоним',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane', 
-	title: '0 Нефільтроване', 
+	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
+	title: '0 Нефільтроване +', 
+	taste: '0', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 820193 032994',
+	note: 'Блакитний фон',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
+	title: '0 Нефільтроване +', 
 	taste: 'Non Alcoholic', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0193 032994',
-	note: 'Біла з блакитним',
+	note: 'Сірий фон',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_lemon_lime', 
-	title: '1 приватна броварня', 
-	taste: 'Фірмове Лимон Лайм', 
+	id: '_1_privatna_brovarnya_05_ba_nefiltrovane', 
+	title: 'Безалкогольне', 
+	taste: 'Нефільтроване', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 963369',
+	note: 'Блідно-блакитно-сірий з синім. Жито',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_firmove_hmil', 
+	title: 'Безалкогольне', 
+	taste: 'Фірмове', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964304',
+	note: 'Сіра з блакитним. Хміль',
+},
+{ 
+	id: '_1_privatna_brovarnya_05_ba_firmove_lemon_lime', 
+	title: 'Безалкогольне Фірмове', 
+	taste: 'Лимон-Лайм', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0046 964786',
-	note: 'Біла, зелений верх',
+	note: 'Сіра з зеленим. Лимон',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_grapefruit_orange', 
-	title: '1 приватна броварня', 
-	taste: 'Фірмове Грейпфрут Апельсин', 
+	id: '_1_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
+	title: 'Безалкогольне Фірмове', 
+	taste: 'Грейпфрут-Апельсин', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0046 964779',
-	note: 'Біла, помаранчевий верх',
+	note: 'Сіра з помаранчевим. Грейпфрут та апельсин',
 },
 { 
 	id: '_1_privatna_brovarnya_05_ba_specialne', 
@@ -1541,8 +1627,17 @@ const arrJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0046 963369',
-	note: 'Біла з синіми смугами, низ синій',
+	note: 'Біла з синіми смугами, низ синій. Хміль та жито',
 },
+
+
+
+
+
+
+
+
+
 { 
 	id: '_1_privatna_brovarnya_05_ba_svitle', 
 	title: '1 приватна броварня', 
