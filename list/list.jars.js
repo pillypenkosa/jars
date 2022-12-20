@@ -1569,7 +1569,7 @@ const arrJars = [
 	note: 'Чорна з червоним',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
+	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
 	title: '0 Нефільтроване +', 
 	taste: '0', 
 	volume: '.5', 
