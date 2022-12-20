@@ -1578,7 +1578,7 @@ const arrJars = [
 	note: 'Блакитний фон',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
+	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
 	title: '0 Нефільтроване +', 
 	taste: 'Non Alcoholic', 
 	volume: '.5', 
@@ -1587,7 +1587,7 @@ const arrJars = [
 	note: 'Сірий фон',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_nefiltrovane', 
+	id: 'persha_privatna_brovarnya_05_ba_nefiltrovane', 
 	title: 'Безалкогольне', 
 	taste: 'Нефільтроване', 
 	volume: '.5', 
@@ -1596,7 +1596,7 @@ const arrJars = [
 	note: 'Блідно-блакитно-сірий з синім. Жито',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_firmove_hmil', 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_hmil', 
 	title: 'Безалкогольне', 
 	taste: 'Фірмове', 
 	volume: '.5', 
@@ -1605,7 +1605,7 @@ const arrJars = [
 	note: 'Сіра з блакитним. Хміль',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_firmove_lemon_lime', 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_lemon_lime', 
 	title: 'Безалкогольне Фірмове', 
 	taste: 'Лимон-Лайм', 
 	volume: '.5', 
@@ -1614,7 +1614,7 @@ const arrJars = [
 	note: 'Сіра з зеленим. Лимон',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
 	title: 'Безалкогольне Фірмове', 
 	taste: 'Грейпфрут-Апельсин', 
 	volume: '.5', 
@@ -1623,7 +1623,7 @@ const arrJars = [
 	note: 'Сіра з помаранчевим. Грейпфрут та апельсин',
 },
 { 
-	id: '_1_privatna_brovarnya_05_ba_specialne', 
+	id: 'persha_privatna_brovarnya_05_ba_specialne', 
 	title: '1 приватна броварня', 
 	taste: 'Нефільтроване', 
 	volume: '.5', 
