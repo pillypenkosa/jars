@@ -98,6 +98,15 @@ const arrJars = [
 	note: 'Сталевий відтінок',
 },
 { 
+	id: 'bum_bum_025', 
+	title: 'Bum Bum', 
+	taste: '', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 2198 160724',
+	note: 'Тема абстракції',
+},
+{ 
 	id: 'burn_025_apple_kiwi', 
 	title: 'Burn', 
 	taste: 'Apple Kiwi', 
@@ -241,6 +250,29 @@ const arrJars = [
 	barcode: '544 9000 311580',
 	note: 'Рожева зі знаком питання',
 },
+
+
+
+
+{ 
+	id: 'fragolino_fiorelli_025_ba', 
+	title: 'Fragolino', 
+	taste: 'Fiorelli', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '800 2915 006292',
+	note: 'Білий верх, блідно-зелений низ',
+},
+
+
+
+
+
+
+
+
+
+
 { 
 	id: 'green_energy_025', 
 	title: 'Green Energy', 
@@ -1569,96 +1601,6 @@ const arrJars = [
 	note: 'Чорна з червоним',
 },
 { 
-	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
-	title: '0 Нефільтроване +', 
-	taste: '0', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 820193 032994',
-	note: 'Блакитний фон',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
-	title: '0 Нефільтроване +', 
-	taste: 'Non Alcoholic', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0193 032994',
-	note: 'Сірий фон',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_nefiltrovane', 
-	title: 'Безалкогольне', 
-	taste: 'Нефільтроване', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 963369',
-	note: 'Блідно-блакитно-сірий з синім. Жито',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_firmove_hmil', 
-	title: 'Безалкогольне', 
-	taste: 'Фірмове', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964304',
-	note: 'Сіра з блакитним. Хміль',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_firmove_lemon_lime', 
-	title: 'Безалкогольне Фірмове', 
-	taste: 'Лимон-Лайм', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964786',
-	note: 'Сіра з зеленим. Лимон',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
-	title: 'Безалкогольне Фірмове', 
-	taste: 'Грейпфрут-Апельсин', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964779',
-	note: 'Сіра з помаранчевим. Грейпфрут та апельсин',
-},
-{ 
-	id: 'persha_privatna_brovarnya_05_ba_specialne', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 963369',
-	note: 'Біла з синіми смугами, низ синій. Хміль та жито',
-},
-
-
-
-
-
-
-
-
-
-{ 
-	id: '_1_privatna_brovarnya_05_ba_svitle', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване світле', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 963369',
-	note: 'Блакитний блідий відтінок, синій верх',
-},
-{ 
-	id: '_1_privatna_brovarnya_05_ba_firmove', 
-	title: '1 приватна броварня', 
-	taste: 'Нефільтроване світле', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0046 964304',
-	note: 'Світлий відтінок, блакитний верх с зеленим листям',
-},
-{ 
 	id: 'bile_05', 
 	title: 'Біле', 
 	taste: '', 
@@ -1757,6 +1699,69 @@ const arrJars = [
 	type: { drink: 1, },
 	barcode: '482 0137 825002',
 	note: 'Зелена з темним, тархун',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
+	title: '0 Нефільтроване +', 
+	taste: '0', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 820193 032994',
+	note: 'Блакитний фон',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
+	title: '0 Нефільтроване +', 
+	taste: 'Non Alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 032994',
+	note: 'Сірий фон',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_nefiltrovane', 
+	title: 'Безалкогольне', 
+	taste: 'Нефільтроване', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 963369',
+	note: 'Блідно-блакитно-сірий з синім. Жито',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_hmil', 
+	title: 'Безалкогольне', 
+	taste: 'Фірмове', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964304',
+	note: 'Сіра з блакитним. Хміль',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_lemon_lime', 
+	title: 'Безалкогольне Фірмове', 
+	taste: 'Лимон-Лайм', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964786',
+	note: 'Сіра з зеленим. Лимон',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
+	title: 'Безалкогольне Фірмове', 
+	taste: 'Грейпфрут-Апельсин', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 964779',
+	note: 'Сіра з помаранчевим. Грейпфрут та апельсин',
+},
+{ 
+	id: 'persha_privatna_brovarnya_05_ba_specialne', 
+	title: '1 приватна броварня', 
+	taste: 'Нефільтроване', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0046 963369',
+	note: 'Біла з синіми смугами, низ синій. Хміль та жито',
 },
 { 
 	id: 'pivovarnya_n1_05_ba', 
