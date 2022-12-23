@@ -250,10 +250,6 @@ const arrJars = [
 	barcode: '544 9000 311580',
 	note: 'Рожева зі знаком питання',
 },
-
-
-
-
 { 
 	id: 'fragolino_fiorelli_025_ba', 
 	title: 'Fragolino', 
@@ -263,16 +259,6 @@ const arrJars = [
 	barcode: '800 2915 006292',
 	note: 'Білий верх, блідно-зелений низ',
 },
-
-
-
-
-
-
-
-
-
-
 { 
 	id: 'green_energy_025', 
 	title: 'Green Energy', 
