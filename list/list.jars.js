@@ -171,6 +171,15 @@ const arrJars = [
 	note: 'Перехід з червоного в чорний з візерунком',
 },
 { 
+	id: 'cola_025_vegan', 
+	title: 'Cola', 
+	taste: 'Vegan', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '590 4730 983730',
+	note: 'Зелена, з листям',
+},
+{ 
 	id: 'coffee_025_cappuccino', 
 	title: 'Coffee', 
 	taste: 'Cappuccino', 
@@ -1207,6 +1216,15 @@ const arrJars = [
 	note: 'Жовта',
 },
 { 
+	id: 'schweppes_033_lemon', 
+	title: 'Schweppes', 
+	taste: 'Lemon', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 943989',
+	note: 'Жовто-зелена',
+},
+{ 
 	id: 'sinkist_033_fruit_mix', 
 	title: 'Sinkist', 
 	taste: 'Fruit Mix', 
@@ -1310,13 +1328,13 @@ const arrJars = [
 
 
 { 
-	id: 'baltika_05_ba', 
+	id: 'baltika_05_ba_svitle', 
 	title: 'Baltika 0', 
-	taste: '0', 
+	taste: 'Світле', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0000 451659',
-	note: 'Біла',
+	note: 'Біла. Хміль',
 },
 { 
 	id: 'baltika_05_ba_grapefruit', 
@@ -1364,9 +1382,9 @@ const arrJars = [
 	note: 'Червона з синім вставка на сталевому',
 },
 { 
-	id: 'bavaria_05_ba', 
+	id: 'bavaria_05_ba_holland', 
 	title: 'Bavaria 0', 
-	taste: '0,0 %', 
+	taste: '0,0 % Holland', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '871 4800 011426',
@@ -1777,10 +1795,6 @@ const arrJars = [
 	barcode: '40 08287 929829',
 	note: 'Синя',
 },
-
-
-
-
 { 
 	id: 'monster_05_assault', 
 	title: 'Monster', 
@@ -1798,6 +1812,15 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '506 0639 121700',
 	note: 'Блакитна. М-жовта. Скелети',
+},
+{ 
+	id: 'monster_05_ultra_fiesta_mango', 
+	title: 'Monster', 
+	taste: 'Ultra Fiesta Mango', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 0751 213826',
+	note: 'Кольору лагуни. М-сталева',
 },
 { 
 	id: 'monster_05_ultra_paradise', 
