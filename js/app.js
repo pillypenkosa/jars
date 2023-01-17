@@ -7,7 +7,6 @@ const appVersion = '2023-01-17 11:20';
 
 
 
-
 // подсветка кнопок
 function btnLight( container, id ) { 	// container - блок, где расположены кнопки 		// data-id - идентификатор конкретной кнопки
 
