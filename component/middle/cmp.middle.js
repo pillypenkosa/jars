@@ -10,6 +10,11 @@ class ComponentMiddle {
 	static html() {
 
 
+		//const title = 'Головна';
+		document.title = appProjectName;
+
+
+
 		return getComponentHtml({ tag: 'middle',
 			innerHTML: `
 				<div id="content"></div>

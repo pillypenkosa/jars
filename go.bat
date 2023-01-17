@@ -1,5 +1,5 @@
 git add .
-git commit -m "djs"
+git commit -m "Jars DJS"
 git push
 
 

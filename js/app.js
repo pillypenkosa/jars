@@ -1,3 +1,13 @@
+const appProjectName = 'Jars DJS';
+const appVersion = '2023-01-17 10:35';
+
+
+
+
+
+
+
+
 // подсветка кнопок
 function btnLight( container, id ) { 	// container - блок, где расположены кнопки 		// data-id - идентификатор конкретной кнопки
 

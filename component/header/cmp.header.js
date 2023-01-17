@@ -34,7 +34,7 @@ class ComponentHeader {
 
 
 		let innerHTML = `
-			<div class="title">Jars</div>
+			<div class="title">${ appProjectName }</div>
 			<div class="btn-menu" onclick="ComponentHeader.clc()">
 				<img src="img/pic/menu.png" alt="menu">
 			</div>
