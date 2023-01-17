@@ -11,7 +11,7 @@ class ComponentMiddle {
 
 
 		//const title = 'Головна';
-		document.title = appProjectName;
+		document.title = appProjectName + ' ' + appVersion;
 
 
 
