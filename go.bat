@@ -1,10 +1,10 @@
-@set date=2023-02-13
-@set time=11:02
+@set d=2023-02-13
+@set t=11:05
 
 
 
 
-go-version.bat %date% %time% && go-app.bat && cd ../db && go-version.bat %date% %time% && go-app.bat
+go-v.bat %d% %t% && go-app.bat && cd ../db && go-v.bat %d% %t% && go-app.bat
 
 
 
