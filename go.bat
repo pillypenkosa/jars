@@ -1,5 +1,5 @@
 @set d=2023-02-13
-@set t=11:10
+@set t=11:15
 
 
 
@@ -8,7 +8,7 @@ echo const appVersion = '%d% %t%'; > js/version.js
 
 
 git add .
-git commit -m "Jars DJS"
+git commit -m "DJS"
 git push
 
 
