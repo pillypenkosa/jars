@@ -1,10 +1,20 @@
 @set d=2023-02-13
-@set t=11:05
+@set t=11:10
 
 
 
+echo const appVersion = '%d% %t%'; > js/version.js
 
-go-v.bat %d% %t% && go-app.bat && cd ../db && go-v.bat %d% %t% && go-app.bat
+
+
+git add .
+git commit -m "Jars DJS"
+git push
+
+
+
+cd ../db 
+go-v.bat %d% %t% && go-app.bat
 
 
 
