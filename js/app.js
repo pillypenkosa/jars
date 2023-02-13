@@ -1,5 +1,5 @@
 const appProjectName = 'Jars';
-const appVersion = '2023-02-13 8:45';
+const appVersion = '2023-02-13 8:52';
 
 
 
