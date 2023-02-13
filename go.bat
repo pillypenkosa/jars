@@ -7,3 +7,10 @@ cd ../db
 go.bat
 
 
+cd ../jars
+
+
+
+
+
+
