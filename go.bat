@@ -1,5 +1,5 @@
-set date=2023-02-13
-set time=11:02
+@set date=2023-02-13
+@set time=11:02
 
 
 
