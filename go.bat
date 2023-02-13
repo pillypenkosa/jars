@@ -11,6 +11,6 @@ cd ../jars
 
 
 
-
+pause
 
 
