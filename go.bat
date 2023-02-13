@@ -4,10 +4,8 @@
 
 
 
-go-version.bat %date% %time% && go-app.bat
+go-version.bat %date% %time% && go-app.bat && cd ../db && go-version.bat %date% %time% && go-app.bat
 
-cd ../db
-go-version.bat %date% %time% && go-app.bat
 
 
 
