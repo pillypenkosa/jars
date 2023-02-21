@@ -1,7 +1,8 @@
-@set d=2023-02-14
-@set t=15:00
+@set d=2023-02-21
+@set t=10:20
 
 @set name=Jars
+@set name=jars
 
 
 
@@ -16,7 +17,7 @@ git push
 
 
 cd ../db 
-go-v.bat %d% %t% && go-app.bat %d% %t%
+go-v.bat %d% %t% && go-app.bat %d% %t% && cd ../%fp%
 
 
 
