@@ -8,12 +8,12 @@ const dependences = {
 
 	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
 
-		'jars',
+		//'jars',
 	],
 
 	listApp: [ 		// list/list. ${ k } .js
 
-		//'jars',
+		'jars',
 	],
 
 };
