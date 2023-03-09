@@ -5,6 +5,11 @@
 @set fp=jars
 
 
+copy list\list.jars.js ..\db\list\
+
+
+
+
 
 echo const appVersion = '%d% %t%'; > js/version.js
 
