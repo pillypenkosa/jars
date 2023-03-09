@@ -5,7 +5,7 @@
 @set fp=jars
 
 
-copy list\list.jars.js ..\db\list\
+copy list\list.jars.js ..\db\list\list.jars.js
 
 
 
