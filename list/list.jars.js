@@ -533,6 +533,14 @@ const arrJars = [
 	note: 'Біла',
 },
 { 
+	id: 'jacobs_025_icepresso_latte', 
+	title: 'Jacobs', 
+	taste: 'Icepresso Latte', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '871 1000 511060',
+},
+{ 
 	id: 'komodo_025_banana', 
 	title: 'Komodo', 
 	taste: 'Banana', 
@@ -2309,6 +2317,14 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '405 4500 121532',
 	note: 'Біла з червоною вставкою',
+},
+{ 
+	id: 'svijany_05_ba_svijansky_vozka', 
+	title: 'Svijany', 
+	taste: 'Svijansky Vozka', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '859 4030 013137',
 },
 { 
 	id: 'tuborg_05_raspberry', 
