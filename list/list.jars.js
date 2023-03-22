@@ -686,6 +686,14 @@ const arrJars = [
 	note: 'Червона, чорний верх, чорні літери',
 },
 { 
+	id: 'minions_025_kinder_cola', 
+	title: 'Minions', 
+	taste: 'Kinder Cola', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 4730 983693',
+},
+{ 
 	id: 'ngine_025_classic', 
 	title: 'Ngine', 
 	taste: 'Classic', 
