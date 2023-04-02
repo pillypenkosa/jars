@@ -699,7 +699,16 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '590 2854 102396',
-	note: 'Білий с зеленим',
+	note: 'Білий с зеленим. Листя суцільне',
+},
+{ 
+	id: 'komodo_025_cannabis_2', 
+	title: 'Komodo', 
+	taste: 'Cannabis', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 2854 102396',
+	note: 'Білий с зеленим. Листя структуроване',
 },
 { 
 	id: 'komodo_025_cannabis_mango', 
