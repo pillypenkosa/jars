@@ -2349,6 +2349,14 @@ const arrJars = [
 	note: 'Рожева. М-рожева',
 },
 { 
+	id: 'ngine_05_classic', 
+	title: 'Ngine', 
+	taste: 'Classic', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '590 0552 085256',
+},
+{ 
 	id: 'non_stop_05_boost', 
 	title: 'Non Stop', 
 	taste: 'Boost', 
