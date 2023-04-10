@@ -594,13 +594,22 @@ const arrJars = [
 	note: 'Жовта, верх білий',
 },
 { 
-	id: 'komodo_025_black_cuppant', 
+	id: 'komodo_025_black_currant', 
 	title: 'Komodo', 
-	taste: 'Black Cuppant', 
+	taste: 'Black Currant', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '590 6213 010162',
-	note: 'Фіолетова, білий верх',
+	note: 'Фіолетова, білий верх. Літери каракулі',
+},
+{ 
+	id: 'komodo_025_black_currant_2', 
+	title: 'Komodo', 
+	taste: 'Black Currant', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 6213 010162',
+	note: 'Фіолетова, білий верх. Літери рівні',
 },
 { 
 	id: 'komodo_025_cactus', 
@@ -1656,6 +1665,15 @@ const arrJars = [
 	note: 'Чорна. Апельсин',
 },
 { 
+	id: 'tango_033_orange_original', 
+	title: 'Tango', 
+	taste: 'Orange Original', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '501 0102 003439',
+	note: 'Принт літери',
+},
+{ 
 	id: 'tango_033_strawberry_watermelon', 
 	title: 'Tango', 
 	taste: 'Strawberry Watermelon', 
@@ -1709,6 +1727,15 @@ const arrJars = [
 
 
 
+
+{ 
+	id: 'bakalar_05_ba ', 
+	title: 'Bakalar', 
+	taste: '', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '859 4053 493213',
+},
 { 
 	id: 'baltika_05_ba_svitle', 
 	title: 'Baltika 0', 
@@ -2250,6 +2277,15 @@ const arrJars = [
 	note: 'Чорна. М-коричнева',
 },
 { 
+	id: 'monster_05_nitro', 
+	title: 'Monster', 
+	taste: 'Nitro', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 0751 218920',
+	note: 'Чорна з зеленим. М-чорна',
+},
+{ 
 	id: 'monster_05_the_doctor', 
 	title: 'Monster', 
 	taste: 'The Doctor', 
@@ -2304,6 +2340,14 @@ const arrJars = [
 	note: 'Фіолетова. М-сталева',
 },
 { 
+	id: 'monster_05_ultra_watermelon', 
+	title: 'Monster', 
+	taste: 'Ultra Watermelon', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 060896 620329',
+},
+{ 
 	id: 'monster_05_juiced_khaotic', 
 	title: 'Monster Juiced', 
 	taste: 'Khaotic', 
@@ -2340,13 +2384,20 @@ const arrJars = [
 	note: 'Жовта. М-жовта',
 },
 { 
-	id: 'monster_05_juiced_pipeline_punch', 
-	title: 'Monster Punch', 
+	id: 'monster_05_juiced_punch_pacific', 
+	title: 'Monster Punch Pacific', 
+	taste: 'Pipeline', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 0751 211419',
+},
+{ 
+	id: 'monster_05_juiced_punch_pipeline', 
+	title: 'Monster Punch Pipeline', 
 	taste: 'Pipeline', 
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0639 123582',
-	note: 'Рожева. М-рожева',
 },
 { 
 	id: 'ngine_05_classic', 
