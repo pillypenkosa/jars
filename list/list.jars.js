@@ -1729,7 +1729,7 @@ const arrJars = [
 
 
 { 
-	id: 'bakalar_05_ba ', 
+	id: 'bakalar_05_ba', 
 	title: 'Bakalar', 
 	taste: '', 
 	volume: '.5', 
@@ -2390,6 +2390,7 @@ const arrJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0751 211419',
+	note: 'Банка пошкоджена. Відновити!',
 },
 { 
 	id: 'monster_05_juiced_punch_pipeline', 
@@ -2576,7 +2577,14 @@ const arrJars = [
 	volume: '.5', 
 	type: { drink: 1, },
 	barcode: '482 0000 195485',
-	note: 'Блакитна вставка, червоні верх і низ, яблуко',
+},
+{ 
+	id: 'zhivchik_05_apple', 
+	title: 'Живчик', 
+	taste: 'Apple', 
+	volume: '.5', 
+	type: { drink: 1, },
+	barcode: '482 0193 036305',
 },
 { 
 	id: 'zhivchik_05_cola', 
@@ -2585,7 +2593,6 @@ const arrJars = [
 	volume: '.5', 
 	type: { drink: 1, },
 	barcode: '482 0193 035568',
-	note: 'Coca-Cola-стиль',
 },
 { 
 	id: 'zhivchik_05_orange', 
