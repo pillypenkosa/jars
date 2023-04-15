@@ -918,6 +918,14 @@ const arrJars = [
 	note: 'Відтінок червоний',
 },
 { 
+	id: 'regenera_025_natural_gold', 
+	title: 'Regenera', 
+	taste: 'Natural Gold', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '682 895 58201 6',
+},
+{ 
 	id: 'schweppes_025_bitter_lemon', 
 	title: 'Schweppes', 
 	taste: 'Bitter Lemon', 
@@ -2384,7 +2392,7 @@ const arrJars = [
 	note: 'Жовта. М-жовта',
 },
 { 
-	id: 'monster_05_juiced_punch_pacific', 
+	id: 'monster_05_punch_pacific', 
 	title: 'Monster Punch Pacific', 
 	taste: 'Pipeline', 
 	volume: '.5', 
@@ -2393,7 +2401,7 @@ const arrJars = [
 	note: 'Банка пошкоджена. Відновити!',
 },
 { 
-	id: 'monster_05_juiced_punch_pipeline', 
+	id: 'monster_05_punch_pipeline', 
 	title: 'Monster Punch Pipeline', 
 	taste: 'Pipeline', 
 	volume: '.5', 
@@ -2523,6 +2531,14 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '482 0046 964991',
 	note: 'Червона з білим. Чорний верх ',
+},
+{ 
+	id: 'zibert_05_ba_grapefruit', 
+	title: 'Zibert', 
+	taste: 'Grapefruit', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 035971',
 },
 { 
 	id: 'zipfer_05_ba_hell', 
