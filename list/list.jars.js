@@ -1241,6 +1241,22 @@ const arrJars = [
 	note: 'Сталева',
 },
 { 
+	id: 'fanta_033_lemon', 
+	title: 'Fanta', 
+	taste: 'Lemon', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '574 0700 985300',
+},
+{ 
+	id: 'fanta_033_strawberry_kiwi', 
+	title: 'Fanta', 
+	taste: 'Strawberry & Kiwi', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '574 0700 987984',
+},
+{ 
 	id: 'free_damm_033_ba', 
 	title: 'Free Damm', 
 	taste: '0.0',	
@@ -1544,7 +1560,14 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 946430',
-	note: 'Синя. Лимон',
+},
+{ 
+	id: 'schweppes_033_citrus_mix', 
+	title: 'Schweppes', 
+	taste: 'Citrus Mix', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 943996',
 },
 { 
 	id: 'schweppes_033_indian_tonic', 
@@ -1553,7 +1576,6 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 946416',
-	note: 'Жовта',
 },
 { 
 	id: 'schweppes_033_lemon', 
@@ -1562,7 +1584,6 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 943989',
-	note: 'Жовто-зелена',
 },
 { 
 	id: 'schweppes_033_mojito', 
@@ -1571,7 +1592,6 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '590 3111 335533',
-	note: 'Темно-зелена',
 },
 { 
 	id: 'schweppes_033_orange', 
@@ -1580,7 +1600,23 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 943972',
-	note: 'Жовто-помаранчева',
+},
+{ 
+	id: 'schweppes_033_orange_2', 
+	title: 'Schweppes', 
+	taste: 'Orange', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 943972',
+},
+{ 
+	id: 'schwip_schwap_033_cola_orange', 
+	title: 'Schwip Schwap', 
+	taste: 'Cola & Orange', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '',
+	note: 'Без штрих-кода',
 },
 { 
 	id: 'sinkist_033_fruit_mix', 
