@@ -2827,6 +2827,14 @@ const arrJars = [
 	note: 'Чорна',
 },
 { 
+	id: 'taras_05_hlibny', 
+	title: 'Тарас', 
+	taste: 'Хлібний', 
+	volume: '.5', 
+	type: { kvass: 1, },
+	barcode: '482 0000 451895',
+},
+{ 
 	id: 'chernigivske_05_ba_blue', 
 	title: 'Чернігівське', 
 	taste: '0.0', 
