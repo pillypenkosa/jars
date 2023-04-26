@@ -551,6 +551,14 @@ const arrJars = [
 	note: 'Синя зі смайлами',
 },
 { 
+	id: 'hell_025_zero', 
+	title: 'Hell  ', 
+	taste: 'Zero', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9884 034445',
+},
+{ 
 	id: 'iron_025_classic', 
 	title: 'Iron', 
 	taste: 'Classic', 
