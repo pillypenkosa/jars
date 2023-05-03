@@ -800,13 +800,20 @@ const arrJars = [
 	note: 'Сині відтінки',
 },
 { 
+	id: 'oshee_025_the_witcher', 
+	title: 'Oshee', 
+	taste: 'The Witcher', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 8260 257972',
+},
+{ 
 	id: 'pit_bull_025_burgundy', 
 	title: 'Pit Bull', 
 	taste: '', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0097 892304',
-	note: 'Темна з бордовим. Динамо',
 },
 { 
 	id: 'pit_bull_025_coffee', 
@@ -815,7 +822,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0252 121775',
-	note: 'Коричнева',
 },
 { 
 	id: 'pit_bull_025_extra_vitamin_c', 
@@ -824,7 +830,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0097 898986',
-	note: 'Сталева з жовтим',
 },
 { 
 	id: 'pit_bull_025_green', 
@@ -833,7 +838,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0252 120839',
-	note: 'Світло-зелена',
 },
 { 
 	id: 'pit_bull_025_power', 
@@ -842,7 +846,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0252 121751',
-	note: 'Синя',
 },
 { 
 	id: 'pit_bull_025_x', 
@@ -851,7 +854,15 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0097 897804',
-	note: 'Темна зі смарагдово-зеленим',
+},
+{ 
+	id: 'pit_bull_025_x_2', 
+	title: 'Pit Bull', 
+	taste: 'X', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '482 0097 897804',
+	note: 'З футболістом',
 },
 { 
 	id: 'pulls_025_color', 
@@ -1247,6 +1258,14 @@ const arrJars = [
 	type: { drink: 1, },
 	barcode: '843 5185 953711',
 	note: 'Сталева',
+},
+{ 
+	id: 'fanta_033_exotic', 
+	title: 'Fanta', 
+	taste: 'Exotic', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '574 0700 996153',
 },
 { 
 	id: 'fanta_033_lemon', 
@@ -1710,14 +1729,23 @@ const arrJars = [
 { 
 	id: 'tango_033_orange', 
 	title: 'Tango', 
-	taste: 'Orange', 
+	taste: 'Orange Sugar Free', 
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '501 0102 118683',
-	note: 'Чорна. Апельсин',
+	note: 'Sugar Free',
 },
 { 
 	id: 'tango_033_orange_original', 
+	title: 'Tango', 
+	taste: 'Orange Original', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '501 0102 003439',
+	note: 'Original',
+},
+{ 
+	id: 'tango_033_orange_original_2', 
 	title: 'Tango', 
 	taste: 'Orange Original', 
 	volume: '.33', 
