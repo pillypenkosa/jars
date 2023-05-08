@@ -2087,6 +2087,14 @@ const arrJars = [
 	note: 'Синя',
 },
 { 
+	id: 'edelmeister_05_ba_lemon',
+	title: 'Edelmeister', 
+	taste: 'Lemon 0,0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '590 0535 013665',
+},
+{ 
 	id: 'faxe_05_ba_premium', 
 	title: 'Faxe', 
 	taste: 'Premium 0.0%', 
