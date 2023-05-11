@@ -1808,6 +1808,19 @@ const arrJars = [
 
 
 
+
+
+
+
+
+{ 
+	id: 'a_le_coq_05_ba', 
+	title: 'A.LeCoq', 
+	taste: 'Premium', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '474 0098 080763',
+},
 { 
 	id: 'bakalar_05_ba', 
 	title: 'Bakalar', 
@@ -2113,22 +2126,28 @@ const arrJars = [
 	note: 'Зелена',
 },
 { 
-	id: 'garage_05_ba_fun_zero_lime', 
-	title: 'Garage Fun zero', 
-	taste: 'Lime', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '482 0250 941894',
-	note: 'Зелена',
-},
-{ 
 	id: 'garage_05_ba_fun_zero_grapefruit', 
 	title: 'Garage Fun zero', 
 	taste: 'Grapefruit', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0250 941948',
-	note: 'Рожева',
+},
+{ 
+	id: 'garage_05_ba_fun_zero_lime', 
+	title: 'Garage Fun zero', 
+	taste: 'Lime', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941894',
+},
+{ 
+	id: 'garage_05_ba_fun_zero_raspberry', 
+	title: 'Garage Fun zero', 
+	taste: 'Raspberry', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941917',
 },
 { 
 	id: 'gorilla_05', 
