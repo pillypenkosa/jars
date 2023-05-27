@@ -552,11 +552,19 @@ const arrJars = [
 },
 { 
 	id: 'hell_025_zero', 
-	title: 'Hell  ', 
+	title: 'Hell', 
 	taste: 'Zero', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 9884 034445',
+},
+{ 
+	id: 'hell_025_zero_red_currant_grapefruit', 
+	title: 'Hell Zero', 
+	taste: 'Red Currant Grapefruit', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9571 050659',
 },
 { 
 	id: 'iron_025_classic', 
@@ -2726,6 +2734,22 @@ const arrJars = [
 	type: { drink: 1, },
 	barcode: '482 0193 035704',
 	note: 'Помаранева з апельсином',
+},
+{ 
+	id: 'kvas_05_kyivsky_bily', 
+	title: 'Квас Київський', 
+	taste: 'Білий', 
+	volume: '.5', 
+	type: { kvass: 1, },
+	barcode: '482 0002 713106',
+},
+{ 
+	id: 'kvas_05_starokyivsky', 
+	title: 'Квас', 
+	taste: 'Старокиївський', 
+	volume: '.5', 
+	type: { kvass: 1, },
+	barcode: '482 0002 713090',
 },
 { 
 	id: 'kvas_taras_05_bily', 
