@@ -1222,6 +1222,28 @@ const arrJars = [
 	barcode: '871 8858 612031',
 	note: 'Біла з зеленим. Малина та лайм',
 },
+
+
+
+
+
+
+{ 
+	id: 'coca_cola_033_light', 
+	title: 'Coca-Cola', 
+	taste: 'Light', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '500 0112 545340',
+},
+{ 
+	id: 'coca_cola_033_cherry', 
+	title: 'Coca-Cola', 
+	taste: 'Cherry', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '574 0700 995774',
+},
 { 
 	id: 'crazy_033_kvas_orange', 
 	title: 'Crazy', 
@@ -1308,6 +1330,14 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '841 0793 296139',
 	note: 'Жовта. Принт чорний',
+},
+{ 
+	id: 'heineken_033_ba', 
+	title: 'Heineken', 
+	taste: '0.0 Beer',	
+	volume: '.33', 
+	type: { beer0: 1, },
+	barcode: '871 2000 053109',
 },
 { 
 	id: 'hoegaarden_033_ba', 
@@ -1881,6 +1911,15 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '482 0000 458276',
 	note: 'Синя',
+},
+{ 
+	id: 'bavaria_05_ba_bier', 
+	title: 'Bavaria 0', 
+	taste: '0,0 % Bier', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 044721',
+	note: 'Синій зі сталевим принт на сіроому',
 },
 { 
 	id: 'bavaria_05_ba_original', 
