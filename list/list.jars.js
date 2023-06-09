@@ -1222,12 +1222,6 @@ const arrJars = [
 	barcode: '871 8858 612031',
 	note: 'Біла з зеленим. Малина та лайм',
 },
-
-
-
-
-
-
 { 
 	id: 'coca_cola_033_light', 
 	title: 'Coca-Cola', 
@@ -1913,15 +1907,6 @@ const arrJars = [
 	note: 'Синя',
 },
 { 
-	id: 'bavaria_05_ba_bier', 
-	title: 'Bavaria 0', 
-	taste: '0,0 % Bier', 
-	volume: '.5', 
-	type: { beer0: 1, },
-	barcode: '871 4800 044721',
-	note: 'Синій зі сталевим принт на сіроому',
-},
-{ 
 	id: 'bavaria_05_ba_original', 
 	title: 'Bavaria 0', 
 	taste: '0,0 % Premium Original', 
@@ -1947,6 +1932,15 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '871 4800 011426',
 	note: 'Біла з червоним верхом. Johannes Swinkels',
+},
+{ 
+	id: 'bavaria_05_ba_bier', 
+	title: 'Bavaria 0', 
+	taste: '0,0 % Bier', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 044721',
+	note: 'Синій зі сталевим принт на сіроому',
 },
 { 
 	id: 'bavaria_05_ba_apple', 
@@ -2646,6 +2640,14 @@ const arrJars = [
 	type: { beer0: 1, },
 	barcode: '401 4086 020414',
 	note: 'Біла. Принт зелений та червоний',
+},
+{ 
+	id: 'pit_bull_05_power', 
+	title: 'Pit Bull', 
+	taste: 'Power', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0252 121744',
 },
 { 
 	id: 'primator_05_ba_tropicky_citrus_yuzu', 
