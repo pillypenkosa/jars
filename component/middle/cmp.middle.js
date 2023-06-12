@@ -29,6 +29,7 @@ class ComponentMiddle {
 		let html = '';
 		let ml = '';
 
+		//alert( id );
 
 		html = `
 			<div class="nav-list-img">
