@@ -41,6 +41,35 @@ function big1Letter( txt ) {
 
 
 
+
+// завантаження компонента
+function Component( txt, data = {} ) {
+
+	const name 	= 'Component';
+	const ok 	= `\x1b[32m ok ${ name }() `;
+	const err 	= `\x1b[31m err ${ name }() `;
+
+	//console.log( ok );
+	//console.log( ok + ' // txt:', txt  );
+	//console.log( ok + ' // txt.toLowerCase():', txt.toLowerCase() );
+
+	let className = 'Component' + txt.replace( /-/g, '' );
+	//console.log( className );
+
+	let tagName = txt.toLowerCase();
+	//console.log( tagName );
+
+
+	//alert( `${ className }.html()` );
+
+
+	return eval( `${ className }.html( '${ className }', '${ tagName }', data )` ); // data - впихнути десь тут
+}
+
+
+
+
+
 function getComponentHtml( data ) {
 
 	let tag 		= 'no-name';
@@ -66,6 +95,9 @@ function getComponentHtml( data ) {
 
 	return `<cmp-${ tag }${ param }>${ innerHTML }</cmp-${ tag }>`;
 }
+
+
+
 
 
 

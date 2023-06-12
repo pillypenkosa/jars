@@ -2,6 +2,9 @@ const dependences = {
 
 	components: [
 	
+		'table-list',
+		'img-jars',
+		
 		'header',
 		'middle',
 	],

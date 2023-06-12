@@ -4,13 +4,39 @@ cmp-middle {
 	color: #fff;
 }
 
-	cmp-middle .each {
-		width: 75px;
-		/*height: 200px;*/
-		display: inline-block;
-		position: relative;
-		margin: 1px;
+/*
+
+
+
+*/
+
+	cmp-middle .nav-list-img {
+		display: flex;
+		margin: 0 0 10px 0;
+		font-family: Courier;
 	}
+
+
+		cmp-middle .nav-list-img .btn {
+
+			margin: 0 5px 0 0;
+			padding: 1px 10px;
+			border-radius: 5px;
+
+			background: linear-gradient( to bottom, #009, #099 );
+			cursor: pointer;
+		}
+
+
+
+
+
+
+
+
+
+/*
+
 		cmp-middle .each img {
 			width: 100%;
 			height: 100%;
@@ -30,7 +56,7 @@ cmp-middle {
 
 
 
-
+*/
 
 
 
