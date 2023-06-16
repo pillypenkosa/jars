@@ -17,6 +17,15 @@ cmp-table-list {
 		font-family: Courier;
 		color: #0f0;
 	}
+
+
+		cmp-table-list .each .barcode {
+			font-style: oblique;
+			font-size: 80%;
+			color: #0ff;
+		}
+
+
 		cmp-table-list .each .title {
 			font-weight: bold;
 			color: #0f0;
@@ -31,6 +40,11 @@ cmp-table-list {
 			font-size: 80%;
 			color: #777;
 		}
+
+
+
+
+
 
 
 

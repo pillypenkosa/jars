@@ -77,6 +77,7 @@ class ComponentTableList {
 				html += `<div class="each">
 					<div class="title">${ k.title }</div>
 					<div class="taste">${ k.taste }</div>
+					<div class="barcode">${ k.barcode ? k.barcode : '' }</div>
 					<div class="ml">0${ txt } л</div>
 				</div>`;
 			}
