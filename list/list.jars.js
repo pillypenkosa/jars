@@ -36,6 +36,15 @@ const arrJars = [
 // 0.25 ---------------------------------------------------------------------------------------------------------------------------
 
 
+
+{ 
+	id: 'adrenalin_025_apple_plum_cinnamon', 
+	title: 'Adrenalin', 
+	taste: 'Apple Plum Cinnamon', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 8811 758874',
+},
 { 
 	id: 'adrenalin_025_apple_watermelon', 
 	title: 'Adrenalin', 
@@ -43,7 +52,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 8811 759871',
-	note: 'Рожевий, білі літери',
 },
 { 
 	id: 'adrenalin_025_cactus', 
@@ -52,7 +60,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 8811 759468',
-	note: 'Зелений, білі літери',
 },
 { 
 	id: 'adrenalin_025_original', 
@@ -61,7 +68,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 8811 760341',
-	note: 'Синій, жовті літери',
 },
 { 
 	id: 'adrenalin_025_kid', 
@@ -70,7 +76,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 8811 756665',
-	note: 'Червоний відтінок',
 },
 { 
 	id: 'b_025_chery_flavour', 
