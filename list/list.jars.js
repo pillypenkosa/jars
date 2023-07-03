@@ -1854,6 +1854,14 @@ const arrJars = [
 	note: 'Принт літери',
 },
 { 
+	id: 'tango_033_paradise_punch', 
+	title: 'Tango', 
+	taste: 'Paradise Punch', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '501 0102 244825',
+},
+{ 
 	id: 'tango_033_strawberry_watermelon', 
 	title: 'Tango', 
 	taste: 'Strawberry Watermelon', 
