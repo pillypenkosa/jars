@@ -2733,6 +2733,14 @@ const arrJars = [
 	note: 'Помаранчева',
 },
 { 
+	id: 'non_stop_05_stalker', 
+	title: 'Non Stop', 
+	taste: 'Sstalker', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0252 122413',
+},
+{ 
 	id: 'oettinger_05_ba_original', 
 	title: 'Oettinger', 
 	taste: 'Original Free', 
