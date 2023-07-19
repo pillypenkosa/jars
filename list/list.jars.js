@@ -62,12 +62,36 @@ const arrJars = [
 	barcode: '599 8811 759468',
 },
 { 
+	id: 'adrenalin_025_coconut', 
+	title: 'Adrenalin', 
+	taste: 'Coconut', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 8811 763793',
+},
+{ 
 	id: 'adrenalin_025_original', 
 	title: 'Adrenalin', 
 	taste: 'Original', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 8811 760341',
+},
+{ 
+	id: 'adrenalin_get_addicted_025_dragonfruit', 
+	title: 'Adrenalin Get Addicted', 
+	taste: 'Dragonfruit', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 6157',
+},
+{ 
+	id: 'adrenalin_get_addicted_025_watermelon', 
+	title: 'Adrenalin Get Addicted', 
+	taste: 'Watermelon', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 615712',
 },
 { 
 	id: 'adrenalin_025_kid', 
@@ -1318,6 +1342,14 @@ const arrJars = [
 	note: 'Сталева',
 },
 { 
+	id: 'fanta_033_elderflower_lemon', 
+	title: 'Fanta', 
+	taste: 'Elderflower & Lemon', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '544 9000 297877',
+},
+{ 
 	id: 'fanta_033_exotic', 
 	title: 'Fanta', 
 	taste: 'Exotic', 
@@ -1721,12 +1753,22 @@ const arrJars = [
 	barcode: '590 3111 335533',
 },
 { 
+	id: 'schweppes_033_mojito_2', 
+	title: 'Schweppes', 
+	taste: 'Mojito', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '590 3111 335533',
+	note: 'Біла'
+},
+{ 
 	id: 'schweppes_033_orange', 
 	title: 'Schweppes', 
 	taste: 'Orange', 
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 943972',
+	note: 'Темно-зелена з бежевою вставкою'
 },
 { 
 	id: 'schweppes_033_orange_2', 
@@ -1991,6 +2033,14 @@ const arrJars = [
 	barcode: '482 0250 943072',
 },
 { 
+	id: 'battery_05_frsh', 
+	title: 'Battery', 
+	taste: 'Frsh', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0250 943010',
+},
+{ 
 	id: 'battery_05_exotic', 
 	title: 'Battery', 
 	taste: 'Exotic', 
@@ -2166,7 +2216,16 @@ const arrJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0250 941962',
-	note: 'Темно-синя верх',
+	note: 'Літери Alcohol Free',
+},
+{ 
+	id: 'carlsberg_05_ba_2', 
+	title: 'Carlsberg', 
+	taste: 'Alcohol Free 0', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0250 941962',
+	note: 'З цифрою 0',
 },
 { 
 	id: 'clausthaler_05_ba_grapefruit', 
