@@ -2138,6 +2138,14 @@ const arrJars = [
 	note: 'Біла з червоною вставкою. Полуниця',
 },
 { 
+	id: 'bitburger_05_ba', 
+	title: 'Bitburger', 
+	taste: '0.0 %', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '410 2430 061395',
+},
+{ 
 	id: 'bud_05_ba_non_alcoholic', 
 	title: 'Bud', 
 	taste: 'Non-alcoholic', 
