@@ -310,6 +310,14 @@ const arrJars = [
 	note: 'Синій верх',
 },
 { 
+	id: 'coffee_ice_025_salted_caramel', 
+	title: 'Coffee Ice', 
+	taste: 'Salted Caramel', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9571 050611',
+},
+{ 
 	id: 'evolution_025', 
 	title: 'Evolution', 
 	taste: 'Baobab Fruit extract', 
