@@ -1515,6 +1515,14 @@ const arrJars = [
 	note: 'Біла. Принт зелений та червоний',
 },
 { 
+	id: 'pepsi_033_twist_lemon', 
+	title: 'Pepsi', 
+	taste: 'Twist Lemon', 
+	volume: '.33', 
+	type: { tea: 1, },
+	barcode: '574 1000 224410',
+},
+{ 
 	id: 'pfanner_033_ice_tea_lemon_lime', 
 	title: 'Pfanner Ice Tea', 
 	taste: 'Lemon-Lime', 
