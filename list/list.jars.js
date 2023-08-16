@@ -3175,6 +3175,14 @@ const arrJars = [
 	note: 'Сірий фон',
 },
 { 
+	id: '_0_05_ba_svitle', 
+	title: '0 Світле', 
+	taste: 'Non Alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 030136',
+},
+{ 
 	id: 'persha_privatna_brovarnya_05_ba_nefiltrovane', 
 	title: 'Безалкогольне', 
 	taste: 'Нефільтроване', 
