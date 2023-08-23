@@ -1090,10 +1090,6 @@ const arrJars = [
 	barcode: '482 3063 116619',
 	note: 'Стандартна зелена',
 },
-
-
-
-
 { 
 	id: 'barr_033_bubble_gum', 
 	title: 'Barr', 
@@ -1101,7 +1097,16 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '500 0382 108238',
-	note: 'Рожеві та сині смуги',
+	note: 'Смуги прямі',
+},
+{ 
+	id: 'barr_033_bubble_gum_2', 
+	title: 'Barr', 
+	taste: 'bubble Gum', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '500 0382 108238',
+	note: 'Смуги хвилясті',
 },
 { 
 	id: 'barr_033_cherryade', 
@@ -1126,7 +1131,16 @@ const arrJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '500 0382 024033',
-	note: 'Рожеві та бежеві смуги',
+	note: 'Смуги прямі',
+},
+{ 
+	id: 'barr_033_cream_soda_2', 
+	title: 'Barr', 
+	taste: 'Cream Soda', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '500 0382 024033',
+	note: 'Смуги хвилясті',
 },
 { 
 	id: 'barr_033_lemonade', 
@@ -3157,7 +3171,7 @@ const arrJars = [
 	note: 'Біла. Хміль',
 },
 { 
-	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_blue', 
+	id: '_0_05_ba_nefiltrovane_plus_blue', 
 	title: '0 Нефільтроване +', 
 	taste: '0', 
 	volume: '.5', 
@@ -3166,7 +3180,7 @@ const arrJars = [
 	note: 'Блакитний фон',
 },
 { 
-	id: 'persha_privatna_brovarnya_05_ba_0_nefiltrovane_plus_grey', 
+	id: '_0_05_ba_nefiltrovane_plus_grey', 
 	title: '0 Нефільтроване +', 
 	taste: 'Non Alcoholic', 
 	volume: '.5', 
