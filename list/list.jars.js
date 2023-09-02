@@ -441,7 +441,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 9884 034469',
-	note: 'Стандартна классична тема',
 },
 { 
 	id: 'hell_025_classic_plus', 
@@ -450,7 +449,6 @@ const arrJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 9860 497950',
-	note: 'Стандартна классична тема',
 },
 { 
 	id: 'hell_025_classic_football_fanatic', 
@@ -460,6 +458,14 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '599 9884 034469',
 	note: 'Стандартна классична тема з футболістом',
+},
+{ 
+	id: 'hell_025_ai', 
+	title: 'Hell', 
+	taste: 'A.I.', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9571 051793',
 },
 { 
 	id: 'hell_025_gamer_edition_arcade_tropical_bomb', 
@@ -858,6 +864,14 @@ const arrJars = [
 	type: { energy: 1, },
 	barcode: '482 0097 890317',
 	note: 'Сині відтінки',
+},
+{ 
+	id: 'non_stop_025_stalker', 
+	title: 'Non Stop', 
+	taste: 'Sstalker', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '482 0252 122406',
 },
 { 
 	id: 'oshee_025_the_witcher', 
@@ -1736,6 +1750,14 @@ const arrJars = [
 },
 { 
 	id: 'schweppes_033_bitter_lemon', 
+	title: 'Schweppes', 
+	taste: 'Bitter Lemon', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 946430',
+},
+{ 
+	id: 'schweppes_033_bitter_lemon_2', 
 	title: 'Schweppes', 
 	taste: 'Bitter Lemon', 
 	volume: '.33', 
