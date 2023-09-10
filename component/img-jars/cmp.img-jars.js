@@ -78,7 +78,7 @@ class ComponentImgJars {
 		let html = '';
 
 		let num = 1;
-		arrJars.forEach( ( k, i ) => {
+		arrListJars.forEach( ( k, i ) => {
 			if ( k.volume == volume ) {
 				html += `<div class="each">
 					<div class="num">${ num++ }</div>

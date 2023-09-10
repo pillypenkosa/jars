@@ -68,7 +68,7 @@ class ComponentTableList {
 	static getList( txt ) {
 
 		let html = '';
-		arrJars.forEach( k => {
+		arrListJars.forEach( k => {
 
 			let type = '';
 
