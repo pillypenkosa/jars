@@ -12,7 +12,7 @@ class LoadDependences {
 		dependences.listGIT.forEach( k => {
 
 			let script = document.createElement( 'script' );
-			script.src = `https://pillypenkosa.github.io/database/arr/arr.list.${ k }.js`;
+			script.src = `https://pillypenkosa.github.io/database/list/list.${ k }.js`;
 			//script.setAttribute( 'defer', '' );
 			divList.append( script );
 		});
@@ -23,7 +23,7 @@ class LoadDependences {
 		dependences.listApp.forEach( k => {
 
 			let script = document.createElement( 'script' );
-			script.src = `arr/arr.list.${ k }.js`;
+			script.src = `list/list.${ k }.js`;
 			//script.setAttribute( 'defer', '' );
 			divList.append( script );
 		});
