@@ -301,21 +301,28 @@ const arrListJars = [
 	note: 'Золотисто-коричневий верх',
 },
 { 
-	id: 'coffee_025_slim_latte', 
-	title: 'Coffee', 
-	taste: 'Slim Latte', 
-	volume: '.25', 
-	type: { energy: 1, },
-	barcode: '599 9860 497080',
-	note: 'Синій верх',
-},
-{ 
 	id: 'coffee_ice_025_salted_caramel', 
 	title: 'Coffee Ice', 
 	taste: 'Salted Caramel', 
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '599 9571 050611',
+},
+{ 
+	id: 'coffee_025_slim_latte', 
+	title: 'Coffee', 
+	taste: 'Slim Latte', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 497080', 	// Slim Vanilla
+},
+{ 
+	id: 'coffee_025_slim_vanilla', 
+	title: 'Coffee', 
+	taste: 'Slim Vanilla', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 497080', 	// Slim Latte
 },
 { 
 	id: 'evolution_025', 
@@ -2303,7 +2310,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '405 3400 204918',
-	note: 'Біла, жовта тема',
 },
 { 
 	id: 'clausthaler_05_ba_original', 
@@ -2313,6 +2319,15 @@ const arrListJars = [
 	type: { beer0: 1, },
 	barcode: '405 3400 001579',
 	note: 'Біла, зелена тема',
+},
+{ 
+	id: 'clausthaler_05_ba_lemon_2', 
+	title: 'Clausthaler', 
+	taste: 'Lemon', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '405 3400 204918',
+	note: 'Жовта тема',
 },
 { 
 	id: 'cortes_05_ba_ananas', 
