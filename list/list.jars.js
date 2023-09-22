@@ -2134,9 +2134,17 @@ const arrListJars = [
 	note: 'Біла з червоним верхом',
 },
 { 
+	id: 'bavaria_05_ba_holland_2', 
+	title: 'Bavaria 0', 
+	taste: '0,0 % Holland Alcohol Free', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '871 4800 011426',
+},
+{ 
 	id: 'bavaria_05_ba_jf_swinkels', 
 	title: 'Bavaria 0', 
-	taste: '0,0 %', 
+	taste: '0,0 % Alcohol Vrij', 
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '871 4800 011426',
