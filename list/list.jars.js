@@ -2747,6 +2747,14 @@ const arrListJars = [
 	note: 'Жовта. М-жовта',
 },
 { 
+	id: 'monster_05_ultra', 
+	title: 'Monster', 
+	taste: 'Ultra', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 0947 547162',
+},
+{ 
 	id: 'monster_05_ultra_blue', 
 	title: 'Monster', 
 	taste: 'Ultra Blue', 
