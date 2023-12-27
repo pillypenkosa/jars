@@ -340,6 +340,14 @@ const arrListJars = [
 	barcode: '599 9860 497080', 	// Slim Latte
 },
 { 
+	id: 'double_seven_025', 
+	title: 'Double Seven', 
+	taste: '', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '842 3453 905630',
+},
+{ 
 	id: 'evolution_025', 
 	title: 'Evolution', 
 	taste: 'Baobab Fruit extract', 
@@ -1373,6 +1381,22 @@ const arrListJars = [
 	note: 'Червона с зеленим. Полуниця',
 },
 { 
+	id: 'double_seven_033', 
+	title: 'Double Seven', 
+	taste: '', 
+	volume: '.33', 
+	type: { energy: 1, },
+	barcode: '842 3453 905913',
+},
+{ 
+	id: 'double_seven_033_zero', 
+	title: 'Double Seven', 
+	taste: 'Zero', 
+	volume: '.33', 
+	type: { energy: 1, },
+	barcode: '842 5402 788417',
+},
+{ 
 	id: 'dr_pepper_033', 
 	title: 'Dr Pepper', 
 	taste: '23', 
@@ -2380,6 +2404,14 @@ const arrListJars = [
 	note: 'Біла з зеленим, синій верх',
 },
 { 
+	id: 'double_seven_05', 
+	title: 'Double Seven', 
+	taste: '', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '842 3453 904626',
+},
+{ 
 	id: 'edelmeister_05', 
 	title: 'Edelmeister', 
 	taste: '', 
@@ -2422,6 +2454,22 @@ const arrListJars = [
 	type: { beer0: 1, },
 	barcode: '425 0594 210224',
 	note: 'Зелена',
+},
+{ 
+	id: 'g_energy_05_no_sleep', 
+	title: 'G-Energy', 
+	taste: 'No Sleep', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '477 0063 234297',
+},
+{ 
+	id: 'g_energy_05_refresh', 
+	title: 'G-Energy', 
+	taste: 'Refresh', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '477 0063 234303',
 },
 { 
 	id: 'garage_05_ba_fun_zero_grapefruit', 
@@ -2470,6 +2518,22 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0183 001641',
+},
+{ 
+	id: 'go_05_ba_pilsner', 
+	title: 'Go', 
+	taste: 'Pilsner',	
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '477 0349 231323',
+},
+{ 
+	id: 'go_05_ba_wheat', 
+	title: 'Go', 
+	taste: 'wheat',	
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '477 0349 227531',
 },
 { 
 	id: 'gorilla_05', 
@@ -3028,6 +3092,14 @@ const arrListJars = [
 	type: { beer0: 1, },
 	barcode: '405 4500 121532',
 	note: 'Біла з червоною вставкою',
+},
+{ 
+	id: 'stammgast_gold_alkoholfrei_05_ba', 
+	title: 'Stammgast', 
+	taste: 'Gold Alkoholfrei', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '410 1940 141658',
 },
 { 
 	id: 'svijany_05_ba_svijansky_vozka', 
