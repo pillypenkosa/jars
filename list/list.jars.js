@@ -78,6 +78,22 @@ const arrListJars = [
 	barcode: '599 8811 760341',
 },
 { 
+	id: 'adrenalin_get_addicted_025_classic', 
+	title: 'Adrenalin Get Addicted', 
+	taste: 'Classic', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 615729',
+},
+{ 
+	id: 'adrenalin_get_addicted_025_cactus', 
+	title: 'Adrenalin Get Addicted', 
+	taste: 'Cactus', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '599 9860 615736',
+},
+{ 
 	id: 'adrenalin_get_addicted_025_dragonfruit', 
 	title: 'Adrenalin Get Addicted', 
 	taste: 'Dragonfruit', 
@@ -1300,6 +1316,14 @@ const arrListJars = [
 	type: { beer0: 1, },
 	barcode: '505 6025 421387',
 	note: 'Сталева. Блакитні смуги під кутом на вставці',
+},
+{ 
+	id: 'canada_dry_033_blackberry_ginger_ale', 
+	title: 'Canada_Dry', 
+	taste: 'Bblackberry Ginger Ale', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '078 1110',
 },
 { 
 	id: 'canada_dry_033_ginger_ale', 
@@ -2701,7 +2725,22 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0193 035865',
-	note: 'Біла з червоним',
+},
+{ 
+	id: 'kaiserdom_05_ba_lager_beer', 
+	title: 'Kaiserdom', 
+	taste: 'Lager Beer', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '400 4591 038707',
+},
+{ 
+	id: 'kaiserdom_05_ba_hefe_weissbier', 
+	title: 'Kaiserdom', 
+	taste: 'Hefe-Weissbier', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '400 4591 038820',
 },
 { 
 	id: 'kalnapilis_05_ba', 
@@ -2710,7 +2749,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '477 0477 227540',
-	note: 'Біла з зеленим',
 },
 { 
 	id: 'kalnapilis_05_ba_lite', 
@@ -2719,7 +2757,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '477 0477 230618',
-	note: 'Біла з червоним. Вишні',
 },
 { 
 	id: 'kok_05', 
@@ -2728,7 +2765,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '477 1632 313016',
-	note: 'Зелена з чорним, білі літери',
 },
 { 
 	id: 'kozel_05_cerny', 
@@ -2737,7 +2773,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer: 1, },
 	barcode: '482 0034 924211',
-	note: 'Коричнева',
 },
 { 
 	id: 'krombacher_05_ba', 
@@ -2746,7 +2781,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '40 08287 929829',
-	note: 'Синя',
 },
 { 
 	id: 'lacplesis_05_ba', 
@@ -2755,7 +2789,14 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '475 0132 007427',
-	note: 'Біла. Зелений та золотистий принт',
+},
+{ 
+	id: 'lacplesis_05_ba_2', 
+	title: 'Lacplesis', 
+	taste: '0 Bezalkoholiskais', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '475 0132 007427',
 },
 { 
 	id: 'lander_brau_05_ba_radler_lemon',
@@ -3000,6 +3041,22 @@ const arrListJars = [
 	type: { beer0: 1, },
 	barcode: '401 4086 020414',
 	note: 'Біла. Принт зелений та червоний',
+},
+{ 
+	id: 'oshee_05_the_witcher_full_moon', 
+	title: 'Oshee The Witcher', 
+	taste: 'Full Moon', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '590 8260 257590',
+},
+{ 
+	id: 'oshee_05_the_witcher_thunderbolt', 
+	title: 'Oshee The Witcher', 
+	taste: 'Thunderbolt', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '590 8260 257958',
 },
 { 
 	id: 'pit_bull_05_power', 
