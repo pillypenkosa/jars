@@ -1318,14 +1318,6 @@ const arrListJars = [
 	note: 'Сталева. Блакитні смуги під кутом на вставці',
 },
 { 
-	id: 'canada_dry_033_blackberry_ginger_ale', 
-	title: 'Canada_Dry', 
-	taste: 'Bblackberry Ginger Ale', 
-	volume: '.33', 
-	type: { drink: 1, },
-	barcode: '078 1110',
-},
-{ 
 	id: 'canada_dry_033_ginger_ale', 
 	title: 'Canada_Dry', 
 	taste: 'Ginger Ale', 
