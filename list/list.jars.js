@@ -1428,7 +1428,14 @@ const arrListJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 954626',
-	note: 'Чорна',
+},
+{ 
+	id: 'dr_pepper_033_cherry_2', 
+	title: 'Dr Pepper', 
+	taste: 'Cherry', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 954626',
 },
 { 
 	id: 'dr_pepper_033_zero', 
