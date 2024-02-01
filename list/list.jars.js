@@ -268,7 +268,14 @@ const arrListJars = [
 	volume: '.25', 
 	type: { drink: 1, },
 	barcode: '544 9000 258243',
-	note: 'Перехід з червоного в чорний з візерунком',
+},
+{ 
+	id: 'coca_cola_025_plus_coffee_caramel', 
+	title: 'Coca Cola', 
+	taste: 'Plus coffee caramel', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '544 9000 091376',
 },
 { 
 	id: 'cola_025_vegan', 
@@ -1125,7 +1132,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { drink: 1, },
 	barcode: '544 9000 222299',
-	note: 'Фіолетова',
 },
 { 
 	id: 'sprite_025', 
@@ -1134,8 +1140,42 @@ const arrListJars = [
 	volume: '.25', 
 	type: { drink: 1, },
 	barcode: '544 9000 000729',
-	note: 'Стандартна зелена з жовтим',
 },
+
+
+
+
+
+{ 
+	id: 'xixo_025_cola', 
+	title: 'Xixo', 
+	taste: 'Cola', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '599 9885 747757',
+},
+{ 
+	id: 'xixo_025_tutti_fruity', 
+	title: 'Xixo', 
+	taste: 'Tutti Fruity', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '599 9571 050598',
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
