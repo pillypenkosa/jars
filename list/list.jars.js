@@ -998,7 +998,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '482 0097 896944',
-	note: 'Чорна',
 },
 { 
 	id: 'pulse_025_black', 
@@ -1007,7 +1006,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '477 1632 312637',
-	note: 'Чорна',
 },
 { 
 	id: 'pulse_025_mango', 
@@ -1016,7 +1014,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '477 1632 314181',
-	note: 'Помаранчева',
 },
 { 
 	id: 'pulse_025_white', 
@@ -1025,7 +1022,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '477 1632 314211',
-	note: 'Біла',
 },
 { 
 	id: 'red_bull_025', 
@@ -1459,7 +1455,14 @@ const arrListJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 944009',
-	note: 'Червона',
+},
+{ 
+	id: 'dr_pepper_033_2', 
+	title: 'Dr Pepper', 
+	taste: '23', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 944009',
 },
 { 
 	id: 'dr_pepper_033_cherry', 
@@ -3112,6 +3115,14 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '859 4006 933438',
+},
+{ 
+	id: 'pulse_05', 
+	title: 'Pulse', 
+	taste: '', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '477 1632 002477',
 },
 { 
 	id: 'roar_05', 
