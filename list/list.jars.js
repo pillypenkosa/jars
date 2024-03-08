@@ -705,6 +705,22 @@ const arrListJars = [
 	barcode: '871 1000 511060',
 },
 { 
+	id: 'jacobs_025_icepresso_2', 
+	title: 'Jacobs', 
+	taste: 'Ice Presso', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '871 1000 710197',
+},
+{ 
+	id: 'jacobs_025_icepresso_latte_2', 
+	title: 'Jacobs', 
+	taste: 'Ice Presso Latte', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '871 1000 710227',
+},
+{ 
 	id: 'komodo_025_banana', 
 	title: 'Komodo', 
 	taste: 'Banana', 
