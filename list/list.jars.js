@@ -899,6 +899,14 @@ const arrListJars = [
 	barcode: '590 4730 983693',
 },
 { 
+	id: 'mole_cola_025', 
+	title: 'Mole', 
+	taste: 'Cola', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '805 4377 870027',
+},
+{ 
 	id: 'ngine_025_classic', 
 	title: 'Ngine', 
 	taste: 'Classic', 
@@ -1503,7 +1511,14 @@ const arrListJars = [
 	volume: '.33', 
 	type: { drink: 1, },
 	barcode: '843 5185 953711',
-	note: 'Сталева',
+},
+{ 
+	id: 'dr_pepper_033_zero_sugar', 
+	title: 'Dr Pepper', 
+	taste: 'Zero Sugar', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '843 5185 953711',
 },
 { 
 	id: 'fanta_033_elderflower_lemon', 
@@ -2992,7 +3007,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0639 125739',
-	note: 'Фіолетова. М-сталева',
 },
 { 
 	id: 'monster_05_ultra_watermelon', 
@@ -3000,7 +3014,7 @@ const arrListJars = [
 	taste: 'Ultra Watermelon', 
 	volume: '.5', 
 	type: { energy: 1, },
-	barcode: '506 060896 620329',
+	barcode: '506 0896 620329',
 },
 { 
 	id: 'monster_05_zero_cukru', 
@@ -3008,7 +3022,15 @@ const arrListJars = [
 	taste: 'Zero Cukru', 
 	volume: '.5', 
 	type: { energy: 1, },
-	barcode: '506 060896 625461',
+	barcode: '506 0896 625461',
+},
+{ 
+	id: 'monster_05_zero_sugar', 
+	title: 'Monster', 
+	taste: 'Zero Sugar', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '506 0896 625409',
 },
 { 
 	id: 'monster_05_juiced_aussie_lemonade', 
@@ -3025,7 +3047,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0751 211358',
-	note: 'Помаранчево-жовта. М-блакитна. Метелики малі',
 },
 { 
 	id: 'monster_05_juiced_mango_loco', 
@@ -3034,7 +3055,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0639 121700',
-	note: 'Блакитна. М-жовта. Скелети',
 },
 { 
 	id: 'monster_05_juiced_monarch', 
@@ -3043,7 +3063,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0751 217480',
-	note: 'Помаранчева. М-жовта. Метелики',
 },
 { 
 	id: 'monster_05_juiced_ripper', 
@@ -3052,7 +3071,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0166 692537',
-	note: 'Жовта. М-жовта',
 },
 { 
 	id: 'monster_05_punch_pacific', 
@@ -3061,7 +3079,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '506 0751 211419',
-	note: 'Банка пошкоджена. Відновити!',
 },
 { 
 	id: 'monster_05_punch_pipeline', 
@@ -3086,7 +3103,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0097 899167',
-	note: 'Фіолетова',
 },
 { 
 	id: 'non_stop_05_jungle', 
@@ -3095,7 +3111,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0097 897217',
-	note: 'Зелена',
 },
 { 
 	id: 'non_stop_05_original', 
@@ -3104,7 +3119,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0097 890324',
-	note: 'Синя',
 },
 { 
 	id: 'non_stop_05_ultra', 
@@ -3113,7 +3127,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0097 899952',
-	note: 'Помаранчева',
 },
 { 
 	id: 'non_stop_05_stalker', 
@@ -3130,7 +3143,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '401 4086 020414',
-	note: 'Біла. Принт зелений та червоний',
 },
 { 
 	id: 'oshee_05_the_witcher_full_moon', 
@@ -3179,7 +3191,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '299 9300 049193',
-	note: 'Синя, зі львом',
 },
 { 
 	id: 'rockstar_refresh_05_ardbei_limoen', 
@@ -3228,7 +3239,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '500 0382 111443',
-	note: 'Жовтий верх, помаранчевий низ, плавний перехід',
 },
 { 
 	id: 'rubicon_05_raw_raspberry_blueberry', 
@@ -3237,7 +3247,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '500 0382 111467',
-	note: 'Синій верх, красний низ, плавний перехід',
 },
 { 
 	id: 'schlitz_05_ba', 
@@ -3246,7 +3255,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '405 4500 121532',
-	note: 'Біла з червоною вставкою',
 },
 { 
 	id: 'stammgast_gold_alkoholfrei_05_ba', 
@@ -3271,7 +3279,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0250 942105',
-	note: 'Блакитна, з малиною',
 },
 { 
 	id: 'ukie_05', 
@@ -3280,7 +3287,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0046 964991',
-	note: 'Чорна',
 },
 { 
 	id: 'ukie_05_2', 
@@ -3289,7 +3295,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0046 964991',
-	note: 'Червона з білим. Чорний верх ',
 },
 { 
 	id: 'volfas_engelman_05_ba_hoppiness', 
@@ -3323,7 +3328,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 820193 032994',
-	note: 'Блакитний фон',
 },
 { 
 	id: '0_05_ba_nefiltrovane_plus_grey', 
@@ -3332,7 +3336,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0193 032994',
-	note: 'Сірий фон',
 },
 { 
 	id: '0_05_ba_svitle', 
@@ -3349,7 +3352,6 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0046 963369',
-	note: 'Блідно-блакитно-сірий з синім. Жито',
 },
 { 
 	id: '1_privatna_brovarnya_05_ba_firmove_hmil', 
