@@ -2716,13 +2716,20 @@ const arrListJars = [
 	barcode: '401 4086 087172',
 },
 { 
+	id: 'hell_05_apple', 
+	title: 'Hell', 
+	taste: 'Apple', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '599 9885 746576',
+},
+{ 
 	id: 'hell_05_classic', 
 	title: 'Hell', 
 	taste: 'Classic', 
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '599 9884 034209',
-	note: 'Стандартний червоний з чорними літерами',
 },
 { 
 	id: 'hike_05_ba_zero', 
