@@ -1161,11 +1161,14 @@ const arrListJars = [
 	type: { drink: 1, },
 	barcode: '544 9000 000729',
 },
-
-
-
-
-
+{ 
+	id: 'vitamin_025', 
+	title: 'Vitamin', 
+	taste: '', 
+	volume: '.25', 
+	type: { drink: 1, },
+	barcode: '482 0252 123137',
+},
 { 
 	id: 'xixo_025_cola', 
 	title: 'Xixo', 
