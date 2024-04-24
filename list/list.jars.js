@@ -2586,6 +2586,22 @@ const arrListJars = [
 	barcode: '590 0535 013665',
 },
 { 
+	id: 'ever_aid_05_orange',
+	title: 'Ever Aid', 
+	taste: 'Orange', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0183 002143',
+},
+{ 
+	id: 'ever_aid_05_peach_grapefruit',
+	title: 'Ever Aid', 
+	taste: 'Peach Grapefruit', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0183 002167',
+},
+{ 
 	id: 'faxe_05_ba_premium', 
 	title: 'Faxe', 
 	taste: 'Premium 0.0%', 
@@ -2674,6 +2690,14 @@ const arrListJars = [
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '482 0183 001641',
+},
+{ 
+	id: 'geyser_juice_05_mango', 
+	title: 'Geyser Juice', 
+	taste: 'Mango XL', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0183 001948',
 },
 { 
 	id: 'go_05_ba_pilsner', 
