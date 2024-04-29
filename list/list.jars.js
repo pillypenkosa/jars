@@ -205,7 +205,14 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '506 0466 519602',
-	note: 'Верх чорний, низ помаранчевий, вогонь звичайний',
+},
+{ 
+	id: 'burn_025_mango_2', 
+	title: 'Burn', 
+	taste: 'Mango', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '506 0466 519602',
 },
 { 
 	id: 'burn_025_original', 
@@ -431,7 +438,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { drink: 1, },
 	barcode: '502 9396 000529',
-	note: 'Рожева',
 },
 { 
 	id: 'fragolino_fiorelli_025_ba', 
@@ -440,7 +446,14 @@ const arrListJars = [
 	volume: '.25', 
 	type: { drink: 1, },
 	barcode: '800 2915 006292',
-	note: 'Білий верх, блідно-зелений низ',
+},
+{ 
+	id: 'freego_025_classic', 
+	title: 'Freego', 
+	taste: 'Classic', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '590 0168 508026',
 },
 { 
 	id: 'green_energy_025', 
