@@ -1061,6 +1061,14 @@ const arrListJars = [
 	barcode: '482 0097 896944',
 },
 { 
+	id: 'pulls_025_2', 
+	title: 'Pulse', 
+	taste: 'Заряд помсти', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '482 0097 896944',
+},
+{ 
 	id: 'pulse_025_black', 
 	title: 'Pulse', 
 	taste: '', 
@@ -3224,6 +3232,14 @@ const arrListJars = [
 	barcode: '401 4086 020414',
 },
 { 
+	id: 'opillia_05_ba_zero', 
+	title: 'Opillia', 
+	taste: 'Zero', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0158 672982',
+},
+{ 
 	id: 'oshee_05_the_witcher_full_moon', 
 	title: 'Oshee The Witcher', 
 	taste: 'Full Moon', 
@@ -3415,6 +3431,14 @@ const arrListJars = [
 	volume: '.5', 
 	type: { beer0: 1, },
 	barcode: '482 0193 032994',
+},
+{ 
+	id: '0_05_ba_vyshnya', 
+	title: '0 Вишня', 
+	taste: 'Non Alcoholic', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '482 0193 036565',
 },
 { 
 	id: '0_05_ba_svitle', 
