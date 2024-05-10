@@ -178,7 +178,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '590 2198 160724',
-	note: 'Тема абстракції',
 },
 { 
 	id: 'burn_025_apple_kiwi', 
@@ -187,7 +186,6 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '506 0466 511040',
-	note: 'Верх чорний, низ зелений, вогонь зелений',
 },
 { 
 	id: 'burn_025_dark_energy', 
@@ -196,7 +194,14 @@ const arrListJars = [
 	volume: '.25', 
 	type: { energy: 1, },
 	barcode: '506 0608 749898',
-	note: 'Верх чорний, низ жовто-помаранчевий, вогонь сталево-помаранчевий',
+},
+{ 
+	id: 'burn_025_fruit_punch', 
+	title: 'Burn', 
+	taste: 'Fruit Punch ', 
+	volume: '.25', 
+	type: { energy: 1, },
+	barcode: '506 0895 744156',
 },
 { 
 	id: 'burn_025_mango', 
@@ -1707,6 +1712,14 @@ const arrListJars = [
 	barcode: '',
 },
 { 
+	id: 'mountain_dew_033_citrus_blast', 
+	title: 'Mountain Dew', 
+	taste: 'Citrus Blast', 
+	volume: '.33', 
+	type: { drink: 1, },
+	barcode: '574 1000 223925',
+},
+{ 
 	id: 'no_worries_033', 
 	title: 'No Worries', 
 	taste: '', 
@@ -2788,12 +2801,28 @@ const arrListJars = [
 	barcode: '401 4086 087172',
 },
 { 
+	id: 'gubernija_05_ba_extra', 
+	title: 'Gubernija', 
+	taste: 'Extra', 
+	volume: '.5', 
+	type: { beer0: 1, },
+	barcode: '477 0395 228711',
+},
+{ 
 	id: 'hell_05_apple', 
 	title: 'Hell', 
 	taste: 'Apple', 
 	volume: '.5', 
 	type: { energy: 1, },
 	barcode: '599 9885 746576',
+},
+{ 
+	id: 'hell_05_black_cherry', 
+	title: 'Hell', 
+	taste: 'Black Cherry', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '599 9884 034346',
 },
 { 
 	id: 'hell_05_classic', 
@@ -3569,6 +3598,22 @@ const arrListJars = [
 	volume: '.5', 
 	type: { kvass: 1, },
 	barcode: '482 0002 713106',
+},
+{ 
+	id: 'kvas_05_opillia_bily', 
+	title: 'Квас Опілля', 
+	taste: 'Білий', 
+	volume: '.5', 
+	type: { kvass: 1, },
+	barcode: '482 0158 673958',
+},
+{ 
+	id: 'kvas_05_opillia_domashny', 
+	title: 'Квас Опілля', 
+	taste: 'Домашній', 
+	volume: '.5', 
+	type: { kvass: 1, },
+	barcode: '482 0158 673972',
 },
 { 
 	id: 'kvas_05_starokyivsky', 
