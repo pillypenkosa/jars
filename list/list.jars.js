@@ -2377,6 +2377,14 @@ const arrListJars = [
 	barcode: '482 0250 943034',
 },
 { 
+	id: 'battery_05_unicorn', 
+	title: 'Battery', 
+	taste: 'Unicorn', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '482 0250 943904',
+},
+{ 
 	id: 'bavaria_05_ba_original', 
 	title: 'Bavaria 0', 
 	taste: '0,0 % Premium Original', 
