@@ -2928,6 +2928,14 @@ const arrListJars = [
 	barcode: '599 9884 034209',
 },
 { 
+	id: 'hell_05_peach_lemon', 
+	title: 'Hell', 
+	taste: 'Peach Lemon', 
+	volume: '.5', 
+	type: { energy: 1, },
+	barcode: '599 9571 051878',
+},
+{ 
 	id: 'hell_05_watermelon', 
 	title: 'Hell', 
 	taste: 'Watermelon', 
