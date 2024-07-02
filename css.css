@@ -1,0 +1,176 @@
+:root {
+
+	--bg1: #013;
+	--bg2: #079;
+
+	--bg-t: linear-gradient( to top, var( --bg1 ), var( --bg2 ) );
+	--bg-b: linear-gradient( to bottom, var( --bg1 ), var( --bg2 ) );
+	--bg-l: linear-gradient( to left, var( --bg1 ), var( --bg2 ) );
+	--bg-r: linear-gradient( to right, var( --bg1 ), var( --bg2 ) );
+
+}
+
+
+
+
+
+
+
+
+
+/*
+@font-face {
+	font-family: "Roboto Regular";
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+
+*/
+
+
+
+html, body {
+	height: 100%;
+
+	/*font-family: "Roboto Regular";*/
+	font-family: Courier;
+
+}
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+app {
+
+	min-height: 100%;
+	display: flex;
+
+/*
+	flex-direction: row;
+	flex-direction: column;
+	flex-direction: row-reverse;
+	flex-direction: column-reverse;
+*/
+
+/*
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+*/
+
+
+/*
+flex-flow: <'flex-direction'> || <'flex-wrap'>
+*/
+
+	flex-flow: column nowrap;
+
+
+
+/*
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+*/
+
+
+
+
+/*
+	align-items: flex-start;
+	align-items: flex-end;
+	align-items: center;
+	align-items: baseline;
+	align-items: stretch;
+*/
+
+
+
+	align-content: stretch;
+
+/*
+	align-content: flex-start;
+	align-content: flex-end;
+	align-content: center;
+	align-content: space-between;
+	align-content: space-around;
+*/
+
+
+
+
+
+
+/*
+	all: initial;
+	flex-direction: column;
+
+*/
+
+/*
+	justify-content: center;
+	align-items: center;
+	align-items: flex-end;
+	align-content: flex-end;
+*/
+
+
+
+	/*
+
+	background: linear-gradient( to top, #099, #009 );
+
+	*/
+	/*background-color: #000;*/
+}
+
+
+
+#middle {
+	margin: 45px 0 0 0;
+	display: flex; 		/* для выравнивания блоков `aside` и `content` */
+	flex: 1 1 auto; 	/* для общего участия прижатия футера в макете ( растягивание и сжатие блока ) */
+/*
+	или flex-grow: 1;
+*/
+}
+
+
+
+#content {
+	width: 100%;
+	background: var( --bg-r );
+}
+
+
+
+
+
+
+table {
+	border-collapse: collapse;	/* рамка одинарная общая на две ячейки */
+}
+	table td {
+		border: 1px solid #333;
+		text-align: center;
+	}
+
+.pointer {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+/* © 2023 DJS */ 
+
+
+
+cmp-menu { 
+
+	display: block;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #ddd;
+} 
+
+	cmp-menu .btn {
+		margin: 0 0 1px 0;
+		padding: 10px 30px;
+		text-align: center;
+		border-radius: 5px;
+		font-weight: bold;
+		border: 1px solid #fff;
+		background: linear-gradient( to bottom, #bbb, #eee );
+		color: #000;
+	} 
+		cmp-menu .btn:hover { 
+			background: var( --bg-b );
+			color: #fff;
+		} 
+
+
+
+
