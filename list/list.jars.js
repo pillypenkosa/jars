@@ -730,6 +730,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, non_stop: 1, },
 },
 { 
+	id: 'non_stop_025_stalker_2', 
+	title: 'Non Stop Stalker', 
+	barcode: '482 0252 122895',
+	hash: { _025: 1, energy: 1, non_stop: 1, },
+},
+{ 
 	id: 'oshee_025_the_witcher', 
 	title: 'Oshee The Witcher', 
 	barcode: '590 8260 257972',
