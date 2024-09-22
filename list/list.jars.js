@@ -736,6 +736,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, non_stop: 1, },
 },
 { 
+	id: 'non_stop_025_zoom', 
+	title: 'Non Stop Zoom', 
+	barcode: '482 0252 124097',
+	hash: { _025: 1, energy: 1, non_stop: 1, },
+},
+{ 
 	id: 'oshee_025_the_witcher', 
 	title: 'Oshee The Witcher', 
 	barcode: '590 8260 257972',
@@ -793,6 +799,12 @@ const arrListJars = [
 	id: 'pit_bull_025_power', 
 	title: 'Pit Bull Power', 
 	barcode: '482 0252 121751',
+	hash: { _025: 1, energy: 1, pit_bull: 1, },
+},
+{ 
+	id: 'pit_bull_025_silver', 
+	title: 'Pit Bull Silver', 
+	barcode: '482 0252 123533',
 	hash: { _025: 1, energy: 1, pit_bull: 1, },
 },
 { 
@@ -1842,7 +1854,7 @@ const arrListJars = [
 	id: 'carlsberg_05_carragher', 
 	title: 'Carlsberg Carragher Jamie', 
 	barcode: '482 0000 456463 ',
-	hash: { _05: 1, energy: 1, carlsberg: 1, },
+	hash: { _05: 1, beer: 1, carlsberg: 1, },
 },
 { 
 	id: 'carlsberg_05_ba', 
@@ -2432,8 +2444,6 @@ const arrListJars = [
 	barcode: '482 0252 122413',
 	hash: { _05: 1, energy: 1, non_stop: 1, },
 },
-
-
 { 
 	id: 'oettinger_05_ba_original', 
 	title: 'Oettinger Original Free', 
@@ -2574,7 +2584,7 @@ const arrListJars = [
 	id: 'volfas_engelman_05_ba_hoppiness', 
 	title: 'Volfas Engelman Hoppiness Juicy Ale', 
 	barcode: '477 0301 236687',
-	hash: { _05: 1, energy: 1, volfas: 1, },
+	hash: { _05: 1, beer0: 1, volfas: 1, },
 },
 { 
 	id: 'zibert_05_ba_grapefruit', 
@@ -2754,6 +2764,18 @@ const arrListJars = [
 	id: 'kvas_yarylo_porter_05_micny', 
 	title: 'Квас Ярило Портер Міцний', 
 	barcode: '482 0196 932611',
+	hash: { _05: 1, kvass: 1, },
+},
+{ 
+	id: 'kvas_premium_05_cola_fuel', 
+	title: 'Kvass Premium Cola Fuel', 
+	barcode: '482 0183 002419',
+	hash: { _05: 1, kvass: 1, },
+},
+{ 
+	id: 'kvas_premium_05_mango_fuel', 
+	title: 'Kvass Premium Mango Fuel', 
+	barcode: '482 0183 002426',
 	hash: { _05: 1, kvass: 1, },
 },
 { 

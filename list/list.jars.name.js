@@ -53,6 +53,7 @@ const arrListJarsName = [
 	{ id: 'fragolino' 				, title: 'Fragolino' 			, } ,
 	{ id: 'free_damm' 				, title: 'Free Damm' 			, } ,
 	{ id: 'freego' 					, title: 'Freego' 				, } ,
+	{ id: 'frugo' 					, title: 'Frugo' 				, } ,
 	{ id: 'g_energy' 				, title: 'G-Energy' 			, } ,
 	{ id: 'garage' 					, title: 'Garage' 				, } ,
 	{ id: 'geyser' 					, title: 'Geyser' 				, } ,
