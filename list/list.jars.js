@@ -724,6 +724,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, non_stop: 1, },
 },
 { 
+	id: 'non_stop_025_zoom', 
+	title: 'Non Stop Zoom', 
+	barcode: '482 0252 124097',
+	hash: { _025: 1, energy: 1, non_stop: 1, },
+},
+{ 
 	id: 'non_stop_025_stalker', 
 	title: 'Non Stop Stalker', 
 	barcode: '482 0252 122406',
@@ -733,12 +739,6 @@ const arrListJars = [
 	id: 'non_stop_025_stalker_2', 
 	title: 'Non Stop Stalker', 
 	barcode: '482 0252 122895',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_zoom', 
-	title: 'Non Stop Zoom', 
-	barcode: '482 0252 124097',
 	hash: { _025: 1, energy: 1, non_stop: 1, },
 },
 { 
@@ -1758,6 +1758,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, bavaria: 1, },
 },
 { 
+	id: 'bavaria_05_ba_holland_wit', 
+	title: 'Bavaria Holland Wit 0,0 %', 
+	barcode: '871 4800 049542',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
 	id: 'bavaria_05_ba_apple', 
 	title: 'Bavaria Apple 0,0 %', 
 	barcode: '871 4800 017602',
@@ -1801,10 +1807,7 @@ const arrListJars = [
 },
 { 
 	id: 'bitburger_05_ba', 
-	title: 'Bitburger', 
-	taste: '0.0 %', 
-	volume: '.5', 
-	type: { beer0: 1, },
+	title: 'Bitburger 0.0 %', 
 	barcode: '410 2430 061395',
 	hash: { _05: 1, beer0: 1, bitburger: 1, },
 },
@@ -1893,6 +1896,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, clausthaler: 1, },
 },
 { 
+	id: 'clausthaler_05_ba_original_alkoholfrei', 
+	title: 'Clausthaler Original Alkoholfrei', 
+	barcode: '405 3400 204000',
+	hash: { _05: 1, beer0: 1, clausthaler: 1, },
+},
+{ 
 	id: 'cortes_05_ba_ananas', 
 	title: 'Cortes Ananas', 
 	barcode: '590 0535 016604',
@@ -1935,23 +1944,56 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, edelmeister: 1, },
 },
 { 
-	id: 'ever_aid_05_lemon',
-	title: 'Ever Aid Lemon', 
+	id: 'ever_aid_05_vitamin_water_lemon',
+	title: 'Ever Aid Vitamin Water Lemon', 
 	barcode: '482 0183 002150',
-	hash: { _05: 1, energy: 1, ever: 1, },
+	hash: { _05: 1, drink: 1, ever: 1, },
 },
 { 
-	id: 'ever_aid_05_orange',
-	title: 'Ever Aid Orange', 
+	id: 'ever_aid_05_vitamin_water_orange',
+	title: 'Ever Aid Vitamin Water Orange', 
 	barcode: '482 0183 002143',
-	hash: { _05: 1, energy: 1, ever: 1, },
+	hash: { _05: 1, drink: 1, ever: 1, },
 },
 { 
-	id: 'ever_aid_05_peach_grapefruit',
-	title: 'Ever Aid Peach Grapefruit', 
+	id: 'ever_aid_05_vitamin_water_peach_grapefruit',
+	title: 'Ever Aid Vitamin Water Peach Grapefruit', 
 	barcode: '482 0183 002167',
-	hash: { _05: 1, energy: 1, ever: 1, },
+	hash: { _05: 1, drink: 1, ever: 1, },
 },
+
+
+
+
+
+{ 
+	id: 'ever_aid_05_juice20_cherry',
+	title: 'Ever Aid Juice 20% Cherry', 
+	barcode: '482 0183 002242',
+	hash: { _05: 1, drink: 1, ever: 1, },
+},
+{ 
+	id: 'ever_aid_05_juice20_mango_orange',
+	title: 'Ever Aid Juice 20% Mango & Orange', 
+	barcode: '482 0183 002259',
+	hash: { _05: 1, drink: 1, ever: 1, },
+},
+{ 
+	id: 'ever_aid_05_juice20_passion_fruit',
+	title: 'Ever Aid Juice 20% Passion Fruit', 
+	barcode: '482 0183 002266',
+	hash: { _05: 1, drink: 1, ever: 1, },
+},
+
+
+
+
+
+
+
+
+
+
 { 
 	id: 'faxe_05_ba_premium', 
 	title: 'Faxe Premium 0.0%', 
@@ -2121,6 +2163,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, hell: 1, },
 },
 { 
+	id: 'hell_05_peach_lemon_flavour', 
+	title: 'Hell Peach Lemon Flavour', 
+	barcode: '599 9571 051878',
+	hash: { _05: 1, energy: 1, hell: 1, },
+},
+{ 
 	id: 'hell_05_watermelon', 
 	title: 'Hell Watermelon', 
 	barcode: '599 9571 051106',
@@ -2245,6 +2293,24 @@ const arrListJars = [
 	title: 'Krombacher Spezi', 
 	barcode: '400 8287 949544',
 	hash: { _05: 1, drink: 1, krombacher: 1, },
+},
+{ 
+	id: 'krusovice_05_ba_horke_nealko', 
+	title: 'Krusovice Horke_Nealko', 
+	barcode: '859 4009 923313',
+	hash: { _05: 1, beer0: 1, krusovice: 1, },
+},
+{ 
+	id: 'kvas_premium_05_cola_fuel', 
+	title: 'Kvass Premium Cola Fuel', 
+	barcode: '482 0183 002419',
+	hash: { _05: 1, kvass: 1, },
+},
+{ 
+	id: 'kvas_premium_05_mango_fuel', 
+	title: 'Kvass Premium Mango Fuel', 
+	barcode: '482 0183 002426',
+	hash: { _05: 1, kvass: 1, },
 },
 { 
 	id: 'lacplesis_05_ba', 
@@ -2403,12 +2469,6 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, monster: 1, },
 },
 { 
-	id: '', 
-	title: 'Monster ', 
-	barcode: '506',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
 	id: 'ngine_05_classic', 
 	title: 'Ngine Classic', 
 	barcode: '590 0552 085256',
@@ -2442,6 +2502,12 @@ const arrListJars = [
 	id: 'non_stop_05_stalker', 
 	title: 'Non Stop Stalker', 
 	barcode: '482 0252 122413',
+	hash: { _05: 1, energy: 1, non_stop: 1, },
+},
+{ 
+	id: 'non_stop_05_stalker_2', 
+	title: 'Non Stop Stalker', 
+	barcode: '482 0252 122901',
 	hash: { _05: 1, energy: 1, non_stop: 1, },
 },
 { 
@@ -2480,9 +2546,6 @@ const arrListJars = [
 	barcode: '482 0252 121744',
 	hash: { _05: 1, energy: 1, pit_bull: 1, },
 },
-
-
-
 { 
 	id: 'primator_05_ba_tropicky_citrus_yuzu', 
 	title: 'Primator Tropicky Citrus Yuzu', 
@@ -2550,12 +2613,17 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, schlitz: 1, },
 },
 { 
+	id: 'smetoniska_05_gira', 
+	title: 'Smetoniska Gira', 
+	barcode: '477 0301 229740',
+	hash: { _05: 1, kvass: 1, smetoniska: 1, },
+},
+{ 
 	id: 'stammgast_gold_alkoholfrei_05_ba', 
 	title: 'Stammgast Gold Alkoholfrei', 
 	barcode: '410 1940 141658',
 	hash: { _05: 1, beer0: 1, stammgast: 1, },
 },
-
 { 
 	id: 'svijany_05_ba_svijansky_vozka', 
 	title: 'Svijany Svijansky Vozka', 
@@ -2764,18 +2832,6 @@ const arrListJars = [
 	id: 'kvas_yarylo_porter_05_micny', 
 	title: 'Квас Ярило Портер Міцний', 
 	barcode: '482 0196 932611',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_premium_05_cola_fuel', 
-	title: 'Kvass Premium Cola Fuel', 
-	barcode: '482 0183 002419',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_premium_05_mango_fuel', 
-	title: 'Kvass Premium Mango Fuel', 
-	barcode: '482 0183 002426',
 	hash: { _05: 1, kvass: 1, },
 },
 { 
