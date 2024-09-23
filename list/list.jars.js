@@ -1794,6 +1794,30 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, bavaria: 1, },
 },
 { 
+	id: 'bavaria_smalt_05_ba_apple', 
+	title: 'Bavaria Smalt Apple', 
+	barcode: '871 4800 017602',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
+	id: 'bavaria_smalt_05_ba_ginger_lime', 
+	title: 'Bavaria Smalt Ginger Lime', 
+	barcode: '871 4800 036030',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
+	id: 'bavaria_smalt_05_ba_original', 
+	title: 'Bavaria Smalt Original', 
+	barcode: '871 4800 011426',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
+	id: 'bavaria_smalt_05_ba_strawberry', 
+	title: 'Bavaria Smalt Strawberry', 
+	barcode: '871 4800 040822',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
 	id: 'best_shot_05_mango_coconut', 
 	title: 'Best Shot Mango Coconut', 
 	barcode: '482 0022 692979',
@@ -1961,11 +1985,6 @@ const arrListJars = [
 	barcode: '482 0183 002167',
 	hash: { _05: 1, drink: 1, ever: 1, },
 },
-
-
-
-
-
 { 
 	id: 'ever_aid_05_juice20_cherry',
 	title: 'Ever Aid Juice 20% Cherry', 
@@ -1984,16 +2003,6 @@ const arrListJars = [
 	barcode: '482 0183 002266',
 	hash: { _05: 1, drink: 1, ever: 1, },
 },
-
-
-
-
-
-
-
-
-
-
 { 
 	id: 'faxe_05_ba_premium', 
 	title: 'Faxe Premium 0.0%', 

@@ -99,8 +99,8 @@ class ComponentWinIndex {
 		const fooName = this.name + '.getSelected()';
 
 
-		console.log( 'fooName: ', fooName );
-		console.log( 'data: ', data );
+		//console.log( 'fooName: ', fooName );
+		//console.log( 'data: ', data );
 
 
 
@@ -190,7 +190,7 @@ class ComponentWinIndex {
 		const fooName = this.name + '.getSelection()';
 
 		//console.log( 'fooName: ', fooName );
-		console.log( 'data: ', data );
+		//console.log( 'data: ', data );
 
 
 
@@ -227,28 +227,23 @@ class ComponentWinIndex {
 	static showSelected() {
 		const fooName = this.name + '.showSelected()';
 
-		console.log( 'fooName: ', fooName );
+		//console.log( 'fooName: ', fooName );
 
 
 
 
-
-
-
-
-
-		console.log( 'arrSelected: ', this.arrSelected );
+		//console.log( 'arrSelected: ', this.arrSelected );
 
 
 		let html = '';
 
 
-		this.arrSelected.forEach( k => {
+		this.arrSelected.forEach( ( k, i ) => {
 
 			//${ k.title ? k.title : '***' }
 			
 			html += `<div class="each">
-				<div class="img" title="">
+				<div class="img" title="--- Jar ${ i+1 } ---\n${ k.title }\n${ k.barcode }">
 					<img src="img/jars/${ k.id }.jpg" alt="${ k.title }" >
 				</div>
 			</div>`;
