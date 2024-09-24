@@ -399,6 +399,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, guarana: 1, },
 },
 { 
+	id: 'hell_025_black_cherry_flavour', 
+	title: 'Hell Black Cherry Flavour', 
+	barcode: '599 9571 051434',
+	hash: { _025: 1, energy: 1, hell: 1, },
+},
+{ 
 	id: 'hell_025_classic', 
 	title: 'Hell Classic', 
 	barcode: '599 9884 034469',
@@ -492,6 +498,12 @@ const arrListJars = [
 	id: 'hell_025_strong_red_grape', 
 	title: 'Hell Strong Red Grape', 
 	barcode: '599 9884 034506',
+	hash: { _025: 1, energy: 1, hell: 1, },
+},
+{ 
+	id: 'hell_025_summer_cool_chillin_guanabana_mango_flavour', 
+	title: 'Hell Summer Cool Chillin Guanabana Mango Flavour', 
+	barcode: '599 9571 054176',
 	hash: { _025: 1, energy: 1, hell: 1, },
 },
 { 
