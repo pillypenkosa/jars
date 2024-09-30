@@ -76,6 +76,7 @@ const arrListJarsName = [
 	{ id: 'jett' 					, title: 'Dжетт' 				, } ,
 	{ id: 'kaiserdom' 				, title: 'Kaiserdom' 			, } ,
 	{ id: 'kalnapilis' 				, title: 'Kalnapilis' 			, } ,
+	{ id: 'keten_brug' 				, title: 'Keten Brug' 			, } ,
 	{ id: 'kok' 					, title: 'Kok' 					, } ,
 	{ id: 'komodo' 					, title: 'Komodo' 				, } ,
 	{ id: 'kozel' 					, title: 'Kozel' 				, } ,

@@ -2292,6 +2292,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, kalnapilis: 1, },
 },
 { 
+	id: 'keten_brug_05_ba_elegant', 
+	title: 'Keten Brug Zero 0.0 Elegant', 
+	barcode: '482 0193 037821',
+	hash: { _05: 1, beer0: 1, keten_brug: 1, },
+},
+{ 
 	id: 'kok_05', 
 	title: 'Kok', 
 	barcode: '477 1632 313016',
