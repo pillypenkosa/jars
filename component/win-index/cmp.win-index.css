@@ -7,45 +7,6 @@ cmp-win-index {
 
 
 
-	/*height: 500px;*/
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	height: 100%;
-	width: 100%;
-
-	/*display: flex;*/
-	/*
-	justify-content: center; /* Центр горизонталь */
-	/*
-
-	align-items: center;     /* Центр вертикаль */
-	/*
-	text-align: center;
-	*/
-
-
 	background: red;
 	background: var( --bg-r );
 	color: lime;
@@ -58,144 +19,36 @@ cmp-win-index {
 		/*height: 100%;*/
 
 		margin: 150px 0;
-
-
-
 		display: flex;
 		justify-content: center; /* Центр горизонталь */
 		align-items: center;     /* Центр вертикаль */
 
-
-
-
-
-
 	}
-
-
-
-
-
-
-
-
-
 
 
 
 	cmp-win-index .each {
 		display: inline-block;
-
 		width: 50px;
-
-
-
 		margin: 1px;
-
-
-
-
-		/*
-		padding-bottom: 30px;
-		border: 1px solid #aaa;
-		*/
 	}
-
-
 		cmp-win-index .each .img {
 			width: 100%;
 		}
-
-
 			cmp-win-index .each .img img {
 				width: 100%;
 				border-radius: 5px;
 			}
 
 
-
-
-
-
-
-
-
-/*
-
-		cmp-win-index .each .title {
-			padding: 10px;
-			border-radius: 10px;
-			text-align: center;
-			font-size: 150%;
-			font-weight: bold;
-			background: var( --bg-b );
-			color: #fff;
-		}
-			cmp-win-index .each .title .titleUa .n-each {
-				font-weight: normal;
-				color: #777;
-			}
-
-			cmp-win-index .each .title .titleEn {
-				font-size: 70%;
-				color: #aaa;
-				font-weight: normal;
-			}
-			cmp-win-index .each .title .star5 {
-				color: yellow;
-			}
-			cmp-win-index .each .title .ok5 {
-				font-weight: normal;
-				color: lime;
-			}
-
-
-
-
-
-
-		cmp-win-index .each .descr {
-			color: #fff;
-		}
-			cmp-win-index .each .descr .txt {
-				margin: 0 0 15px 0;
-			}
-				cmp-win-index .each .descr .txt .hash {
-					color: #777;
-				}
-
-				cmp-win-index .each .descr .txt .key {
-					color: #aaa;
-				}
-
-			cmp-win-index .each .descr .internet {
-
-			}
-				cmp-win-index .each .descr .internet a  {
-
-				}
-					cmp-win-index .each .descr .internet a img {
-						height: 30px;
-						width: 80px;
-						/*padding: 1px 5px;*/
-					}
-
-/*
-	cmp-win-index .each .info {
-		display: flex;
-		margin: 5px 0 0 0;
+	cmp-win-index .each-value {
+		margin: 10px 0 30px 0;
 	}
-
-	cmp-win-index .each .info .img {
-		margin: 0 10px 0 5px;
-	}
-		cmp-win-index .each .info .img img {
-			border-radius: 10px;
+		cmp-win-index .each-value .title-value {
+			color: #aaa;
 		}
 
 
 
 
 
-
-*/
