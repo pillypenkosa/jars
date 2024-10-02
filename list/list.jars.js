@@ -262,31 +262,37 @@ const arrListJars = [
 },
 { 
 	id: 'coffee_025_cappuccino', 
-	title: 'Coffee Cappuccino', 
+	title: 'Coffee Energy Cappuccino', 
 	barcode: '599 9860 497097',
 	hash: { _025: 1, coffee: 1, },
 },
 { 
 	id: 'coffee_025_coconut', 
-	title: 'Coffee Coconut', 
+	title: 'Coffee Energy Coconut', 
 	barcode: '599 9860 497936',
 	hash: { _025: 1, coffee: 1, },
 },
 { 
 	id: 'coffee_025_double_espresso', 
-	title: 'Coffee Double Espresso', 
+	title: 'Coffee Energy Double Espresso', 
 	barcode: '599 9860 497646',
 	hash: { _025: 1, coffee: 1, },
 },
 { 
 	id: 'coffee_025_latte', 
-	title: 'Coffee Latte', 
+	title: 'Coffee Energy Latte', 
 	barcode: '599 9860 497073',
 	hash: { _025: 1, coffee: 1, },
 },
 { 
+	id: 'coffee_025_slim_latte', 
+	title: 'Coffee Slim Latte', 
+	barcode: '599 9860 497080', 	// Slim Vanilla
+	hash: { _025: 1, coffee: 1, },
+},
+{ 
 	id: 'coffee_025_pink_latte', 
-	title: 'Coffee Pink Latte', 
+	title: 'Coffee Ice Pink Latte', 
 	barcode: '599 9571 053223',
 	hash: { _025: 1, coffee: 1, },
 },
@@ -297,14 +303,8 @@ const arrListJars = [
 	hash: { _025: 1, coffee: 1, },
 },
 { 
-	id: 'coffee_025_slim_latte', 
-	title: 'Coffee Slim Latte', 
-	barcode: '599 9860 497080', 	// Slim Vanilla
-	hash: { _025: 1, coffee: 1, },
-},
-{ 
 	id: 'coffee_025_slim_vanilla', 
-	title: 'Coffee Slim Vanilla', 
+	title: 'Coffee Ice Slim Vanilla', 
 	barcode: '599 9860 497080', 	// Slim Latte
 	hash: { _025: 1, coffee: 1, },
 },
@@ -313,6 +313,18 @@ const arrListJars = [
 	title: 'Double Seven', 
 	barcode: '842 3453 905630',
 	hash: { _025: 1, energy: 1, double_seven: 1, },
+},
+{ 
+	id: 'douwe_egberts_025_cappuccino', 
+	title: 'Douwe Egberts Cappuccino', 
+	barcode: '871 1000 675298',
+	hash: { _025: 1, coffee: 1, douwe_egberts: 1, },
+},
+{ 
+	id: 'douwe_egberts_025_mocha_latte', 
+	title: 'Douwe Egberts Mocha Latte', 
+	barcode: '871 1000 675267 ',
+	hash: { _025: 1, coffee: 1, douwe_egberts: 1, },
 },
 { 
 	id: 'evolution_025', 

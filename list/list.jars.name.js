@@ -42,6 +42,7 @@ const arrListJarsName = [
 	{ id: 'cortes' 					, title: 'Cortes' 				, } ,
 	{ id: 'crazy' 					, title: 'Crazy' 				, } ,
 	{ id: 'double_seven' 			, title: 'Double Seven' 		, } ,
+	{ id: 'douwe_egberts' 			, title: 'Douwe Egberts' 		, } ,
 	{ id: 'dr_pepper' 				, title: 'Dr Pepper' 			, } ,
 	{ id: 'edelmeister' 			, title: 'Edelmeister' 			, } ,
 	{ id: 'ever' 					, title: 'Ever AID+' 			, } ,
