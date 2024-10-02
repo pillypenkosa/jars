@@ -36,8 +36,8 @@ class ComponentJarsByValue {
   		arrData.forEach( ( k, i ) => {
 
 			html += `<div class="each">
-				<div class="img" title="${ i+1 }) ${ k.title } // ${ k.barcode }">
-					<img src="img/jars/${ k.id }.jpg" alt="${ k.title }" >
+				<div class="img" title="--- Jar ${ i+1 } ---\n${ k.title } \n${ k.barcode }">
+					<img src="img/jars/${ k.id }.jpg" alt="${ k.title } // ${ k.barcode }" >
 				</div>
 			</div>`;
 
