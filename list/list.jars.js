@@ -712,6 +712,18 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, komodo: 1, cola: 1, },
 },
 { 
+	id: 'lemonade_joe_025_lemonade_classic', 
+	title: 'Lemonade Joe Lemonade Classic', 
+	barcode: '594 8688 042033',
+	hash: { _025: 1, drink: 1, lemonade_joe: 1, },
+},
+{ 
+	id: 'lemonade_joe_025_lemonade_watermelon', 
+	title: 'Lemonade Joe Lemonade Watermelon', 
+	barcode: '594 8688 042040',
+	hash: { _025: 1, drink: 1, lemonade_joe: 1, },
+},
+{ 
 	id: 'minions_025_kinder_cola', 
 	title: 'Minions Kinder Cola', 
 	barcode: '590 4730 983693',
@@ -722,6 +734,24 @@ const arrListJars = [
 	title: 'Mole Cola', 
 	barcode: '805 4377 870027',
 	hash: { _025: 1, drink: 1, molecola: 1, cola: 1, },
+},
+{ 
+	id: 'nescafe_025_americano', 
+	title: 'Nescafe Americano', 
+	barcode: '844 5290 619167',
+	hash: { _025: 1, coffee: 1, nescafe: 1, },
+},
+{ 
+	id: 'nescafe_025_cappucchino', 
+	title: 'Nescafe Cappucchino', 
+	barcode: '844 5290 618498',
+	hash: { _025: 1, coffee: 1, nescafe: 1, },
+},
+{ 
+	id: 'nescafe_025_latte', 
+	title: 'Nescafe Latte', 
+	barcode: '844 5290 619198',
+	hash: { _025: 1, coffee: 1, nescafe: 1, },
 },
 { 
 	id: 'ngine_025_classic', 
@@ -1247,6 +1277,36 @@ const arrListJars = [
 	hash: { _033: 1, beer0: 1, hoegaarden: 1, },
 },
 { 
+	id: 'irn_bru_033_sugar_free', 
+	title: 'Irn Bru Sugar Free', 
+	barcode: '5010 7223',
+	hash: { _033: 1, drink: 1, irn_bru: 1, },
+},
+{ 
+	id: 'irn_bru_033_xtra_raspberry_ripple', 
+	title: 'Irn Bru Xtra Raspberry Ripple', 
+	barcode: '500 0382 122555',
+	hash: { _033: 1, drink: 1, irn_bru: 1, },
+},
+{ 
+	id: 'jaffa_033_ananas', 
+	title: 'Jaffa Ananas', 
+	barcode: '641 3600 151289',
+	hash: { _033: 1, drink: 1, jaffa: 1, },
+},
+{ 
+	id: 'jaffa_033_appelsiini', 
+	title: 'Jaffa Appelsiini', 
+	barcode: '641 3600 003496',
+	hash: { _033: 1, drink: 1, jaffa: 1, },
+},
+{ 
+	id: 'jaffa_033_karibia', 
+	title: 'Jaffa Karibia', 
+	barcode: '641 3600 267966',
+	hash: { _033: 1, drink: 1, jaffa: 1, },
+},
+{ 
 	id: 'lipton_033_pfirsich', 
 	title: 'Lipton Pfirsich', 
 	hash: { _033: 1, tea: 1, lipton: 1, },
@@ -1686,6 +1746,18 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, a_le_coq: 1, },
 },
 { 
+	id: 'arizona_05_mucho_mango', 
+	title: 'AriZona Mucho Mango', 
+	barcode: '061 3008 768812',
+	hash: { _05: 1, energy: 1, arizona: 1, },
+},
+{ 
+	id: 'arizona_05_watermelon', 
+	title: 'AriZona Watermelon', 
+	barcode: '061 3008 768843',
+	hash: { _05: 1, energy: 1, arizona: 1, },
+},
+{ 
 	id: 'bakalar_05_ba', 
 	title: 'Bakalar', 
 	barcode: '859 4053 493213',
@@ -2058,6 +2130,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, frugo: 1, },
 },
 { 
+	id: 'frugo_energy_05_wild_cherry', 
+	title: 'Frugo Energy Wild Cherry', 
+	barcode: '590 0552 087861',
+	hash: { _05: 1, energy: 1, frugo: 1, },
+},
+{ 
 	id: 'g_energy_05_no_sleep', 
 	title: 'G-Energy No Sleep', 
 	barcode: '477 0063 234297',
@@ -2401,8 +2479,14 @@ const arrListJars = [
 },
 { 
 	id: 'monster_05_nitro', 
-	title: 'Monster Nitro', 
+	title: 'Monster Nitro Super Dry', 
 	barcode: '506 0751 218920',
+	hash: { _05: 1, energy: 1, monster: 1, },
+},
+{ 
+	id: 'monster_05_nitro_cosmic_peach', 
+	title: 'Monster Nitro Cosmic Peach', 
+	barcode: '506 0947 546844',
 	hash: { _05: 1, energy: 1, monster: 1, },
 },
 { 
@@ -2505,6 +2589,18 @@ const arrListJars = [
 	id: 'monster_05_punch_pipeline', 
 	title: 'Monster Punch Pipeline', 
 	barcode: '506 0639 123582',
+	hash: { _05: 1, energy: 1, monster: 1, },
+},
+{ 
+	id: 'monster_05_rehab_tea_lemonade', 
+	title: 'Monster Rehab Tea Lemonade', 
+	barcode: '506 0166 698959',
+	hash: { _05: 1, energy: 1, monster: 1, },
+},
+{ 
+	id: 'monster_05_rehab_tea_peach', 
+	title: 'Monster Rehab Tea Peach', 
+	barcode: '506 0517 884833',
 	hash: { _05: 1, energy: 1, monster: 1, },
 },
 { 
