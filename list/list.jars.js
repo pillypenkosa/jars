@@ -2016,6 +2016,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, clausthaler: 1, },
 },
 { 
+	id: 'clausthaler_05_ba_lemon_3', 
+	title: 'Clausthaler Lemon', 
+	barcode: '405 3400 204918',
+	hash: { _05: 1, beer0: 1, clausthaler: 1, },
+},
+{ 
 	id: 'clausthaler_05_ba_original_alkoholfrei', 
 	title: 'Clausthaler Original Alkoholfrei', 
 	barcode: '405 3400 204000',
