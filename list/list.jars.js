@@ -1908,6 +1908,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, bavaria: 1, },
 },
 { 
+	id: 'bavaria_smalt_05_ba_pineapple', 
+	title: 'Bavaria Smalt Pineapple', 
+	barcode: '871 4800 050470',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
 	id: 'bavaria_smalt_05_ba_strawberry', 
 	title: 'Bavaria Smalt Strawberry', 
 	barcode: '871 4800 040822',
@@ -2007,6 +2013,12 @@ const arrListJars = [
 	id: 'clausthaler_05_ba_original', 
 	title: 'Clausthaler Original', 
 	barcode: '405 3400 001579',
+	hash: { _05: 1, beer0: 1, clausthaler: 1, },
+},
+{ 
+	id: 'clausthaler_05_ba_grapefruit_2', 
+	title: 'Clausthaler Grapefruit', 
+	barcode: '405 3400 208312',
 	hash: { _05: 1, beer0: 1, clausthaler: 1, },
 },
 { 
