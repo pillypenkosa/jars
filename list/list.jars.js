@@ -219,6 +219,18 @@ const arrListJars = [
 	hash: { _025: 1, drink: 1, chupa_chups: 1, },
 },
 { 
+	id: 'chupa_chups_sour_025_strawberry_cream', 
+	title: 'Chupa Chups Strawberry & Cream', 
+	barcode: '880 1069 412986',
+	hash: { _025: 1, drink: 1, chupa_chups: 1, },
+},
+{ 
+	id: 'chupa_chups_sour_025_blueberry_flavour', 
+	title: 'Chupa Chups Sour Blueberry Flavour', 
+	barcode: '880 1069 420042',
+	hash: { _025: 1, drink: 1, chupa_chups: 1, },
+},
+{ 
 	id: 'coca_cola_025_original', 
 	title: 'Coca Cola Original', 
 	barcode: '544 9000 008046',
@@ -724,6 +736,18 @@ const arrListJars = [
 	hash: { _025: 1, drink: 1, lemonade_joe: 1, },
 },
 { 
+	id: 'maison_perrier_025_forever_lime',
+	title: 'Maison Perrier Forever Lime', 
+	barcode: '844 5291 045637',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
+	id: 'maison_perrier_025_magnetic_juice',
+	title: 'Maison Perrier Magnetic Juice', 
+	barcode: '844 5291 047617',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
 	id: 'minions_025_kinder_cola', 
 	title: 'Minions Kinder Cola', 
 	barcode: '590 4730 983693',
@@ -823,6 +847,18 @@ const arrListJars = [
 	id: 'perrier_025_peach_flavor', 
 	title: 'Perrier Peach Flavor', 
 	barcode: '761 3037 906660',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
+	id: 'perrier_juice_025_ananas_mangue', 
+	title: 'Perrier Juice Ananas Mangue', 
+	barcode: '761 3036 286299',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
+	id: 'perrier_juice_025_peche_cerise', 
+	title: 'Perrier Juice Peche & Cerise', 
+	barcode: '761 3036 280280',
 	hash: { _025: 1, water: 1, perrier: 1, },
 },
 { 
