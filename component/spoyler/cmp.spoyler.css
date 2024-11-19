@@ -76,13 +76,15 @@ cmp-spoyler {
 
 
 		cmp-spoyler .modal .img {
+			width: 98%;
 		}
 			cmp-spoyler .modal .img img {
+				width: 100%;
 				border-radius: 10px;
 			}
 
 		cmp-spoyler .modal .info {
-			margin: 0 0 50px 0;
+			margin: 10px 0 50px 0;
 			color: #fff;
 		}
 			cmp-spoyler .modal .info .info-title {
