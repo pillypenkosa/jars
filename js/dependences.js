@@ -20,13 +20,16 @@ const dependences = [
 
 	// масиви-списки з ЦЬОГО проекту ( свої ) -------------------------------------------------------------------------------------
 
+	//{ arr: 'studio' 		, },	
+	//{ arr: 'hashtag' 		, },
+	//{ arr: 'franchise' 		, },
+	//{ arr: 'movieset' 		, },
+	//{ arr: 'films' 			, },	
+
+
+	{ arr: 'jars' 			, },	
+	{ arr: 'jars.name' 		, },	
 	{ arr: 'jars.type' 		, },	
-	{ arr: 'jars.name' 		, },
-	{ arr: 'jars' 			, },
-
-
-
-
 
 
 
@@ -44,15 +47,36 @@ const dependences = [
 	// компоненти загальні --------------------------------------------------------------------------------------------------------
 
 
-	
-	{ cmp: 'Jars-By-Value' 		, },
+	{ cmp: 'Jars-025' 			, },
+	{ cmp: 'Jars-033' 			, },
+	{ cmp: 'Jars-05' 			, },
+	{ cmp: 'Spoyler' 			, },
+	//{ cmp: 'Posters-List' 		, },
+	//{ cmp: 'Each-People' 		, },
+	//{ cmp: 'Movie' 				, },
+	//{ cmp: 'Cast' 				, },
+	//{ cmp: 'Menu-Filter-Movie' 	, },
+	//{ cmp: 'Menu-Filter-People' , },
+	//{ cmp: 'Menu' 				, },
 
-	{ cmp: 'Win-Err404' 		, },
+
+
+	{ cmp: 'Logo' 				, },
 	{ cmp: 'Footer' 			, },
-	{ cmp: 'Cast' 				, },
-	{ cmp: 'Menu' 				, },
 	{ cmp: 'Header' 			, },
+	{ cmp: 'Win-Err404' 		, },
 
+
+
+
+
+
+
+
+
+
+
+	//{ cmp: 'Franchise' 			, },
 
 
 
@@ -62,7 +86,21 @@ const dependences = [
 
 	// компоненти-контенти // win-сторiнки ----------------------------------------------------------------------------------------
 	
-	{ cmp: 'Win-Index' 					, regexp: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
+	{ cmp: 'Win-Index' 					, win: 'index' 					, }, 	// regexp - url-маршрут (route) в адресному рядку
+	//{ cmp: 'Win-Index' 					, win: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
+	//{ cmp: 'Win-Movie' 					, win: /^movie$/ 					, }, 	
+	
+
+	//{ cmp: 'Win-Uid' 					, win: /^user\/[0-9A-Za-z]+$/ 		, }, 	// user/{ txt }
+
+
+
+
+	//{ cmp: 'Win-Actor' 					, win: /^actor$/ 					, }, 	
+	//{ cmp: 'Win-Actors' 				, win: /^actors$/ 					, }, 	
+	//{ cmp: 'Win-Movies' 				, win: /^movies$/ 					, }, 	
+	//{ cmp: 'Win-People' 				, win: /^people$/ 					, }, 	
+
 
 
 

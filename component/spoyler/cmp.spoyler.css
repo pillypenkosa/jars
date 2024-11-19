@@ -1,0 +1,122 @@
+cmp-spoyler {
+	display: block;
+} 
+	cmp-spoyler .title {
+		display: flex;
+		justify-content: space-between;
+		padding: 3px 10px 6px 10px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background: var( --bg-t );
+		color: #fff;
+		cursor: pointer;
+	} 
+		cmp-spoyler .title:hover {
+			color: #ff0;
+		} 
+
+
+		cmp-spoyler .title .txt-rating5 {
+			color: #0f0;
+		}
+		cmp-spoyler .title .txt-rating5p {
+			/*font-weight: bold;*/
+			color: #ff0;
+		}
+
+
+
+
+
+
+
+
+	cmp-spoyler .body .title-vol {
+		margin: 10px;
+		font-style: oblique;
+		color: #aaa;
+	}
+
+	cmp-spoyler .arr-jars {
+		margin: 0 0 30px 0;
+
+	}
+
+
+
+	cmp-spoyler .modal {
+		position: absolute;
+		width: 100%;
+
+		margin: 0 0 20px 0;
+		text-align: center;
+
+		background-color: rgba( 0, 0, 0, .9 );
+	}
+
+
+
+	cmp-spoyler .modal .close {
+		position: absolute;
+		top: 5px;
+		right: 20px;
+		padding: 1px 10px;
+		border-radius: 10px;
+		color: #f00;
+	}
+
+		cmp-spoyler .modal .close:hover {
+			background-color: #f00;
+			color: #fff;
+		}
+
+
+
+
+
+
+		cmp-spoyler .modal .img {
+		}
+			cmp-spoyler .modal .img img {
+				border-radius: 10px;
+			}
+
+		cmp-spoyler .modal .info {
+			margin: 0 0 50px 0;
+			color: #fff;
+		}
+			cmp-spoyler .modal .info .info-title {
+				margin: 0 0 10px 0;
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			cmp-spoyler .modal .info .info-volume {
+				margin: 0 0 10px 0;
+				/*font-size: 30px;*/
+				font-weight: bold;
+			}
+
+
+
+			cmp-spoyler .modal .info .info-barcode {
+				color: #ccc;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

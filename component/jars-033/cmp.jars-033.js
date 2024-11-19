@@ -4,20 +4,19 @@
  
  
  
-class ComponentJarsByValue { 
+class ComponentJars033 { 
  
  
  
-	static args = {}; 
+	//static args = {}; 
  
  
  
-	static html( arrData = [] ) { 
+	static html( arr = [] ) { 
 		const fooName = this.name + '.html()'; 
  
 		//this.args = objData.args ? objData.args : {}; 
  
-		//console.log( 'arrData: ', arrData ); 
  
  
 		let tagParam = { 
@@ -33,19 +32,23 @@ class ComponentJarsByValue {
  
  
 		let html = ''; 
-  		arrData.forEach( ( k, i ) => {
 
-			html += `<div class="each">
-				<div class="img" title="--- Jar ${ i+1 } ---\n${ k.title } \n${ k.barcode }">
-					<img src="img/jars/${ k.id }.jpg" alt="${ k.title } // ${ k.barcode }" >
-				</div>
-			</div>`;
+		//console.log( arr );
+ 
+ 
+		if ( arr ) {
+
+			arr.forEach( k => {
+				html += `<div class="img pointer" data-id="${ k.id }" onclick="ComponentSpoyler.modal( this )">
+					<img src="img/jars/${ k.id }.jpg" alt="">
+				</div>`;
+			});
+		}
 
 
- 		});
+
 
  
-
  
 		return { tagParam, html };  
 	} 
@@ -58,7 +61,7 @@ class ComponentJarsByValue {
 		const fooName = this.name + '.clc()'; 
  
 		//console.log( 'fooName: ', fooName ); 
-		//console.log( 'data', data ); 
+		//console.log( 'data: ', data ); 
  
 	} 
  

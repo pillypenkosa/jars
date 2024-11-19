@@ -6,7 +6,6 @@
 const arrListJarsType = [
 
 
-
 	{ id: 'wine' 			, title: 'Вино' 			, } ,
 	{ id: 'water' 			, title: 'Вода' 			, } ,
 	{ id: 'energy' 			, title: 'Енергетики' 		, } ,
@@ -18,23 +17,19 @@ const arrListJarsType = [
 	{ id: 'tea' 			, title: 'Чай' 				, } ,
 
 
-
-
-
-
-
-
-
 ];
 
 
+/*
+let objListJarsType = {};
+arrListJarsType.forEach( k => {
+	if ( k.id )
+		objListJarsType[ k.id ] = k;
+});
 
 
 
-
-
-
-
+*/
 
 
 

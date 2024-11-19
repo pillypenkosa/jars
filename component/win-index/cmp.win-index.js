@@ -1,4 +1,4 @@
-// © 2024 DJS
+// © 2023 DJS
 
 
 
@@ -12,7 +12,7 @@ class ComponentWinIndex {
 
 
 	// обрані фільми ( або добірки )
-	static arrSelected = [];
+	static arrSelectedFilms = [];
 
 
 
@@ -41,29 +41,71 @@ class ComponentWinIndex {
 
 		//let html = '<div class="info">Бажаю здоров\'я! ))</div>';
 		//let html = `<div>${ fooName }</div>`;
-		let html = fooName;
+		let html = '';
+
+/*
+		let arrSelected025 = [];
+		let arrSelected033 = [];
+		let arrSelected05 = [];
+
+		arrListJars.forEach( k => {
+
+			if ( k.hash ) {
+
+				if ( k.hash._025 ) 
+					arrSelected025.push( k );
+				
+				if ( k.hash._033 ) 
+					arrSelected033.push( k );
+				
+				if ( k.hash._05 ) 
+					arrSelected05.push( k );
+			}
+		});
+
+
 	
-
-			//<div id="showSelectedFilms">Оберіть категорію...</div>
-		html = `
-
-			<div id="showSelected"></div>
-
-			<div id="logo">
-				<img src="img/pic/logoDJS.png" alt="logo" />
-			</div>
+		console.log( 'arrSelected025: ', arrSelected025 );
+		console.log( 'arrSelected033: ', arrSelected033 );
+		console.log( 'arrSelected05: ', arrSelected05 );
 
 
 
+
+		if ( arrSelected025.length ) 
+			html += `${ Component( 'Spoyler', { volume: '_025', } ) }`;
+
+		
+
+
+*/
+
+
+
+
+		html += `<div id="modal"></div>
+			${ Component( 'Spoyler', { volume: '_025', } ) }
+			${ Component( 'Spoyler', { volume: '_033', } ) }
+			${ Component( 'Spoyler', { volume: '_05', } ) }
+			<br/>
 		`;
 
 
 
 
 
+
+
+		arrListJarsName.forEach( k => {
+
+			html += `${ Component( 'Spoyler', { id: k.id, title: k.title, } ) }`;
+		});
+
+
+
 		setMeta({
-			title 			: 'Jars DJS',
-			description 	: 'Jars DJS, jars collection...',
+			title 			: appProjectName,
+			description 	: appProjectName + ', jars collection...',
 			//keywords 		: 'Ключові слова...' + name,
 			image 			: 'img/pic/logoDJS.png',
 			//url 			: 'url/any/there/' + name,
@@ -89,223 +131,6 @@ class ComponentWinIndex {
 		//console.log( 'data', data );
 
 	}
-
-
-
-
-
-	// відбір об'єктів за вказаною категорією
-	static getSelected( data ) {
-		const fooName = this.name + '.getSelected()';
-
-
-		//console.log( 'fooName: ', fooName );
-		//console.log( 'data: ', data );
-
-
-
-
-
-
-		this.arrSelected = arrListJars;
-
-
-
-
-
-
-
-
-
-		if ( data.value ) {
-			if ( data.value != 'all' ) {
-
-				this.arrSelected = this.arrSelected.filter( k => {
-
-					if ( k.hash ) {
-						if ( k.hash[ data.value ] ) 
-							return true;
-					}
-				});
-			}
-		}
-
-
-
-		if ( data.type ) {
-			if ( data.type != 'all' ) {
-
-				this.arrSelected = this.arrSelected.filter( k => {
-
-					if ( k.hash ) {
-						if ( k.hash[ data.type ] ) 
-							return true;
-					}
-				});
-			}
-		}
-
-
-
-		if ( data.name ) {
-			if ( data.name != 'all' ) {
-
-				this.arrSelected = this.arrSelected.filter( k => {
-
-					if ( k.hash ) {
-						if ( k.hash[ data.name ] ) 
-							return true;
-					}
-				});
-			}
-		}
-
-
-
-
-
-
-
-
-		
-
-
-
-		//console.log( 'this.arrSelected: ', this.arrSelected );
-
-
-
-
-		//return;
-
-
-		this.showSelected();
-	}
-
-
-
-
-	// добірка
-	static getSelection( data ) {
-		const fooName = this.name + '.getSelection()';
-
-		//console.log( 'fooName: ', fooName );
-		//console.log( 'data: ', data );
-
-
-
-
-
-		this.arrSelected = [];
-
-
-
-
-
-
-		this.showSelected();
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// відображення обраних фільмів
-	static showSelected() {
-		const fooName = this.name + '.showSelected()';
-
-		//console.log( 'fooName: ', fooName );
-
-		//console.log( 'arrSelected: ', this.arrSelected );
-
-
-		let html = '';
-
-
-
-		let arrJar025 = [];
-		let arrJar033 = [];
-		let arrJar05 = [];
-
-		//console.log( this.arrSelected);
-
-
-		this.arrSelected.forEach( k => {
-
-			if ( k.hash ) {
-				if ( k.hash._025 )
-					arrJar025.push( k );	
-			}
-
-			if ( k.hash ) {
-				if ( k.hash._033 )
-					arrJar033.push( k );	
-			}
-
-			if ( k.hash ) {
-				if ( k.hash._05 )
-					arrJar05.push( k );	
-			}
-
-		});
-
-
-
-		//console.log( 'arr025', arrJar025 );
-		//console.log( 'arr033', arrJar033 );
-		//console.log( 'arr05', arrJar05 );
-
-		let htmlJar025 = '';
-		let htmlJar033 = '';
-		let htmlJar05 = '';
-		
-		if ( arrJar025.length ) 
-			htmlJar025 = `<div class="each-value" data-val="_025">
-				<div class="title-value">--- Jars 0.25 ---</div>
-				${ Component( 'Jars-By-Value', arrJar025 ) }
-			</div>`;
-
-		if ( arrJar033.length ) 
-			htmlJar033 = `<div class="each-value" data-val="_033">
-				<div class="title-value">--- Jars 0.33 ---</div>
-				${ Component( 'Jars-By-Value', arrJar033 ) }
-			</div>`;
-
-		if ( arrJar05.length ) 
-			htmlJar05 = `<div class="each-value" data-val="_05">
-				<div class="title-value">--- Jars 0.5 ---</div>
-				${ Component( 'Jars-By-Value', arrJar05 ) }
-			</div>`;
-
-
-		html = htmlJar025 + htmlJar033 + htmlJar05;
-
-
-		document.getElementById( 'showSelected' ).innerHTML = html;
-	}
-
-
-
-
-
-
-
-
-
-
 
 
 

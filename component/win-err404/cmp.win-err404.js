@@ -34,7 +34,7 @@ class ComponentWinErr404 {
 			//'defer' 		: '',
 		};
 
-		let html = 'Error 404! Нажаль, такої сторінки не існує... ';
+		let html = 'Error 404!..';
 
 
 		setMeta({

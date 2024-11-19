@@ -7,6 +7,16 @@ cmp-win-index {
 
 
 
+	/*height: 500px;*/
+
+
+
+
+
+
+
+
+
 	background: red;
 	background: var( --bg-r );
 	color: lime;
@@ -19,34 +29,20 @@ cmp-win-index {
 		/*height: 100%;*/
 
 		margin: 150px 0;
+
+
+
 		display: flex;
 		justify-content: center; /* Центр горизонталь */
 		align-items: center;     /* Центр вертикаль */
 
+
+
+
+
+
 	}
 
-
-
-	cmp-win-index .each {
-		display: inline-block;
-		width: 50px;
-		margin: 1px;
-	}
-		cmp-win-index .each .img {
-			width: 100%;
-		}
-			cmp-win-index .each .img img {
-				width: 100%;
-				border-radius: 5px;
-			}
-
-
-	cmp-win-index .each-value {
-		margin: 10px 0 30px 0;
-	}
-		cmp-win-index .each-value .title-value {
-			color: #aaa;
-		}
 
 
 

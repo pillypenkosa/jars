@@ -3097,5 +3097,16 @@ const arrListJars = [
 
 
 
+let objListJars = {};
+arrListJars.forEach( k => {
+	if ( k.id ) 
+		objListJars[ k.id ] = k;
+	
+});
+
+
+//console.log( objListJars );
+
+
 
 
