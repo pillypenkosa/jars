@@ -1277,9 +1277,21 @@ const arrListJars = [
 	hash: { _033: 1, drink: 1, fanta: 1, },
 },
 { 
+	id: 'fanta_033_exotic_2', 
+	title: 'Fanta Exotic', 
+	barcode: '574 0700 996153',
+	hash: { _033: 1, drink: 1, fanta: 1, },
+},
+{ 
 	id: 'fanta_033_lemon', 
 	title: 'Fanta Lemon', 
 	barcode: '574 0700 985300',
+	hash: { _033: 1, drink: 1, fanta: 1, },
+},
+{ 
+	id: 'fanta_033_lemon_2', 
+	title: 'Fanta Lemon', 
+	barcode: '544 9000 286932',
 	hash: { _033: 1, drink: 1, fanta: 1, },
 },
 { 
