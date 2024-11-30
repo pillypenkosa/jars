@@ -141,6 +141,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, black: 1, },
 },
 { 
+	id: 'black_025_original_zero_sugar', 
+	title: 'Black Original Zero Sugar', 
+	barcode: '590 0552 021865',
+	hash: { _025: 1, energy: 1, black: 1, },
+},
+{ 
 	id: 'black_after_alcohol_025_ultra_citrus', 
 	title: 'Black After Alcohol Ultra Citrus', 
 	barcode: '590 0552 063315',
@@ -1301,6 +1307,12 @@ const arrListJars = [
 	hash: { _033: 1, drink: 1, fanta: 1, },
 },
 { 
+	id: 'fanta_033_strawberry_kiwi_2', 
+	title: 'Fanta Strawberry & Kiwi', 
+	barcode: '574 0700 987984',
+	hash: { _033: 1, drink: 1, fanta: 1, },
+},
+{ 
 	id: 'free_damm_033_ba', 
 	title: 'Free Damm 0.0', 
 	barcode: '841 0793 066138',
@@ -2198,6 +2210,12 @@ const arrListJars = [
 { 
 	id: 'frugo_energy_05_wild_cherry', 
 	title: 'Frugo Energy Wild Cherry', 
+	barcode: '590 0552 087861',
+	hash: { _05: 1, energy: 1, frugo: 1, },
+},
+{ 
+	id: 'frugo_energy_05_zero_wild_cherry', 
+	title: 'Frugo Energy Zero Wild Cherry', 
 	barcode: '590 0552 087861',
 	hash: { _05: 1, energy: 1, frugo: 1, },
 },
