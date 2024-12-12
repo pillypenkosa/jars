@@ -681,6 +681,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, komodo: 1, },
 },
 { 
+	id: 'komodo_025_pina_colada_2', 
+	title: 'Komodo Pina Colada', 
+	barcode: '590 2854 100835',
+	hash: { _025: 1, energy: 1, komodo: 1, },
+},
+{ 
 	id: 'komodo_025_pink_grapefruit', 
 	title: 'Komodo Pink Grapefruit', 
 	barcode: '590 6213 012043',
@@ -1574,11 +1580,6 @@ const arrListJars = [
 	barcode: '800 2270 326943',
 	hash: { _033: 1, drink: 1, sanpellegrino: 1, },
 },
-
-
-
-
-
 { 
 	id: 'schweppes_033_bitter_lemon', 
 	title: 'Schweppes Bitter Lemon', 
@@ -1992,6 +1993,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, best_shot: 1, },
 },
 { 
+	id: 'best_shot_05_watermelon_melon', 
+	title: 'Best Shot Watermelon Melon', 
+	barcode: '482 0022 692993',
+	hash: { _05: 1, energy: 1, best_shot: 1, },
+},
+{ 
 	id: 'bitburger_05_ba', 
 	title: 'Bitburger 0.0 %', 
 	barcode: '410 2430 061395',
@@ -2278,6 +2285,12 @@ const arrListJars = [
 	title: 'Geyser Juice Mango XL', 
 	barcode: '482 0183 001948',
 	hash: { _05: 1, energy: 1, geyser: 1, },
+},
+{ 
+	id: 'johan_freitag_05_grapefruit_juniper', 
+	title: 'Johan Freitag Grapefruit & Juniper', 
+	barcode: '475 0142 005796',
+	hash: { _05: 1, gin: 1, johan_freitag: 1, },
 },
 { 
 	id: 'go_05_ba_pilsner', 
