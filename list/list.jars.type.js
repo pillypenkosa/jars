@@ -14,6 +14,7 @@ const arrListJarsType = [
 	{ id: 'drink' 			, title: 'Напої' 			, } ,
 	{ id: 'beer' 			, title: 'Пиво' 			, } ,
 	{ id: 'beer0' 			, title: 'Пиво (б/а)' 		, } ,
+	{ id: 'cider' 			, title: 'Сидр' 			, } ,
 	{ id: 'tea' 			, title: 'Чай' 				, } ,
 
 

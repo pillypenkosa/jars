@@ -1963,6 +1963,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, bavaria: 1, },
 },
 { 
+	id: 'bavaria_smalt_05_ba_mango_passion', 
+	title: 'Bavaria Smalt Mango & Passion', 
+	barcode: '871 4800 036023',
+	hash: { _05: 1, beer0: 1, bavaria: 1, },
+},
+{ 
 	id: 'bavaria_smalt_05_ba_original', 
 	title: 'Bavaria Smalt Original', 
 	barcode: '871 4800 011426',
@@ -2791,6 +2797,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, pulse: 1, },
 },
 { 
+	id: 'ritterburg_05_ba_alkohol_frei', 
+	title: 'Ritterburg Alkohol Frei', 
+	barcode: '40',
+	hash: { _05: 1, beer0: 1, ritterburg: 1, },
+},
+{ 
 	id: 'roar_05', 
 	title: 'Roar', 
 	barcode: '299 9300 049193',
@@ -2845,6 +2857,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, schlitz: 1, },
 },
 { 
+	id: 'sherwood_05_strawberry_cream_taste', 
+	title: 'Sherwood Strawberry & Cream Taste', 
+	barcode: '470 0301 236755',
+	hash: { _05: 1, cider: 1, sherwood: 1, },
+},
+{ 
 	id: 'smetoniska_05_gira', 
 	title: 'Smetoniska Gira', 
 	barcode: '477 0301 229740',
@@ -2861,6 +2879,12 @@ const arrListJars = [
 	title: 'Svijany Svijansky Vozka', 
 	barcode: '859 4030 013137',
 	hash: { _05: 1, beer0: 1, svijany: 1, },
+},
+{ 
+	id: 'tauras_05_ba_tradicinis', 
+	title: 'Tauras Tradicinis 0.0', 
+	barcode: '477 0477 229957',
+	hash: { _05: 1, beer0: 1, tauras: 1, },
 },
 { 
 	id: 'tuborg_05_raspberry', 
