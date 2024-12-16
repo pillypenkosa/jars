@@ -2088,6 +2088,13 @@ const arrListJars = [
 	barcode: '405 3400 001579',
 	hash: { _05: 1, beer0: 1, clausthaler: 1, },
 },
+
+{ 
+	id: 'clausthaler_05_ba_original_2', 
+	title: 'Clausthaler Original', 
+	barcode: '405 3400 001579',
+	hash: { _05: 1, beer0: 1, clausthaler: 1, },
+},
 { 
 	id: 'clausthaler_05_ba_grapefruit_2', 
 	title: 'Clausthaler Grapefruit', 
