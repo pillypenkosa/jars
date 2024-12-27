@@ -2528,6 +2528,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, krusovice: 1, },
 },
 { 
+	id: 'kvas_premium_05_bread_fuel', 
+	title: 'Kvass Premium Bread Fuel', 
+	barcode: '482 0183 002402',
+	hash: { _05: 1, kvass: 1, },
+},
+{ 
 	id: 'kvas_premium_05_cola_fuel', 
 	title: 'Kvass Premium Cola Fuel', 
 	barcode: '482 0183 002419',
