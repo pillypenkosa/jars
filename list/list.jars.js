@@ -2384,6 +2384,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, hell: 1, },
 },
 { 
+	id: 'hell_05_goji_berry', 
+	title: 'Goji Berry', 
+	barcode: '599 9571 054695',
+	hash: { _05: 1, energy: 1, hell: 1, },
+},
+{ 
 	id: 'hell_05_peach_lemon', 
 	title: 'Hell Peach Lemon', 
 	barcode: '599 9571 051878',
