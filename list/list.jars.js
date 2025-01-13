@@ -958,6 +958,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, red_bull: 1, },
 },
 { 
+	id: 'red_bull_025_3', 
+	title: 'Red Bull (Ольга Харлан)', 
+	barcode: '90 02490 100070',
+	hash: { _025: 1, energy: 1, red_bull: 1, },
+},
+{ 
 	id: 'red_bull_025_2', 
 	title: 'Red Bull З таурином', 
 	barcode: '9016 2800',
