@@ -15,7 +15,11 @@ const arrListJarsType = [
 	{ id: 'beer' 			, title: 'Пиво' 			, } ,
 	{ id: 'beer0' 			, title: 'Пиво (б/а)' 		, } ,
 	{ id: 'cider' 			, title: 'Сидр' 			, } ,
+	{ id: 'juice' 			, title: 'Сік' 			, } ,
 	{ id: 'tea' 			, title: 'Чай' 				, } ,
+
+
+
 
 
 ];

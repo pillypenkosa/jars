@@ -249,6 +249,12 @@ const arrListJars = [
 	hash: { _025: 1, drink: 1, coca_cola: 1, cola: 1, },
 },
 { 
+	id: 'coca_cola_025_zero_zucker_oreo', 
+	title: 'Coca Cola Zero Zucker Oreo', 
+	barcode: '544 9000 329691',
+	hash: { _025: 1, drink: 1, coca_cola: 1, cola: 1, },
+},
+{ 
 	id: 'coca_cola_025_plus_coffee', 
 	title: 'Coca Cola Plus coffee', 
 	barcode: '544 9000 258243',
@@ -759,6 +765,22 @@ const arrListJars = [
 	barcode: '844 5291 047617',
 	hash: { _025: 1, water: 1, perrier: 1, },
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 { 
 	id: 'minions_025_kinder_cola', 
 	title: 'Minions Kinder Cola', 
@@ -1828,7 +1850,7 @@ const arrListJars = [
 	id: 'arizona_05_mucho_mango_2', 
 	title: 'AriZona Mucho Mango', 
 	barcode: '061 3008 744007',
-	hash: { _05: 1, energy: 1, arizona: 1, },
+	hash: { _05: 1, juice: 1, arizona: 1, },
 },
 { 
 	id: 'bakalar_05_ba', 
