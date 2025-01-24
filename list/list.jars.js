@@ -1825,6 +1825,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, arizona: 1, },
 },
 { 
+	id: 'arizona_05_mucho_mango_2', 
+	title: 'AriZona Mucho Mango', 
+	barcode: '061 3008 744007',
+	hash: { _05: 1, energy: 1, arizona: 1, },
+},
+{ 
 	id: 'bakalar_05_ba', 
 	title: 'Bakalar', 
 	barcode: '859 4053 493213',
