@@ -760,27 +760,23 @@ const arrListJars = [
 	hash: { _025: 1, water: 1, perrier: 1, },
 },
 { 
-	id: 'maison_perrier_025_magnetic_juice',
-	title: 'Maison Perrier Magnetic Juice', 
+	id: 'maison_perrier_025_magnetic_juice_pineapple_mango',
+	title: 'Maison Perrier Magnetic Juice Pineapple Mango', 
 	barcode: '844 5291 047617',
 	hash: { _025: 1, water: 1, perrier: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ 
+	id: 'maison_perrier_025_magnetic_juice_lemon_guava',
+	title: 'Maison Perrier Magnetic Juice Lemon Guava', 
+	barcode: '844 5291 047570',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
+	id: 'maison_perrier_025_magnetic_juice_peach_cherry',
+	title: 'Maison Perrier Magnetic Juice Peach Cherry', 
+	barcode: '844 5291 047655',
+	hash: { _025: 1, water: 1, perrier: 1, },
+},
 { 
 	id: 'minions_025_kinder_cola', 
 	title: 'Minions Kinder Cola', 
