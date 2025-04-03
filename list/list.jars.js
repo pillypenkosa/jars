@@ -2618,6 +2618,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, lomza_radler: 1, },
 },
 { 
+	id: 'lowenbrau_05_ba_original', 
+	title: 'Lowenbrau Original',
+	barcode: '482 0034 927113',
+	hash: { _05: 1, beer0: 1, lowenbrau: 1, },
+},
+{ 
 	id: 'monster_05', 
 	title: 'Monster Energy', 
 	barcode: '506 0166 692483',
@@ -3041,6 +3047,12 @@ const arrListJars = [
 	id: 'bile_05_ba', 
 	title: 'Біле 0 Alco', 
 	barcode: '482 0034 925263',
+	hash: { _05: 1, beer0: 1, bile: 1, },
+},
+{ 
+	id: 'bile_05_ba_grapefruit', 
+	title: 'Біле 0 Grapefruit', 
+	barcode: '482 0034 927281',
 	hash: { _05: 1, beer0: 1, bile: 1, },
 },
 { 

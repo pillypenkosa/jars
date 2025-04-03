@@ -43,7 +43,7 @@ class ComponentJars025 {
 
 			arr.forEach( k => {
 
-				html += `<div class="img pointer" data-id="${ k.id }" onclick="ComponentSpoyler.modal( this )">
+				html += `<div class="img pointer" data-id="${ k.id }" onclick="ComponentSpoyler.modal( this )" title="${ k.title }">
 					<img src="img/jars/${ k.id }.jpg" alt="">
 				</div>`;
 			});

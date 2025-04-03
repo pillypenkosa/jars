@@ -94,6 +94,7 @@ const arrListJarsName = [
 	{ id: 'lipton' 					, title: 'Lipton' 				, } ,
 	{ id: 'leffe' 					, title: 'Leffe' 				, } ,
 	{ id: 'lemonade_joe' 			, title: 'Lemonade Joe' 		, } ,
+	{ id: 'lowenbrau' 				, title: 'Lowenbrau' 			, } ,
 	{ id: 'maaza' 					, title: 'Maaza' 				, } ,
 	{ id: 'minions' 				, title: 'Minions' 				, } ,
 	{ id: 'mirinda' 				, title: 'Mirinda' 				, } ,
