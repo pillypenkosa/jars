@@ -1915,6 +1915,18 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, battery: 1, },
 },
 { 
+	id: 'battery_juiced_05_sour_apple', 
+	title: 'Battery Sour Apple', 
+	barcode: '482 0250 944253',
+	hash: { _05: 1, energy: 1, battery: 1, },
+},
+{ 
+	id: 'battery_juiced_05_peach_lemonade', 
+	title: 'Battery Sour Peach Lemonade', 
+	barcode: '482 0250 944239',
+	hash: { _05: 1, energy: 1, battery: 1, },
+},
+{ 
 	id: 'bavaria_05_ba_original', 
 	title: 'Bavaria 0,0 % Premium Original', 
 	barcode: '871 4800 011426',
@@ -3035,6 +3047,12 @@ const arrListJars = [
 	id: '1_privatna_brovarnya_05_ba_specialne', 
 	title: '1 приватна броварня Нефільтроване спеціальне', 
 	barcode: '482 0046 963369',
+	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
+},
+{ 
+	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0', 
+	title: '1 Безалкогольне №0', 
+	barcode: '482 0046 964304',
 	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
 },
 { 
