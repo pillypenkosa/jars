@@ -3050,7 +3050,13 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
 },
 { 
-	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0', 
+	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_1', 
+	title: '1 Безалкогольне №0', 
+	barcode: '482 0046 963369',
+	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
+},
+{ 
+	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_2', 
 	title: '1 Безалкогольне №0', 
 	barcode: '482 0046 964304',
 	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
@@ -3228,6 +3234,24 @@ const arrListJars = [
 	title: 'Розмай лісовий Суниця та м\'ята', 
 	barcode: '482 0250 941887',
 	hash: { _05: 1, drink: 1, rozmay_lisovy: 1, },
+},
+{ 
+	id: 'chayka_05_ba_chornomorska_svitle', 
+	title: 'Чайка Чорноморська Світле', 
+	barcode: '482 0022 693075',
+	hash: { _05: 1, beer0: 1, chayka: 1, },
+},
+{ 
+	id: 'chayka_05_ba_chornomorska_orange_grapefruit', 
+	title: 'Чайка Чорноморська Апельсин Грейпфрут', 
+	barcode: '482 0022 693099',
+	hash: { _05: 1, beer0: 1, chayka: 1, },
+},
+{ 
+	id: 'chayka_05_ba_chornomorska_lemon_lime', 
+	title: 'Чайка Чорноморська Лимон Лайм', 
+	barcode: '482 0022 693112',
+	hash: { _05: 1, beer0: 1, chayka: 1, },
 },
 { 
 	id: 'chernigivske_05_ba_blue', 

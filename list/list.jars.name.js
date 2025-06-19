@@ -157,6 +157,7 @@ const arrListJarsName = [
 	{ id: 'lvivske' 				, title: 'Львівське' 			, } ,
 	{ id: 'pivovarnya_n1' 			, title: 'Пивоварня №1' 		, } ,
 	{ id: 'rozmay_lisovy' 			, title: 'Розмай лісовий' 		, } ,
+	{ id: 'chayka' 					, title: 'Чайка ' 				, } ,
 	{ id: 'chernigivske' 			, title: 'Чернігівське ' 		, } ,
 
 
