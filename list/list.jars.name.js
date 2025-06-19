@@ -159,7 +159,7 @@ const arrListJarsName = [
 
 	{ id: 'kvass' 					, title: 'Квас' 				, } ,
 	{ id: 'kvass_premium' 			, title: '- Kvass Premium' 		, } ,
-	{ id: 'kvass_tail' 				, title: '- Kvasstail' 			, } ,
+	{ id: 'kvass_tail' 				, title: '- Kvastail' 			, } ,
 	{ id: 'kvass_kyivsky' 			, title: '- Квас Київський' 	, } ,
 	{ id: 'kvass_opillia' 			, title: '- Квас Опілля' 		, } ,
 	{ id: 'kvass_taras' 			, title: '- Квас Тарас' 		, } ,
