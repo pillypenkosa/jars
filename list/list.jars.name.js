@@ -130,7 +130,6 @@ const arrListJarsName = [
 	{ id: 'schwip_schwap' 			, title: 'Schwip Schwap' 		, } ,
 	{ id: 'sherwood' 				, title: 'Sherwood' 			, } ,
 	{ id: 'sinkist' 				, title: 'Sinkist' 				, } ,
-	{ id: 'smetoniska' 				, title: 'Smetoniska' 			, } ,
 	{ id: 'sprite' 					, title: 'Sprite' 				, } ,
 	{ id: 'stammgast' 				, title: 'Stammgast' 			, } ,
 	{ id: 'stella_artois' 			, title: 'Stella Artois' 		, } ,
@@ -159,14 +158,11 @@ const arrListJarsName = [
 	{ id: 'chernigivske' 			, title: 'Чернігівське ' 		, } ,
 
 	{ id: 'kvass' 					, title: 'Квас' 				, } ,
-	{ id: 'kvass_premium' 			, title: '- Квас Premium' 		, } ,
+	{ id: 'kvass_premium' 			, title: '- Kvass Premium' 		, } ,
+	{ id: 'kvass_tail' 				, title: '- Kvasstail' 			, } ,
 	{ id: 'kvass_kyivsky' 			, title: '- Квас Київський' 	, } ,
 	{ id: 'kvass_opillia' 			, title: '- Квас Опілля' 		, } ,
-
-
 	{ id: 'kvass_taras' 			, title: '- Квас Тарас' 		, } ,
-
-
 
 
 

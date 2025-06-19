@@ -1782,13 +1782,13 @@ const arrListJars = [
 	id: 'kvas_taras_033_orange', 
 	title: 'Квас Тарас Crazy Апельсин', 
 	barcode: '482 0000 458115',
-	hash: { _033: 1, kvass: 1, kvass_taras: 1, },
+	hash: { _033: 1, kvass_taras: 1, },
 },
 { 
 	id: 'kvas_taras_033_strawberry', 
 	title: 'Квас Тарас Crazy Суниця М\'ята', 
 	barcode: '482 0000 459310',
-	hash: { _033: 1, kvass: 1, kvass_taras: 1, },
+	hash: { _033: 1, kvass_taras: 1, },
 },
 
 
@@ -2792,6 +2792,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, non_stop: 1, },
 },
 { 
+	id: 'non_stop_05_zoom', 
+	title: 'Non Stop Zoom', 
+	barcode: '482 0252 124035',
+	hash: { _05: 1, energy: 1, non_stop: 1, },
+},
+{ 
 	id: 'non_stop_05_stalker', 
 	title: 'Non Stop Stalker', 
 	barcode: '482 0252 122413',
@@ -2801,6 +2807,12 @@ const arrListJars = [
 	id: 'non_stop_05_stalker_2', 
 	title: 'Non Stop Stalker', 
 	barcode: '482 0252 122901',
+	hash: { _05: 1, energy: 1, non_stop: 1, },
+},
+{ 
+	id: 'non_stop_05_stalker_3', 
+	title: 'Non Stop Stalker', 
+	barcode: '482 0252 124837',
 	hash: { _05: 1, energy: 1, non_stop: 1, },
 },
 { 
@@ -3188,76 +3200,16 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, chernigivske: 1, },
 },
 { 
-	id: 'kvas_tail_05_pink_elephant', 
-	title: 'Kvastail Pink Elephant', 
-	barcode: '482 0002 713922',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_tail_05_west_indian_cooler', 
-	title: 'Kvastail West Indian Cooler', 
-	barcode: '482 0002 713915',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_premium_05_bread_fuel', 
-	title: 'Kvass Premium Bread Fuel', 
-	barcode: '482 0183 002402',
-	hash: { _05: 1, kvass: 1, kvass_premium: 1,},
-},
-{ 
-	id: 'kvas_premium_05_cola_fuel', 
-	title: 'Kvass Premium Cola Fuel', 
-	barcode: '482 0183 002419',
-	hash: { _05: 1, kvass: 1, kvass_premium: 1,},
-},
-{ 
-	id: 'kvas_premium_05_mango_fuel', 
-	title: 'Kvass Premium Mango Fuel', 
-	barcode: '482 0183 002426',
-	hash: { _05: 1, kvass: 1, kvass_premium: 1,},
-},
-{ 
 	id: 'smetoniska_05_gira', 
 	title: 'Smetoniska Gira', 
 	barcode: '477 0301 229740',
-	hash: { _05: 1, kvass: 1, smetoniska: 1, },
+	hash: { _05: 1, kvass: 1, },
 },
 { 
-	id: 'kvas_05_kyivsky_bily', 
-	title: 'Квас Київський Білий', 
-	barcode: '482 0002 713106',
-	hash: { _05: 1, kvass: 1, kvass_kyivsky: 1, },
-},
-{ 
-	id: 'kvas_05_kyivsky_temny', 
-	title: 'Квас Київський Темний', 
-	barcode: '482 0002 713885',
-	hash: { _05: 1, kvass: 1, kvass_kyivsky: 1, },
-},
-
-
-
-
-
-
-
-
-
-
-
-
-{ 
-	id: 'kvas_05_opillia_bily', 
-	title: 'Квас Опілля Білий', 
-	barcode: '482 0158 673958',
-	hash: { _05: 1, kvass: 1, kvass_opillia: 1, },
-},
-{ 
-	id: 'kvas_05_opillia_domashny', 
-	title: 'Квас Опілля Домашній', 
-	barcode: '482 0158 673972',
-	hash: { _05: 1, kvass: 1, kvass_opillia: 1, },
+	id: 'kvas_05_hlibny', 
+	title: 'Квас Хлібний', 
+	barcode: '299 9300 107329',
+	hash: { _05: 1, kvass: 1, },
 },
 { 
 	id: 'kvas_05_starokyivsky', 
@@ -3272,35 +3224,96 @@ const arrListJars = [
 	hash: { _05: 1, kvass: 1, },
 },
 { 
-	id: 'kvas_taras_05_flower_power', 
-	title: 'Квас Тарас Flower Power', 
-	barcode: '482 0250 943751',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_taras_05_bily', 
-	title: 'Квас Тарас Білий', 
-	barcode: '482 0000 457514',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_taras_05_chorny', 
-	title: 'Квас Тарас Чорний', 
-	barcode: '482 0000 457521',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
-	id: 'kvas_taras_05_hlibny', 
-	title: 'Квас Тарас Хлібний', 
-	barcode: '482 0000 451895',
-	hash: { _05: 1, kvass: 1, },
-},
-{ 
 	id: 'kvas_yarylo_porter_05_micny', 
 	title: 'Квас Ярило Портер Міцний', 
 	barcode: '482 0196 932611',
 	hash: { _05: 1, kvass: 1, },
 },
+{ 
+	id: 'kvas_premium_05_bread_fuel', 
+	title: 'Kvass Premium Bread Fuel', 
+	barcode: '482 0183 002402',
+	hash: { _05: 1, kvass_premium: 1,},
+},
+{ 
+	id: 'kvas_premium_05_cola_fuel', 
+	title: 'Kvass Premium Cola Fuel', 
+	barcode: '482 0183 002419',
+	hash: { _05: 1, kvass_premium: 1,},
+},
+{ 
+	id: 'kvas_premium_05_mango_fuel', 
+	title: 'Kvass Premium Mango Fuel', 
+	barcode: '482 0183 002426',
+	hash: { _05: 1, kvass_premium: 1,},
+},
+{ 
+	id: 'kvas_tail_05_pink_elephant', 
+	title: 'Kvastail Pink Elephant', 
+	barcode: '482 0002 713922',
+	hash: { _05: 1, kvass_tail: 1, },
+},
+{ 
+	id: 'kvas_tail_05_west_indian_cooler', 
+	title: 'Kvastail West Indian Cooler', 
+	barcode: '482 0002 713915',
+	hash: { _05: 1, kvass_tail: 1, },
+},
+{ 
+	id: 'kvas_05_kyivsky_bily', 
+	title: 'Квас Київський Білий', 
+	barcode: '482 0002 713106',
+	hash: { _05: 1, kvass_kyivsky: 1, },
+},
+{ 
+	id: 'kvas_05_kyivsky_temny', 
+	title: 'Квас Київський Темний', 
+	barcode: '482 0002 713885',
+	hash: { _05: 1, kvass_kyivsky: 1, },
+},
+{ 
+	id: 'kvas_05_opillia_bily', 
+	title: 'Квас Опілля Білий', 
+	barcode: '482 0158 673958',
+	hash: { _05: 1, kvass_opillia: 1, },
+},
+{ 
+	id: 'kvas_05_opillia_domashny', 
+	title: 'Квас Опілля Домашній', 
+	barcode: '482 0158 673972',
+	hash: { _05: 1, kvass_opillia: 1, },
+},
+{ 
+	id: 'kvas_05_opillia_chorny', 
+	title: 'Квас Опілля Чорний', 
+	barcode: '482 0158 674702',
+	hash: { _05: 1, kvass_opillia: 1, },
+},
+{ 
+	id: 'kvas_taras_05_flower_power', 
+	title: 'Квас Тарас Flower Power', 
+	barcode: '482 0250 943751',
+	hash: { _05: 1, kvass_taras: 1, },
+},
+{ 
+	id: 'kvas_taras_05_bily', 
+	title: 'Квас Тарас Білий', 
+	barcode: '482 0000 457514',
+	hash: { _05: 1, kvass_taras: 1, },
+},
+{ 
+	id: 'kvas_taras_05_chorny', 
+	title: 'Квас Тарас Чорний', 
+	barcode: '482 0000 457521',
+	hash: { _05: 1, kvass_taras: 1, },
+},
+{ 
+	id: 'kvas_taras_05_hlibny', 
+	title: 'Квас Тарас Хлібний', 
+	barcode: '482 0000 451895',
+	hash: { _05: 1, kvass_taras: 1, },
+},
+
 
 
 
