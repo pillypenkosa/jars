@@ -41,7 +41,6 @@ const arrListJarsName = [
 	{ id: 'cola' 					, title: 'Cola' 				, } ,
 	{ id: 'cola_vegan' 				, title: 'Cola Vegan' 			, } ,
 	{ id: 'cortes' 					, title: 'Cortes' 				, } ,
-	{ id: 'crazy' 					, title: 'Crazy' 				, } ,
 	{ id: 'double_seven' 			, title: 'Double Seven' 		, } ,
 	{ id: 'douwe_egberts' 			, title: 'Douwe Egberts' 		, } ,
 	{ id: 'dr_pepper' 				, title: 'Dr Pepper' 			, } ,
@@ -152,13 +151,22 @@ const arrListJarsName = [
 	{ id: 'vyatrachok' 				, title: 'Вятрачок' 			, } ,
 	{ id: 'zhivchik' 				, title: 'Живчик' 				, } ,
 	{ id: 'zakarpatske' 			, title: 'Закарпатське' 		, } ,
-	{ id: 'kvass' 					, title: 'Квас' 				, } ,
 	{ id: 'lymonady_cherkaschyny' 	, title: 'Лимонади Черкащини' 	, } ,
 	{ id: 'lvivske' 				, title: 'Львівське' 			, } ,
 	{ id: 'pivovarnya_n1' 			, title: 'Пивоварня №1' 		, } ,
 	{ id: 'rozmay_lisovy' 			, title: 'Розмай лісовий' 		, } ,
 	{ id: 'chayka' 					, title: 'Чайка ' 				, } ,
 	{ id: 'chernigivske' 			, title: 'Чернігівське ' 		, } ,
+
+	{ id: 'kvass' 					, title: 'Квас' 				, } ,
+	{ id: 'kvass_premium' 			, title: '- Квас Premium' 		, } ,
+	{ id: 'kvass_kyivsky' 			, title: '- Квас Київський' 	, } ,
+	{ id: 'kvass_opillia' 			, title: '- Квас Опілля' 		, } ,
+
+
+	{ id: 'kvass_taras' 			, title: '- Квас Тарас' 		, } ,
+
+
 
 
 
