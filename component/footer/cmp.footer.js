@@ -34,7 +34,7 @@ class ComponentFooter {
 		};
 
 		// TotalApp.year - db/js/TotalApp.js
-		let html = `© ${ TotalApp.year } pillypenkosa@gmail.com`; 
+		let html = `© ${ Total.year } pillypenkosa@gmail.com`; 
 
 
 
