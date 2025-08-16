@@ -585,6 +585,18 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, hell: 1, },
 },
 { 
+	id: 'hell_025_le_lime_flavour', 
+	title: 'Hell Limited Edition Lime Spritz Flavour', 
+	barcode: '599 9571 055692',
+	hash: { _025: 1, energy: 1, hell: 1, },
+},
+{ 
+	id: 'hell_025_le_maracuja_spritz_flavour', 
+	title: 'Hell Limited Edition Maracuja Spritz Flavour', 
+	barcode: '599 9571 055678',
+	hash: { _025: 1, energy: 1, hell: 1, },
+},
+{ 
 	id: 'iron_025_classic', 
 	title: 'Iron Classic', 
 	barcode: '590 0552 080527',
@@ -784,6 +796,12 @@ const arrListJars = [
 	hash: { _025: 1, drink: 1, minions: 1, cola: 1, },
 },
 { 
+	id: 'minions_025_kinder_cola_2', 
+	title: 'Minions Kinder Cola', 
+	barcode: '590 4730 983693',
+	hash: { _025: 1, drink: 1, minions: 1, cola: 1, },
+},
+{ 
 	id: 'mole_cola_025', 
 	title: 'Mole Cola', 
 	barcode: '805 4377 870027',
@@ -850,6 +868,12 @@ const arrListJars = [
 	hash: { _025: 1, energy: 1, non_stop: 1, },
 },
 { 
+	id: 'non_stop_025_stalker_3', 
+	title: 'Non Stop Stalker', 
+	barcode: '482 0252 124820',
+	hash: { _025: 1, energy: 1, non_stop: 1, },
+},
+{ 
 	id: 'oshee_025_the_witcher', 
 	title: 'Oshee The Witcher', 
 	barcode: '590 8260 257972',
@@ -890,6 +914,12 @@ const arrListJars = [
 	title: 'Perrier Juice Peche & Cerise', 
 	barcode: '761 3036 280280',
 	hash: { _025: 1, water: 1, perrier: 1, },
+},
+{ 
+	id: 'pit_ballert_025', 
+	title: 'Pit Ballert', 
+	barcode: '590 1828 013119',
+	hash: { _025: 1, energy: 1, pit_ballert: 1, },
 },
 { 
 	id: 'pit_bull_025_burgundy', 
@@ -1052,6 +1082,18 @@ const arrListJars = [
 	title: 'Sprite', 
 	barcode: '544 9000 000729',
 	hash: { _025: 1, drink: 1, sprite: 1, },
+},
+{ 
+	id: 'stumble_guys_025_banana_guy_banana_ananas', 
+	title: 'Stumble Guys Banana Guy Banana Ananas', 
+	barcode: '594 8688 045362',
+	hash: { _025: 1, drink: 1, stumble_guys: 1, },
+},
+{ 
+	id: 'stumble_guys_025_mr_stumble_tropical', 
+	title: 'Stumble Guys Mr Stumble Tropical', 
+	barcode: '594 8688 045379',
+	hash: { _025: 1, drink: 1, stumble_guys: 1, },
 },
 { 
 	id: 'vitamin_025', 
@@ -1319,6 +1361,12 @@ const arrListJars = [
 	hash: { _033: 1, drink: 1, fanta: 1, },
 },
 { 
+	id: 'fanta_033_fruit_twist', 
+	title: 'Fanta Fruit  Twist', 
+	barcode: '544 9000 042101',
+	hash: { _033: 1, drink: 1, fanta: 1, },
+},
+{ 
 	id: 'fanta_033_lemon', 
 	title: 'Fanta Lemon', 
 	barcode: '574 0700 985300',
@@ -1328,6 +1376,12 @@ const arrListJars = [
 	id: 'fanta_033_lemon_2', 
 	title: 'Fanta Lemon', 
 	barcode: '544 9000 286932',
+	hash: { _033: 1, drink: 1, fanta: 1, },
+},
+{ 
+	id: 'fanta_033_pineapple_grapefruit', 
+	title: 'Fanta Pineapple & Grapefruit', 
+	barcode: '544 9000 089359',
 	hash: { _033: 1, drink: 1, fanta: 1, },
 },
 { 
@@ -1790,7 +1844,18 @@ const arrListJars = [
 	barcode: '482 0000 459310',
 	hash: { _033: 1, kvass_taras: 1, },
 },
-
+{ 
+	id: 'warheads_033_sour_black_cherry_soda', 
+	title: 'WarHeads Sour Black Cherry Soda', 
+	barcode: '8 50035 24863 8',
+	hash: { _033: 1, warheads: 1, },
+},
+{ 
+	id: 'warheads_033_sour_blue_raspberry_soda', 
+	title: 'WarHeads Sour Blue Raspberry Soda', 
+	barcode: '8 50035 24864 5',
+	hash: { _033: 1, warheads: 1, },
+},
 
 
 
@@ -1801,10 +1866,6 @@ const arrListJars = [
 
 
 // 0.5 ---------------------------------------------------------------------------------------------------------------------------
-
-
-
-
 
 { 
 	id: 'a_le_coq_05_ba', 
@@ -2210,6 +2271,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, edelmeister: 1, },
 },
 { 
+	id: 'estrella_galicia_05_ba',
+	title: 'Estrella Galicia 0.0', 
+	barcode: '841 2598 005206',
+	hash: { _05: 1, beer0: 1, estrella_galicia: 1, },
+},
+{ 
 	id: 'ever_aid_05_vitamin_water_lemon',
 	title: 'Ever Aid Vitamin Water Lemon', 
 	barcode: '482 0183 002150',
@@ -2342,6 +2409,12 @@ const arrListJars = [
 	hash: { _05: 1, energy: 1, geyser: 1, },
 },
 { 
+	id: 'geyser_05_sugar_free_2', 
+	title: 'Geyser Sugar Free', 
+	barcode: '482 0183 001641',
+	hash: { _05: 1, energy: 1, geyser: 1, },
+},
+{ 
 	id: 'geyser_juice_05_mango', 
 	title: 'Geyser Juice Mango XL', 
 	barcode: '482 0183 001948',
@@ -2441,6 +2514,12 @@ const arrListJars = [
 	id: 'hell_05_peach_lemon_flavour', 
 	title: 'Hell Peach Lemon Flavour', 
 	barcode: '599 9571 051878',
+	hash: { _05: 1, energy: 1, hell: 1, },
+},
+{ 
+	id: 'hell_05_strawberry_banana', 
+	title: 'Hell Strawberry Banana', 
+	barcode: '599 9571 054718',
 	hash: { _05: 1, energy: 1, hell: 1, },
 },
 { 
@@ -2616,6 +2695,24 @@ const arrListJars = [
 	title: 'Lowenbrau Original',
 	barcode: '482 0034 927113',
 	hash: { _05: 1, beer0: 1, lowenbrau: 1, },
+},
+{ 
+	id: 'meister_05_ba_non_alco', 
+	title: 'Meister Non Alco',
+	barcode: '477 0301 237080',
+	hash: { _05: 1, beer0: 1, meister: 1, },
+},
+{ 
+	id: 'meister_radler_05_ba_peach', 
+	title: 'Meister Radler Peach',
+	barcode: '477 0301 237073',
+	hash: { _05: 1, beer0: 1, meister: 1, },
+},
+{ 
+	id: 'meister_radler_05_ba_raspberry', 
+	title: 'Meister Radler Raspberry',
+	barcode: '477 0301 237370',
+	hash: { _05: 1, beer0: 1, meister: 1, },
 },
 { 
 	id: 'monster_05', 
@@ -2942,6 +3039,12 @@ const arrListJars = [
 	hash: { _05: 1, beer0: 1, svijany: 1, },
 },
 { 
+	id: 'tauras_05_ba_ekstra', 
+	title: 'Tauras Ekstra 0,0', 
+	barcode: '477 0477 233886',
+	hash: { _05: 1, beer0: 1, tauras: 1, },
+},
+{ 
 	id: 'tauras_05_ba_tradicinis', 
 	title: 'Tauras Tradicinis 0.0', 
 	barcode: '477 0477 229957',
@@ -3141,6 +3244,12 @@ const arrListJars = [
 },
 { 
 	id: 'lvivske_05_ba', 
+	title: 'Львівське 1715 Безалкогольне', 
+	barcode: '482 0250 942082',
+	hash: { _05: 1, beer0: 1, lvivske: 1, },
+},
+{ 
+	id: 'lvivske_05_ba_2', 
 	title: 'Львівське 1715 Безалкогольне', 
 	barcode: '482 0250 942082',
 	hash: { _05: 1, beer0: 1, lvivske: 1, },
