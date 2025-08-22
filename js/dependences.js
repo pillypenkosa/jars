@@ -27,9 +27,9 @@ const dependences = [
 	//{ arr: 'films' 			, },	
 
 
-	{ arr: 'jars' 			, },	
+	{ arr: 'jars.cat' 		, },	
 	{ arr: 'jars.name' 		, },	
-	{ arr: 'jars.type' 		, },	
+	{ arr: 'jars' 			, },	
 
 
 
@@ -47,17 +47,13 @@ const dependences = [
 	// компоненти загальні --------------------------------------------------------------------------------------------------------
 
 
-	{ cmp: 'Jars-025' 			, },
-	{ cmp: 'Jars-033' 			, },
-	{ cmp: 'Jars-05' 			, },
-	{ cmp: 'Spoyler' 			, },
-	//{ cmp: 'Posters-List' 		, },
-	//{ cmp: 'Each-People' 		, },
-	//{ cmp: 'Movie' 				, },
-	//{ cmp: 'Cast' 				, },
-	//{ cmp: 'Menu-Filter-Movie' 	, },
-	//{ cmp: 'Menu-Filter-People' , },
-	//{ cmp: 'Menu' 				, },
+
+	{ cmp: 'Jars-Gallery' 		, },
+
+
+
+	
+	{ cmp: 'Spoiler' 			, },
 
 
 

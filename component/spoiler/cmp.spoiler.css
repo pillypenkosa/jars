@@ -1,7 +1,7 @@
-cmp-spoyler {
+cmp-spoiler {
 	display: block;
 } 
-	cmp-spoyler .title {
+	cmp-spoiler .spoiler-title {
 		display: flex;
 		justify-content: space-between;
 		padding: 3px 10px 6px 10px;
@@ -11,15 +11,15 @@ cmp-spoyler {
 		color: #fff;
 		cursor: pointer;
 	} 
-		cmp-spoyler .title:hover {
+		cmp-spoiler .spoiler-title:hover {
 			color: #ff0;
 		} 
 
 
-		cmp-spoyler .title .txt-rating5 {
+		cmp-spoiler .spoiler-title .txt-rating5 {
 			color: #0f0;
 		}
-		cmp-spoyler .title .txt-rating5p {
+		cmp-spoiler .spoiler-title .txt-rating5p {
 			/*font-weight: bold;*/
 			color: #ff0;
 		}
@@ -31,20 +31,20 @@ cmp-spoyler {
 
 
 
-	cmp-spoyler .body .title-vol {
+	cmp-spoiler .body .title-vol {
 		margin: 10px;
 		font-style: oblique;
 		color: #aaa;
 	}
 
-	cmp-spoyler .arr-jars {
+	cmp-spoiler .arr-jars {
 		margin: 0 0 30px 0;
 
 	}
 
 
 
-	cmp-spoyler .modal {
+	cmp-spoiler .modal {
 		position: absolute;
 		width: 100%;
 
@@ -56,7 +56,7 @@ cmp-spoyler {
 
 
 
-	cmp-spoyler .modal .close {
+	cmp-spoiler .modal .close {
 		position: absolute;
 		top: 5px;
 		right: 20px;
@@ -65,7 +65,7 @@ cmp-spoyler {
 		color: #f00;
 	}
 
-		cmp-spoyler .modal .close:hover {
+		cmp-spoiler .modal .close:hover {
 			background-color: #f00;
 			color: #fff;
 		}
@@ -75,25 +75,25 @@ cmp-spoyler {
 
 
 
-		cmp-spoyler .modal .img {
+		cmp-spoiler .modal .img {
 			width: 98%;
 		}
-			cmp-spoyler .modal .img img {
+			cmp-spoiler .modal .img img {
 				width: 100%;
 				border-radius: 10px;
 			}
 
-		cmp-spoyler .modal .info {
+		cmp-spoiler .modal .info {
 			margin: 10px 0 50px 0;
 			color: #fff;
 		}
-			cmp-spoyler .modal .info .info-title {
+			cmp-spoiler .modal .info .info-title {
 				margin: 0 0 10px 0;
 				font-size: 30px;
 				font-weight: bold;
 			}
 
-			cmp-spoyler .modal .info .info-volume {
+			cmp-spoiler .modal .info .info-volume {
 				margin: 0 0 10px 0;
 				/*font-size: 30px;*/
 				font-weight: bold;
@@ -101,7 +101,7 @@ cmp-spoyler {
 
 
 
-			cmp-spoyler .modal .info .info-barcode {
+			cmp-spoiler .modal .info .info-barcode {
 				color: #ccc;
 			}
 

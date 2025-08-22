@@ -1,9 +1,9 @@
 @chcp 65001
 
-@set up=Jars025
-@set low=jars-025
+@set up=JarsGallery
+@set low=jars-gallery
 @set pref=__NEW_COMPONENT_
-@set intro=© 2024 DJS
+@set intro=© 2025 DJS
 
 
 

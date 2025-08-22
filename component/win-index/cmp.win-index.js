@@ -38,68 +38,45 @@ class ComponentWinIndex {
 		};
 
 
-
-		//let html = '<div class="info">Бажаю здоров\'я! ))</div>';
-		//let html = `<div>${ fooName }</div>`;
 		let html = '';
 
-/*
-		let arrSelected025 = [];
-		let arrSelected033 = [];
-		let arrSelected05 = [];
+		arrListJarsVolume.forEach( k_volume => {
 
-		arrListJars.forEach( k => {
-
-			if ( k.hash ) {
-
-				if ( k.hash._025 ) 
-					arrSelected025.push( k );
-				
-				if ( k.hash._033 ) 
-					arrSelected033.push( k );
-				
-				if ( k.hash._05 ) 
-					arrSelected05.push( k );
-			}
+			//console.log( k_volume );
+			html += Component( 'Spoiler', { 
+				id 		: k_volume.id, 
+				title 	: k_volume.title, 
+				type 	: 'volume', 
+			});
 		});
-
-
-	
-		console.log( 'arrSelected025: ', arrSelected025 );
-		console.log( 'arrSelected033: ', arrSelected033 );
-		console.log( 'arrSelected05: ', arrSelected05 );
+		html += '<br/>';
 
 
 
+		arrListJarsName.forEach( k_name => {
 
-		if ( arrSelected025.length ) 
-			html += `${ Component( 'Spoyler', { volume: '_025', } ) }`;
-
-		
-
-
-*/
-
-
-
-
-		html += `<div id="modal"></div>
-			${ Component( 'Spoyler', { volume: '_025', } ) }
-			${ Component( 'Spoyler', { volume: '_033', } ) }
-			${ Component( 'Spoyler', { volume: '_05', } ) }
-			<br/>
-		`;
-
-
-
-
-
-
-
-		arrListJarsName.forEach( k => {
-
-			html += `${ Component( 'Spoyler', { id: k.id, title: k.title, } ) }`;
+			html += Component( 'Spoiler', { 
+				id 		:  k_name.id, 
+				title 	: k_name.title, 
+				type 	: 'name', 
+			});
 		});
+		html += '<br/>';
+
+
+
+		arrListJarsCat.forEach( k_cat => {
+
+			//console.log( k_cat );
+			html += Component( 'Spoiler', { 
+				id 		: k_cat.id, 
+				title 	: k_cat.title, 
+				type 	: 'cat', 
+			});
+		});
+		html += '<br/>';
+
+
 
 
 

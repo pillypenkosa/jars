@@ -1,8 +1,8 @@
-// © 2024 DJS 
+// © 2025 DJS 
 
 
 
-class ComponentSpoyler { 
+class ComponentSpoiler { 
  
  
  
@@ -19,11 +19,20 @@ class ComponentSpoyler {
 		//console.log( 'fooName: ', fooName ); 
 		//console.log( 'objData: ', objData ); 
 
+
+
+		//console.log( fooName, ' objData: ', objData );
+
+
+
+
+
 		let tagParam = { 
 			//'class' 		: '', 
 			//'name' 		: '', 
 			//'title' 		: '', 
 			//'data-key' 		: objData.key, 
+			//'data-volume' 		: objData.volume, 
 			//'data-id' 		: objData.id, 
 			//'onclick' 		: 'ComponentSpoyler.clc( this )', 
 			//'selected' 	: '', 
@@ -31,11 +40,85 @@ class ComponentSpoyler {
 		}
 
 
-		//console.log( objData );
+
+
+
+
+
+
+
+
 
 		let html = '';
 
 		if ( objData ) {
+
+
+			if ( objData.id )
+				tagParam['data-id'] = objData.id;
+
+
+			if ( objData.type )
+				tagParam['data-type'] = objData.type;
+
+
+
+			if ( objData.type == 'volume' ) {
+
+
+				let title = objData.title ? objData.title : 'немає `objData.title`'; 
+
+				html = `
+					<div class="spoiler-title">
+						<div class="txt">${ title }</div>
+						<div class="pm" title="Розгорнути / згорнути">+</div>
+					</div>
+					<div class="body"></div>
+				`; 
+			}
+
+
+			if ( objData.type == 'cat' ) {
+
+				let title = objData.title ? objData.title : 'немає `objData.title`'; 
+
+				html = `
+					<div class="spoiler-title">
+						<div class="txt">${ title }</div>
+						<div class="pm" title="Розгорнути / згорнути">+</div>
+					</div>
+					<div class="body"></div>
+				`; 
+			}
+
+
+			if ( objData.type == 'name' ) {
+
+				let title = objData.title ? objData.title : 'немає `objData.title`'; 
+
+				html = `
+					<div class="spoiler-title">
+						<div class="txt">${ title }</div>
+						<div class="pm" title="Розгорнути / згорнути">+</div>
+					</div>
+					<div class="body"></div>
+				`; 
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			/*
 			if ( objData.id ) {
 
 				tagParam[ 'data-id' ] = objData.id;
@@ -54,10 +137,10 @@ class ComponentSpoyler {
 					<div class="body"></div>
 				`; 
 			}
+*/
 
 
-
-
+/*
 			if ( objData.volume ) {
 
 
@@ -84,7 +167,24 @@ class ComponentSpoyler {
 					<div class="body"></div>
 				`; 
 			}
+
+			*/
+
+
+
 		}
+
+
+
+
+
+
+
+
+
+
+
+
 
 		return { tagParam, html };  
 	} 
@@ -93,7 +193,152 @@ class ComponentSpoyler {
  
  
  
-	static clc( elem ) { 
+
+
+
+	static clc( elem ) {
+		const fooName = this.name + '.clc()'; 
+
+
+		//console.log( 'fooName: ', fooName ); 
+
+
+		//console.log( 'elem: ', elem ); 
+
+		//let id = elem.dataset.id;
+		//let type = elem.dataset.type;
+
+
+
+
+		//console.log( 'id: ', id ); 
+		//console.log( 'type: ', type ); 
+
+		let elemBody = elem.querySelector( '.body' );
+
+
+
+		//console.log( 'elemBody: ', elemBody ); 
+
+
+
+		if ( elemBody.innerHTML ) {
+
+			elemBody.hidden = !elemBody.hidden;
+
+		} else {
+
+			//elemBody.innerHTML = `<div>${ type }</div><div>${ id }</div>`;
+
+			let html = '';
+
+
+
+
+
+			if ( elem.dataset.type == 'volume' ) {
+
+				//console.log( elem.dataset.id );
+
+				let arrSelectedByVol = arrListJars.filter( k_jars => {
+
+					if ( k_jars.hash && k_jars.hash[ elem.dataset.id ] ) {
+						//html += `<div>${ k_jars.id }</div>`;
+
+						return true;
+					}
+				});
+
+				//console.log( 'arrSelectedByVol: ', arrSelectedByVol );
+				html = Component( 'Jars-Gallery', { volume: elem.dataset.id, arr: arrSelectedByVol } );
+			}
+
+
+
+			if ( elem.dataset.type == 'cat' ) {
+
+				// alert( elem.dataset.id );
+
+				let arr025 = [];
+				let arr033 = [];
+				let arr05 = [];
+
+				arrListJars.forEach( k_jars => {
+
+					if ( k_jars.hash && k_jars.hash[ elem.dataset.id ] ) {
+
+						if ( k_jars.hash._025 ) 
+							arr025.push( k_jars );
+						
+						if ( k_jars.hash._033 ) 
+							arr033.push( k_jars );
+						
+						if ( k_jars.hash._05 ) 
+							arr05.push( k_jars );
+						
+					}
+				});
+
+				html = `
+					${ Component( 'Jars-Gallery', { volume: '_025', arr: arr025 } ) }
+					${ Component( 'Jars-Gallery', { volume: '_033', arr: arr033 } ) }
+					${ Component( 'Jars-Gallery', { volume: '_05', arr: arr05 } ) }
+				`;
+			}
+
+
+
+
+			if ( elem.dataset.type == 'name' ) {
+
+				let arr025 = [];
+				let arr033 = [];
+				let arr05 = [];
+
+				arrListJars.forEach( k_jars => {
+
+					if ( k_jars.hash && k_jars.hash[ elem.dataset.id ] ) {
+
+						if ( k_jars.hash._025 ) 
+							arr025.push( k_jars );
+
+						if ( k_jars.hash._033 ) 
+							arr033.push( k_jars );
+						
+						if ( k_jars.hash._05 ) 
+							arr05.push( k_jars );
+
+					}
+				});
+
+
+				html = `
+					${ Component( 'Jars-Gallery', { volume: '_025', arr: arr025 } ) }
+					${ Component( 'Jars-Gallery', { volume: '_033', arr: arr033 } ) }
+					${ Component( 'Jars-Gallery', { volume: '_05', arr: arr05 } ) }
+				`;
+			}
+
+
+			elemBody.innerHTML = html;
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	static clc222( elem ) { 
 		const fooName = this.name + '.clc()'; 
  
 		//console.log( 'fooName: ', fooName ); 
@@ -125,6 +370,10 @@ class ComponentSpoyler {
 		arrListJars.forEach( k => {
 
 			if ( k.hash ) {
+
+
+				console.log( k.hash );
+
 
 				if ( k.hash[ id ] ) {
 					//arrSelected025.push( k );
