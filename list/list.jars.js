@@ -97,6 +97,13 @@ const arrListJars = [
 	barcode: '599 8811 756665',
 	hash: { _025: 1, energy: 1, adrenalin: 1, },
 },
+
+
+{ id: 'alcohol_killer_025', title: 'Alcohol Killer', barcode: '858 8008 705117', hash: { _025: 1, energy: 1, alcohol_killer: 1, }, date: '2025-08-22', },
+
+
+
+
 { 
 	id: 'b52_025', 
 	title: 'B52', 
@@ -122,6 +129,16 @@ const arrListJars = [
 	alco: '6.5',
 	hash: { _025: 1, wine: 1, bellini: 1, },
 },
+
+
+
+
+{ id: 'big_energy_025_focus', title: 'Big Energy Focus', barcode: '482 0229 039539', hash: { _025: 1, energy: 1, big_energy: 1, }, date: '2025-08-22', },
+
+
+
+
+
 { 
 	id: 'black_025_mango', 
 	title: 'Black Mango', 
@@ -524,90 +541,26 @@ const arrListJars = [
 	barcode: '599 9885 747733',
 	hash: { _025: 1, energy: 1, hell: 1, },
 },
-{ 
-	id: 'hell_025_strong_watermelon', 
-	title: 'Hell Strong Watermelon', 
-	barcode: '599 9571 050673',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_strong_red_grape', 
-	title: 'Hell Strong Red Grape', 
-	barcode: '599 9884 034506',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_chillin_guanabana_mango_flavour', 
-	title: 'Hell Summer Cool Chillin Guanabana Mango Flavour', 
-	barcode: '599 9571 054176',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_elderflower', 
-	title: 'Hell Summer Cool Elderflower', 
-	barcode: '599 9884 034254',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_exotic_candy', 
-	title: 'Hell Summer Cool Exotic Candy', 
-	barcode: '599 9885 746019',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_groovy_grapefruit', 
-	title: 'Hell Summer Cool Groovy Grapefruit', 
-	barcode: '599 9571 054169',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_raspberry_candy', 
-	title: 'Hell Summer Cool Raspberry Candy', 
-	barcode: '599 9885 746217',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_summer_cool_strawberry_rhubarb', 
-	title: 'Hell Summer Cool Strawberry Rhubarb', 
-	barcode: '599 9884 034070',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_zero', 
-	title: 'Hell Zero', 
-	barcode: '599 9884 034445',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_zero_red_currant_grapefruit', 
-	title: 'Hell Zero Red Currant Grapefruit', 
-	barcode: '599 9571 050659',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_le_lime_flavour', 
-	title: 'Hell Limited Edition Lime Spritz Flavour', 
-	barcode: '599 9571 055692',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'hell_025_le_maracuja_spritz_flavour', 
-	title: 'Hell Limited Edition Maracuja Spritz Flavour', 
-	barcode: '599 9571 055678',
-	hash: { _025: 1, energy: 1, hell: 1, },
-},
-{ 
-	id: 'iron_025_classic', 
-	title: 'Iron Classic', 
-	barcode: '590 0552 080527',
-	hash: { _025: 1, energy: 1, iron: 1, },
-},
-{ 
-	id: 'iron_025_zero_sugar', 
-	title: 'Iron Zero Sugar', 
-	barcode: '590 0552 080541',
-	hash: { _025: 1, energy: 1, iron: 1, },
-},
+
+{ id: 'hell_025_strong_watermelon' 								, title: 'Hell Strong Watermelon' 								, barcode: '599 9571 050673' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_strong_red_grape' 								, title: 'Hell Strong Red Grape' 								, barcode: '599 9884 034506' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_chillin_guanabana_mango_flavour' 	, title: 'Hell Summer Cool Chillin Guanabana Mango Flavour' 	, barcode: '599 9571 054176' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_elderflower' 						, title: 'Hell Summer Cool Elderflower' 						, barcode: '599 9884 034254' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_exotic_candy' 						, title: 'Hell Summer Cool Exotic Candy' 						, barcode: '599 9885 746019' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_groovy_grapefruit' 					, title: 'Hell Summer Cool Groovy Grapefruit' 					, barcode: '599 9571 054169' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_raspberry_candy' 					, title: 'Hell Summer Cool Raspberry Candy' 					, barcode: '599 9885 746217' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_summer_cool_strawberry_rhubarb' 				, title: 'Hell Summer Cool Strawberry Rhubarb' 					, barcode: '599 9884 034070' 	, hash: { _025: 1, energy: 1, hell: 1, },},
+{ id: 'hell_025_zero' 											, title: 'Hell Zero' 											, barcode: '599 9884 034445' 	, hash: { _025: 1, energy: 1, hell: 1, }, },
+{ id: 'hell_025_zero_red_currant_grapefruit' 					, title: 'Hell Zero Red Currant Grapefruit' 					, barcode: '599 9571 050659' 	, hash: { _025: 1, energy: 1, hell: 1, }, },
+{ id: 'hell_025_le_lime_flavour' 								, title: 'Hell Limited Edition Lime Spritz Flavour' 			, barcode: '599 9571 055692' 	, hash: { _025: 1, energy: 1, hell: 1, }, },
+{ id: 'hell_025_le_maracuja_spritz_flavour' 					, title: 'Hell Limited Edition Maracuja Spritz Flavour' 		, barcode: '599 9571 055678' 	, hash: { _025: 1, energy: 1, hell: 1, }, },
+{ id: 'hello_kitty_025_strawberry_apple' 						, title: 'Hello Kitty Strawberry Apple' 						, barcode: '594 0733 900008' 	, hash: { _025: 1, energy: 1, hello_kitty: 1, } , date: '2025-08-22',},
+{ id: 'iron_025_classic' 										, title: 'Iron Classic' 										, barcode: '590 0552 080527' 	, hash: { _025: 1, energy: 1, iron: 1, }, },
+{ id: 'iron_025_zero_sugar' 									, title: 'Iron Zero Sugar' 										, barcode: '590 0552 080541' 	, hash: { _025: 1, energy: 1, iron: 1, }, },
+
+
+
+
 { 
 	id: 'jacobs_025_icepresso', 
 	title: 'Jacobs Icepresso', 
@@ -753,366 +706,78 @@ const arrListJars = [
 	barcode: '590 2854 103140',
 	hash: { _025: 1, energy: 1, komodo: 1, cola: 1, },
 },
-{ 
-	id: 'lemonade_joe_025_lemonade_classic', 
-	title: 'Lemonade Joe Lemonade Classic', 
-	barcode: '594 8688 042033',
-	hash: { _025: 1, drink: 1, lemonade_joe: 1, },
-},
-{ 
-	id: 'lemonade_joe_025_lemonade_watermelon', 
-	title: 'Lemonade Joe Lemonade Watermelon', 
-	barcode: '594 8688 042040',
-	hash: { _025: 1, drink: 1, lemonade_joe: 1, },
-},
-{ 
-	id: 'maison_perrier_025_forever_lime',
-	title: 'Maison Perrier Forever Lime', 
-	barcode: '844 5291 045637',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'maison_perrier_025_magnetic_juice_pineapple_mango',
-	title: 'Maison Perrier Magnetic Juice Pineapple Mango', 
-	barcode: '844 5291 047617',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'maison_perrier_025_magnetic_juice_lemon_guava',
-	title: 'Maison Perrier Magnetic Juice Lemon Guava', 
-	barcode: '844 5291 047570',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'maison_perrier_025_magnetic_juice_peach_cherry',
-	title: 'Maison Perrier Magnetic Juice Peach Cherry', 
-	barcode: '844 5291 047655',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'minions_025_kinder_cola', 
-	title: 'Minions Kinder Cola', 
-	barcode: '590 4730 983693',
-	hash: { _025: 1, drink: 1, minions: 1, cola: 1, },
-},
-{ 
-	id: 'minions_025_kinder_cola_2', 
-	title: 'Minions Kinder Cola', 
-	barcode: '590 4730 983693',
-	hash: { _025: 1, drink: 1, minions: 1, cola: 1, },
-},
-{ 
-	id: 'mole_cola_025', 
-	title: 'Mole Cola', 
-	barcode: '805 4377 870027',
-	hash: { _025: 1, drink: 1, molecola: 1, cola: 1, },
-},
-{ 
-	id: 'nescafe_025_americano', 
-	title: 'Nescafe Americano', 
-	barcode: '844 5290 619167',
-	hash: { _025: 1, coffee: 1, nescafe: 1, },
-},
-{ 
-	id: 'nescafe_025_cappucchino', 
-	title: 'Nescafe Cappucchino', 
-	barcode: '844 5290 618498',
-	hash: { _025: 1, coffee: 1, nescafe: 1, },
-},
-{ 
-	id: 'nescafe_025_latte', 
-	title: 'Nescafe Latte', 
-	barcode: '844 5290 619198',
-	hash: { _025: 1, coffee: 1, nescafe: 1, },
-},
-{ 
-	id: 'ngine_025_classic', 
-	title: 'Ngine Classic', 
-	barcode: '590 0552 029564',
-	hash: { _025: 1, energy: 1, ngine: 1, },
-},
-{ 
-	id: 'non_stop_025_boost', 
-	title: 'Non Stop Boost', 
-	barcode: '482 0252 120023',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_jungle', 
-	title: 'Non Stop Jungle', 
-	barcode: '482 0097 897224',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_original', 
-	title: 'Non Stop Original', 
-	barcode: '482 0097 890317',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_zoom', 
-	title: 'Non Stop Zoom', 
-	barcode: '482 0252 124097',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_stalker', 
-	title: 'Non Stop Stalker', 
-	barcode: '482 0252 122406',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_stalker_2', 
-	title: 'Non Stop Stalker', 
-	barcode: '482 0252 122895',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'non_stop_025_stalker_3', 
-	title: 'Non Stop Stalker', 
-	barcode: '482 0252 124820',
-	hash: { _025: 1, energy: 1, non_stop: 1, },
-},
-{ 
-	id: 'oshee_025_the_witcher', 
-	title: 'Oshee The Witcher', 
-	barcode: '590 8260 257972',
-	hash: { _025: 1, energy: 1, oshee: 1, },
-},
-{ 
-	id: 'oshee_025_vitamin_magnesium_cocktail', 
-	title: 'Oshee Vitamin Magnesium Cocktail', 
-	barcode: '590 8260 255817',
-	hash: { _025: 1, energy: 1, oshee: 1, },
-},
-{ 
-	id: 'oshee_025_vitamin_d_k_c_calcium', 
-	title: 'Oshee Vitamin Calcium', 
-	barcode: '590 8260 257286',
-	hash: { _025: 1, energy: 1, oshee: 1, },
-},
-{ 
-	id: 'oshee_025_vitamin_minerals', 
-	title: 'Oshee Vitamin Minerals Iga Team', 
-	barcode: '590 8260 255262',
-	hash: { _025: 1, energy: 1, oshee: 1, },
-},
-{ 
-	id: 'perrier_025_peach_flavor', 
-	title: 'Perrier Peach Flavor', 
-	barcode: '761 3037 906660',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'perrier_juice_025_ananas_mangue', 
-	title: 'Perrier Juice Ananas Mangue', 
-	barcode: '761 3036 286299',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'perrier_juice_025_peche_cerise', 
-	title: 'Perrier Juice Peche & Cerise', 
-	barcode: '761 3036 280280',
-	hash: { _025: 1, water: 1, perrier: 1, },
-},
-{ 
-	id: 'pit_ballert_025', 
-	title: 'Pit Ballert', 
-	barcode: '590 1828 013119',
-	hash: { _025: 1, energy: 1, pit_ballert: 1, },
-},
-{ 
-	id: 'pit_bull_025_burgundy', 
-	title: 'Pit Bull', 
-	barcode: '482 0097 892304',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_green', 
-	title: 'Pit Bull', 
-	barcode: '482 0252 120839',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_coffee', 
-	title: 'Pit Bull Coffee', 
-	barcode: '482 0252 121775',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_extra_vitamin_c', 
-	title: 'Pit Bull Extra Vitamin C', 
-	barcode: '482 0097 898986',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_power', 
-	title: 'Pit Bull Power', 
-	barcode: '482 0252 121751',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_silver', 
-	title: 'Pit Bull Silver', 
-	barcode: '482 0252 123533',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_x', 
-	title: 'Pit Bull X', 
-	barcode: '482 0097 897804',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pit_bull_025_x_2', 
-	title: 'Pit Bull X', 
-	barcode: '482 0097 897804',
-	hash: { _025: 1, energy: 1, pit_bull: 1, },
-},
-{ 
-	id: 'pulls_025_color', 
-	title: 'Pulls', 
-	barcode: '482 0097 896944',
-	hash: { _025: 1, energy: 1, pulls: 1, },
-},
-{ 
-	id: 'pulls_025_2', 
-	title: 'Pulls Заряд помсти', 
-	barcode: '482 0097 896944',
-	hash: { _025: 1, energy: 1, pulls: 1, },
-},
-{ 
-	id: 'pulse_025_black', 
-	title: 'Pulse', 
-	barcode: '477 1632 312637',
-	hash: { _025: 1, energy: 1, pulse: 1, },
-},
-{ 
-	id: 'pulse_025_mango', 
-	title: 'Pulse Mango', 
-	barcode: '477 1632 314181',
-	hash: { _025: 1, energy: 1, pulse: 1, },
-},
-{ 
-	id: 'pulse_025_white', 
-	title: 'Pulse', 
-	barcode: '477 1632 314211',
-	hash: { _025: 1, energy: 1, pulse: 1, },
-},
-{ 
-	id: 'red_bull_025', 
-	title: 'Red Bull З таурином', 
-	barcode: '90 02490 100070',
-	hash: { _025: 1, energy: 1, red_bull: 1, },
-},
-{ 
-	id: 'red_bull_025_olga_harlan', 
-	title: 'Red Bull (Ольга Харлан)', 
-	barcode: '90 02490 100070',
-	hash: { _025: 1, energy: 1, red_bull: 1, },
-},
-{ 
-	id: 'red_bull_025_2', 
-	title: 'Red Bull З таурином', 
-	barcode: '9016 2800',
-	hash: { _025: 1, energy: 1, red_bull: 1, },
-},
-{ 
-	id: 'red_bull_025_tropical', 
-	title: 'Red Bull The Yellow Edition Tropical', 
-	barcode: '90 02490 228491',
-	hash: { _025: 1, energy: 1, red_bull: 1, },
-},
-{ 
-	id: 'red_bull_025_watermelon', 
-	title: 'Red Bull The Red Edition Watermelon', 
-	barcode: '90 44 8874',
-	hash: { _025: 1, energy: 1, red_bull: 1, },
-},
-{ 
-	id: 'regenera_025_natural_gold', 
-	title: 'Regenera Natural Gold', 
-	barcode: '682 895 58201 6',
-	hash: { _025: 1, drink: 1, regenera: 1, },
-},
-{ 
-	id: 'schweppes_025_bitter_lemon', 
-	title: 'Schweppes Bitter Lemon', 
-	barcode: '544 9000 312129',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'schweppes_025_classic_mojito', 
-	title: 'Schweppes Classic Mojito', 
-	barcode: '544 9000 275813',
-	hash: { _025: 1, drink: 1, schweppes: 1, mojito: 1, },
-},
-{ 
-	id: 'schweppes_025_indian_tonic', 
-	title: 'Schweppes Indian Tonic', 
-	barcode: '544 9000 143495',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'schweppes_025_pina_colada', 
-	title: 'Schweppes Pina Colada', 
-	barcode: '544 9000 290380',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'schweppes_025_pink_grapefruit', 
-	title: 'Schweppes Pink Grapefruit', 
-	barcode: '544 9000 287915',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'schweppes_025_spritz_aperitivo', 
-	title: 'Schweppes Spritz Aperitivo', 
-	barcode: '544 9000 304001',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'schweppes_025_pomegranate', 
-	title: 'Schweppes Pomegranate', 
-	barcode: '544 9000 222299',
-	hash: { _025: 1, drink: 1, schweppes: 1, },
-},
-{ 
-	id: 'sprite_025', 
-	title: 'Sprite', 
-	barcode: '544 9000 000729',
-	hash: { _025: 1, drink: 1, sprite: 1, },
-},
-{ 
-	id: 'stumble_guys_025_banana_guy_banana_ananas', 
-	title: 'Stumble Guys Banana Guy Banana Ananas', 
-	barcode: '594 8688 045362',
-	hash: { _025: 1, drink: 1, stumble_guys: 1, },
-},
-{ 
-	id: 'stumble_guys_025_mr_stumble_tropical', 
-	title: 'Stumble Guys Mr Stumble Tropical', 
-	barcode: '594 8688 045379',
-	hash: { _025: 1, drink: 1, stumble_guys: 1, },
-},
-{ 
-	id: 'vitamin_025', 
-	title: 'Vitamin', 
-	barcode: '482 0252 123137',
-	hash: { _025: 1, drink: 1, vitamin: 1, },
-},
-{ 
-	id: 'xixo_025_cola', 
-	title: 'Xixo Cola', 
-	barcode: '599 9885 747757',
-	hash: { _025: 1, drink: 1, xixo: 1, cola: 1, },
-},
-{ 
-	id: 'xixo_025_tutti_fruity', 
-	title: 'Xixo Tutti Fruity', 
-	barcode: '599 9571 050598',
-	hash: { _025: 1, drink: 1, xixo: 1, },
-},
+
+{ id: 'lemonade_joe_025_lemonade_classic' 					, title: 'Lemonade Joe Lemonade Classic' 					, barcode: '594 8688 042033'	, hash: { _025: 1, drink 	: 1 	, lemonade_joe 	: 1 , }, },
+{ id: 'lemonade_joe_025_lemonade_watermelon' 				, title: 'Lemonade Joe Lemonade Watermelon' 				, barcode: '594 8688 042040'	, hash: { _025: 1, drink 	: 1 	, lemonade_joe 	: 1 , }, },
+{ id: 'mac_coffee_025_original' 							, title: 'Mac Coffee Original' 								, barcode: '888 7290 112024' 	, hash: { _025: 1, coffee 	: 1 	, mac_coffee 	: 1 , }, date: '2025-08-22', },
+{ id: 'maison_perrier_025_forever_lime' 					, title: 'Maison Perrier Forever Lime' 						, barcode: '844 5291 045637' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
+{ id: 'maison_perrier_025_magnetic_juice_pineapple_mango' 	, title: 'Maison Perrier Magnetic Juice Pineapple Mango' 	, barcode: '844 5291 047617' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
+{ id: 'maison_perrier_025_magnetic_juice_lemon_guava' 		, title: 'Maison Perrier Magnetic Juice Lemon Guava' 		, barcode: '844 5291 047570' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
+{ id: 'maison_perrier_025_magnetic_juice_peach_cherry' 		, title: 'Maison Perrier Magnetic Juice Peach Cherry' 		, barcode: '844 5291 047655' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
+{ id: 'minions_025_kinder_cola' 							, title: 'Minions Kinder Cola' 								, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
+{ id: 'minions_025_kinder_cola_2' 							, title: 'Minions Kinder Cola' 								, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
+{ id: 'minions_025_kinder_cola_3' 							, title: 'Minions Kinder Cola' 								, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , date: '2025-08-22', },
+{ id: 'mole_cola_025' 										, title: 'Mole Cola' 										, barcode: '805 4377 870027' 	, hash: { _025: 1, drink 	: 1 	, molecola 		: 1 , cola: 1, } , },
+{ id: 'nescafe_025_americano' 								, title: 'Nescafe Americano' 								, barcode: '844 5290 619167' 	, hash: { _025: 1, coffee 	: 1 	, nescafe 		: 1 , }, },
+
+
+{ id: 'nescafe_025_cappucchino', title: 'Nescafe Cappucchino', barcode: '844 5290 618498',hash: { _025: 1, coffee: 1, nescafe: 1, },},
+{ id: 'nescafe_025_latte', title: 'Nescafe Latte', barcode: '844 5290 619198',hash: { _025: 1, coffee: 1, nescafe: 1, },},
+{ id: 'ngine_025_classic', title: 'Ngine Classic', barcode: '590 0552 029564',hash: { _025: 1, energy: 1, ngine: 1, },},
+{ id: 'non_stop_025_boost', title: 'Non Stop Boost', barcode: '482 0252 120023',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_jungle', title: 'Non Stop Jungle', barcode: '482 0097 897224',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_original', title: 'Non Stop Original', barcode: '482 0097 890317',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_zoom', title: 'Non Stop Zoom', barcode: '482 0252 124097',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_stalker', title: 'Non Stop Stalker', barcode: '482 0252 122406',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_stalker_2', title: 'Non Stop Stalker', barcode: '482 0252 122895',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'non_stop_025_stalker_3', title: 'Non Stop Stalker', barcode: '482 0252 124820',hash: { _025: 1, energy: 1, non_stop: 1, },},
+{ id: 'oshee_025_the_witcher', title: 'Oshee The Witcher', barcode: '590 8260 257972',hash: { _025: 1, energy: 1, oshee: 1, },},
+{ id: 'oshee_025_vitamin_magnesium_cocktail', title: 'Oshee Vitamin Magnesium Cocktail', barcode: '590 8260 255817',hash: { _025: 1, energy: 1, oshee: 1, },},
+{ id: 'oshee_025_vitamin_d_k_c_calcium', title: 'Oshee Vitamin Calcium', barcode: '590 8260 257286',hash: { _025: 1, energy: 1, oshee: 1, },},
+{ id: 'oshee_025_vitamin_minerals', title: 'Oshee Vitamin Minerals Iga Team', barcode: '590 8260 255262',hash: { _025: 1, energy: 1, oshee: 1, },},
+{ id: 'perrier_025_peach_flavor', title: 'Perrier Peach Flavor', barcode: '761 3037 906660',hash: { _025: 1, water: 1, perrier: 1, },},
+{ id: 'perrier_juice_025_ananas_mangue', title: 'Perrier Juice Ananas Mangue', barcode: '761 3036 286299',hash: { _025: 1, water: 1, perrier: 1, },},
+{ id: 'perrier_juice_025_peche_cerise', title: 'Perrier Juice Peche & Cerise', barcode: '761 3036 280280',hash: { _025: 1, water: 1, perrier: 1, },},
+
+{ id: 'pit_ballert_025', title: 'Pit Ballert', barcode: '590 1828 013119',hash: { _025: 1, energy: 1, pit_ballert: 1, },},
+{ id: 'pit_bull_025_burgundy', title: 'Pit Bull', barcode: '482 0097 892304',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_green', title: 'Pit Bull', barcode: '482 0252 120839',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_coffee', title: 'Pit Bull Coffee', barcode: '482 0252 121775',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_extra_vitamin_c', title: 'Pit Bull Extra Vitamin C', barcode: '482 0097 898986',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_power', title: 'Pit Bull Power', barcode: '482 0252 121751',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_silver', title: 'Pit Bull Silver', barcode: '482 0252 123533',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_x', title: 'Pit Bull X', barcode: '482 0097 897804',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+{ id: 'pit_bull_025_x_2', title: 'Pit Bull X', barcode: '482 0097 897804',hash: { _025: 1, energy: 1, pit_bull: 1, },},
+
+{ id: 'pulls_025_color', title: 'Pulls', barcode: '482 0097 896944',hash: { _025: 1, energy: 1, pulls: 1, },},
+{ id: 'pulls_025_2', title: 'Pulls Заряд помсти', barcode: '482 0097 896944',hash: { _025: 1, energy: 1, pulls: 1, },},
+
+{ id: 'pulse_025_black', title: 'Pulse', barcode: '477 1632 312637',hash: { _025: 1, energy: 1, pulse: 1, },},
+{ id: 'pulse_025_mango', title: 'Pulse Mango', barcode: '477 1632 314181',hash: { _025: 1, energy: 1, pulse: 1, },},
+{ id: 'pulse_025_white', title: 'Pulse', barcode: '477 1632 314211',hash: { _025: 1, energy: 1, pulse: 1, },},
+
+{ id: 'red_bull_025', title: 'Red Bull З таурином', barcode: '90 02490 100070',hash: { _025: 1, energy: 1, red_bull: 1, },},
+{ id: 'red_bull_025_olga_harlan', title: 'Red Bull (Ольга Харлан)', barcode: '90 02490 100070',hash: { _025: 1, energy: 1, red_bull: 1, },},
+{ id: 'red_bull_025_2', title: 'Red Bull З таурином', barcode: '9016 2800',hash: { _025: 1, energy: 1, red_bull: 1, },},
+{ id: 'red_bull_025_tropical', title: 'Red Bull The Yellow Edition Tropical', barcode: '90 02490 228491',hash: { _025: 1, energy: 1, red_bull: 1, },},
+{ id: 'red_bull_025_watermelon', title: 'Red Bull The Red Edition Watermelon', barcode: '90 44 8874',hash: { _025: 1, energy: 1, red_bull: 1, },},
+
+{ id: 'regenera_025_natural_gold', title: 'Regenera Natural Gold', barcode: '682 895 58201 6',hash: { _025: 1, drink: 1, regenera: 1, },},
+
+{ id: 'schweppes_025_bitter_lemon', title: 'Schweppes Bitter Lemon', barcode: '544 9000 312129',hash: { _025: 1, drink: 1, schweppes: 1, },},
+{ id: 'schweppes_025_classic_mojito', title: 'Schweppes Classic Mojito', barcode: '544 9000 275813',hash: { _025: 1, drink: 1, schweppes: 1, mojito: 1, },},
+{ id: 'schweppes_025_indian_tonic', title: 'Schweppes Indian Tonic', barcode: '544 9000 143495',hash: { _025: 1, drink: 1, schweppes: 1, },},
+{ id: 'schweppes_025_pina_colada', title: 'Schweppes Pina Colada', barcode: '544 9000 290380',hash: { _025: 1, drink: 1, schweppes: 1, },},
+{ id: 'schweppes_025_pink_grapefruit', title: 'Schweppes Pink Grapefruit', barcode: '544 9000 287915',hash: { _025: 1, drink: 1, schweppes: 1, },},
+{ id: 'schweppes_025_spritz_aperitivo', title: 'Schweppes Spritz Aperitivo', barcode: '544 9000 304001',hash: { _025: 1, drink: 1, schweppes: 1, },},
+{ id: 'schweppes_025_pomegranate', title: 'Schweppes Pomegranate', barcode: '544 9000 222299',hash: { _025: 1, drink: 1, schweppes: 1, },},
+
+{ id: 'sprite_025', title: 'Sprite', barcode: '544 9000 000729',hash: { _025: 1, drink: 1, sprite: 1, },},
+{ id: 'stumble_guys_025_banana_guy_banana_ananas', title: 'Stumble Guys Banana Guy Banana Ananas', barcode: '594 8688 045362',hash: { _025: 1, drink: 1, stumble_guys: 1, },},
+{ id: 'stumble_guys_025_mr_stumble_tropical', title: 'Stumble Guys Mr Stumble Tropical', barcode: '594 8688 045379',hash: { _025: 1, drink: 1, stumble_guys: 1, },},
+{ id: 'vitamin_025', title: 'Vitamin', barcode: '482 0252 123137',hash: { _025: 1, drink: 1, vitamin: 1, },},
+{ id: 'xixo_025_cola', title: 'Xixo Cola', barcode: '599 9885 747757',hash: { _025: 1, drink: 1, xixo: 1, cola: 1, },},
+{ id: 'xixo_025_tutti_fruity', title: 'Xixo Tutti Fruity', barcode: '599 9571 050598',hash: { _025: 1, drink: 1, xixo: 1, },},
 
 
 
@@ -1867,30 +1532,19 @@ const arrListJars = [
 
 // 0.5 ---------------------------------------------------------------------------------------------------------------------------
 
-{ 
-	id: 'a_le_coq_05_ba', 
-	title: 'A.LeCoq Premium', 
-	barcode: '474 0098 080763',
-	hash: { _05: 1, beer0: 1, a_le_coq: 1, },
-},
-{ 
-	id: 'a_le_coq_05_ba_fass_brause_lemon', 
-	title: 'A.LeCoq Fass Brause Lemon', 
-	barcode: '474 0098 090496',
-	hash: { _05: 1, beer0: 1, a_le_coq: 1, },
-},
-{ 
-	id: 'a_le_coq_05_ba_fass_brause_maasika_margarita', 
-	title: 'A.LeCoq Fass Brause Maasika Margarita', 
-	barcode: '474 0098 001492',
-	hash: { _05: 1, beer0: 1, a_le_coq: 1, },
-},
-{ 
-	id: 'a_le_coq_05_ba_fass_brause_mojito', 
-	title: 'A.LeCoq Fass Brause Mojito', 
-	barcode: '474 0098 098195',
-	hash: { _05: 1, beer0: 1, a_le_coq: 1, },
-},
+{ id: 'a_le_coq_05_ba' 									, title: 'A.LeCoq Premium' 							, barcode: '474 0098 080763' 	, hash: { _05: 1, beer0: 1, a_le_coq: 1, } ,},
+{ id: 'a_le_coq_05_ba_fass_brause_lemon' 				, title: 'A.LeCoq Fass Brause Lemon' 				, barcode: '474 0098 090496' 	, hash: { _05: 1, beer0: 1, a_le_coq: 1, } ,},
+{ id: 'a_le_coq_05_ba_fass_brause_maasika_margarita' 	, title: 'A.LeCoq Fass Brause Maasika Margarita' 	, barcode: '474 0098 001492' 	, hash: { _05: 1, beer0: 1, a_le_coq: 1, } ,},
+{ id: 'a_le_coq_05_ba_fass_brause_mojito' 				, title: 'A.LeCoq Fass Brause Mojito' 				, barcode: '474 0098 098195' 	, hash: { _05: 1, beer0: 1, a_le_coq: 1, } ,},
+{ id: 'a_le_coq_05_ba_fass_brause_virsik' 				, title: 'A.LeCoq Fass Brause Virsik' 				, barcode: '474 0098 090502' 	, hash: { _05: 1, beer0: 1, a_le_coq: 1, } , date: '2025-08-22', },
+
+
+
+
+
+
+
+
 { 
 	id: 'arizona_05_mucho_mango', 
 	title: 'AriZona Mucho Mango', 
@@ -2095,24 +1749,22 @@ const arrListJars = [
 	barcode: '871 4800 040822',
 	hash: { _05: 1, beer0: 1, bavaria: 1, },
 },
-{ 
-	id: 'best_shot_05_mango_coconut', 
-	title: 'Best Shot Mango Coconut', 
-	barcode: '482 0022 692979',
-	hash: { _05: 1, energy: 1, best_shot: 1, },
-},
-{ 
-	id: 'best_shot_05_original', 
-	title: 'Best Shot Original', 
-	barcode: '482 0022 692955',
-	hash: { _05: 1, energy: 1, best_shot: 1, },
-},
-{ 
-	id: 'best_shot_05_watermelon_melon', 
-	title: 'Best Shot Watermelon Melon', 
-	barcode: '482 0022 692993',
-	hash: { _05: 1, energy: 1, best_shot: 1, },
-},
+
+
+
+{ id: 'best_shot_05_mango_coconut' 		, title: 'Best Shot Mango Coconut' 		, barcode: '482 0022 692979'	, hash: { _05: 1, energy: 1, best_shot 		: 1, } , },
+{ id: 'best_shot_05_original' 			, title: 'Best Shot Original' 			, barcode: '482 0022 692955'	, hash: { _05: 1, energy: 1, best_shot 		: 1, } , },
+{ id: 'best_shot_05_watermelon_melon' 	, title: 'Best Shot Watermelon Melon' 	, barcode: '482 0022 692993'	, hash: { _05: 1, energy: 1, best_shot 		: 1, } , },
+{ id: 'best_shot_05_zero_sugar' 		, title: 'Best Shot Zero Sugar' 		, barcode: '482 0022 693150'	, hash: { _05: 1, energy: 1, best_shot 		: 1, } , date: '2025-08-22', },
+{ id: 'big_energy_05_original' 			, title: 'Big Energy Original' 			, barcode: '482 0229 037481' 	, hash: { _05: 1, energy: 1, big_energy 	: 1, } , date: '2025-08-22', },
+
+
+
+
+
+
+
+
 { 
 	id: 'bitburger_05_ba', 
 	title: 'Bitburger 0.0 %', 
@@ -2714,150 +2366,38 @@ const arrListJars = [
 	barcode: '477 0301 237370',
 	hash: { _05: 1, beer0: 1, meister: 1, },
 },
-{ 
-	id: 'monster_05', 
-	title: 'Monster Energy', 
-	barcode: '506 0166 692483',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_assault', 
-	title: 'Monster Assault', 
-	barcode: '506 0896 622309',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_mule', 
-	title: 'Monster Mule', 
-	barcode: '506 0751 211228',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_nitro', 
-	title: 'Monster Nitro Super Dry', 
-	barcode: '506 0751 218920',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_nitro_cosmic_peach', 
-	title: 'Monster Nitro Cosmic Peach', 
-	barcode: '506 0947 546844',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_the_doctor', 
-	title: 'Monster The Doctor', 
-	barcode: '506 0335 635365',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra', 
-	title: 'Monster Ultra', 
-	barcode: '506 0947 547162',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_blue', 
-	title: 'Monster Ultra Blue', 
-	barcode: '506 0751 211471',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_gold', 
-	title: 'Monster Ultra Gold', 
-	barcode: '506 0896 623863',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_fiesta_mango', 
-	title: 'Monster Ultra Fiesta Mango', 
-	barcode: '506 0751 213826',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_paradise', 
-	title: 'Monster Ultra Paradise', 
-	barcode: '506 0751 211600',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_violet', 
-	title: 'Monster Ultra Violet', 
-	barcode: '506 0639 125739',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_ultra_watermelon', 
-	title: 'Monster Ultra Watermelon', 
-	barcode: '506 0896 620329',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_zero_cukru', 
-	title: 'Monster Zero Cukru', 
-	barcode: '506 0896 625461',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_zero_sugar', 
-	title: 'Monster Zero Sugar', 
-	barcode: '506 0896 625409',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_juiced_aussie_lemonade', 
-	title: 'Monster Juiced Aussie Lemonade', 
-	barcode: '506 0947 540620',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_juiced_khaotic', 
-	title: 'Monster Juiced Khaotic', 
-	barcode: '506 0751 211358',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_juiced_mango_loco', 
-	title: 'Monster Juiced Mango Loco', 
-	barcode: '506 0639 121700',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_juiced_monarch', 
-	title: 'Monster Juiced Monarch', 
-	barcode: '506 0751 217480',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_juiced_ripper', 
-	title: 'Monster Juiced Ripper', 
-	barcode: '506 0166 692537',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_punch_pacific', 
-	title: 'Monster Punch Pacific Pipeline', 
-	barcode: '506 0751 211419',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_punch_pipeline', 
-	title: 'Monster Punch Pipeline', 
-	barcode: '506 0639 123582',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_rehab_tea_lemonade', 
-	title: 'Monster Rehab Tea Lemonade', 
-	barcode: '506 0166 698959',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
-{ 
-	id: 'monster_05_rehab_tea_peach', 
-	title: 'Monster Rehab Tea Peach', 
-	barcode: '506 0517 884833',
-	hash: { _05: 1, energy: 1, monster: 1, },
-},
+
+
+{ id: 'monster_05' 							, title: 'Monster Energy' 					, barcode: '506 0166 692483' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_assault' 					, title: 'Monster Assault' 					, barcode: '506 0896 622309' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_mule' 					, title: 'Monster Mule' 					, barcode: '506 0751 211228' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_nitro' 					, title: 'Monster Nitro Super Dry' 			, barcode: '506 0751 218920' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_nitro_cosmic_peach' 		, title: 'Monster Nitro Cosmic Peach' 		, barcode: '506 0947 546844' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_the_doctor' 				, title: 'Monster The Doctor' 				, barcode: '506 0335 635365' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra' 					, title: 'Monster Ultra' 					, barcode: '506 0947 547162' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_blue' 				, title: 'Monster Ultra Blue' 				, barcode: '506 0751 211471' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_gold' 				, title: 'Monster Ultra Gold' 				, barcode: '506 0896 623863' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_fiesta_mango' 		, title: 'Monster Ultra Fiesta Mango' 		, barcode: '506 0751 213826' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_paradise' 			, title: 'Monster Ultra Paradise' 			, barcode: '506 0751 211600' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_violet' 			, title: 'Monster Ultra Violet' 			, barcode: '506 0639 125739' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_ultra_watermelon' 		, title: 'Monster Ultra Watermelon' 		, barcode: '506 0896 620329' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_zero_cukru' 				, title: 'Monster Zero Cukru' 				, barcode: '506 0896 625461' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_zero_sugar' 				, title: 'Monster Zero Sugar' 				, barcode: '506 0896 625409' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_juiced_aussie_lemonade' 	, title: 'Monster Juiced Aussie Lemonade' 	, barcode: '506 0947 540620' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_juiced_khaotic' 			, title: 'Monster Juiced Khaotic' 			, barcode: '506 0751 211358' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_juiced_mango_loco' 		, title: 'Monster Juiced Mango Loco' 		, barcode: '506 0639 121700' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_juiced_monarch' 			, title: 'Monster Juiced Monarch' 			, barcode: '506 0751 217480' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_juiced_ripper' 			, title: 'Monster Juiced Ripper' 			, barcode: '506 0166 692537' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_punch_pacific' 			, title: 'Monster Punch Pacific Pipeline' 	, barcode: '506 0751 211419' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_punch_pipeline' 			, title: 'Monster Punch Pipeline' 			, barcode: '506 0639 123582' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_punch_rio' 				, title: 'Monster Punch Rio' 				, barcode: '505 6784 903476' , hash: { _05: 1, energy: 1, monster: 1, } , date: '2025-08-22', },
+{ id: 'monster_05_rehab_tea_lemonade' 		, title: 'Monster Rehab Tea Lemonade' 		, barcode: '506 0166 698959' , hash: { _05: 1, energy: 1, monster: 1, } , },
+{ id: 'monster_05_rehab_tea_peach' 			, title: 'Monster Rehab Tea Peach' 			, barcode: '506 0517 884833' , hash: { _05: 1, energy: 1, monster: 1, } , },
+
+
+
+
+
 { 
 	id: 'ngine_05_classic', 
 	title: 'Ngine Classic', 
@@ -3110,54 +2650,22 @@ const arrListJars = [
 	barcode: '482 0193 030136',
 	hash: { _05: 1, beer0: 1, _0_non_alco: 1, },
 },
-{ 
-	id: '1_privatna_brovarnya_05_ba_nefiltrovane', 
-	title: '1 Безалкогольне Нефільтроване', 
-	barcode: '482 0046 963369',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_firmove_hmil', 
-	title: '1 Безалкогольне Фірмове', 
-	barcode: '482 0046 964304',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_firmove_lemon_lime', 
-	title: 'Безалкогольне Фірмове Лимон-Лайм', 
-	barcode: '482 0046 964786',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_firmove_grapefruit_orange', 
-	title: 'Безалкогольне Фірмове Грейпфрут-Апельсин', 
-	barcode: '482 0046 964779',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_specialne', 
-	title: '1 приватна броварня Нефільтроване спеціальне', 
-	barcode: '482 0046 963369',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_1', 
-	title: '1 Безалкогольне №0', 
-	barcode: '482 0046 963369',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_2', 
-	title: '1 Безалкогольне №0', 
-	barcode: '482 0046 964304',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
-{ 
-	id: '1_privatna_brovarnya_05_ba_bezalkogolne_lemon_lime', 
-	title: '1 Безалкогольне №0 Лимон Лайм', 
-	barcode: '482 0046 964786',
-	hash: { _05: 1, beer0: 1, _1_priv_brov: 1, },
-},
+
+
+{ id: '1_privatna_brovarnya_05_ba_specialne' 						, title: '1ПБ Нефільтроване спеціальне' 	, barcode: '482 0046 963369' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_nefiltrovane' 					, title: '1ПБ Нефільтроване' 				, barcode: '482 0046 963369' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_firmove_hmil' 					, title: '1ПБ Фірмове' 						, barcode: '482 0046 964304' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_firmove_grapefruit_orange' 		, title: '1ПБ Фірмове Грейпфрут-Апельсин' 	, barcode: '482 0046 964779' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_firmove_lemon_lime' 				, title: '1ПБ Фірмове Лимон-Лайм' 			, barcode: '482 0046 964786' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_2' 				, title: '1ПБ №0 Світле' 					, barcode: '482 0046 964304' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_1' 				, title: '1ПБ №0' 							, barcode: '482 0046 963369' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_bezalkogolne_lemon_lime' 			, title: '1ПБ №0 Лимон Лайм' 				, barcode: '482 0046 964786' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+{ id: '1_privatna_brovarnya_05_ba_bezalkogolne_strawberry_cherry' 	, title: '1ПБ №0 Малина Вишня' 				, barcode: '482 0046 965479' 	, hash: { _05: 1, beer0: 1, _1_priv_brov: 1, } , },
+
+
+
+
+
 { 
 	id: 'bile_05', 
 	title: 'Біле', 
