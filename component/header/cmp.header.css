@@ -6,6 +6,7 @@ cmp-header {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	background: var( --bg-b );
+	z-index: 1;
 }
 
 	cmp-header .head {

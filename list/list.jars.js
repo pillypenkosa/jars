@@ -134,6 +134,7 @@ const arrListJars = [
 { id: 'komodo_025_cola_strong' 									, title: 'Komodo Cola Strong' 									, barcode: '590 2854 103140' 	, hash: { _025: 1, energy 	: 1 	, komodo 		: 1, cola: 1, }, },
 { id: 'lemonade_joe_025_lemonade_classic' 						, title: 'Lemonade Joe Lemonade Classic' 						, barcode: '594 8688 042033'	, hash: { _025: 1, drink 	: 1 	, lemonade_joe 	: 1 , }, },
 { id: 'lemonade_joe_025_lemonade_watermelon' 					, title: 'Lemonade Joe Lemonade Watermelon' 					, barcode: '594 8688 042040'	, hash: { _025: 1, drink 	: 1 	, lemonade_joe 	: 1 , }, },
+{ id: 'lol_surprise_025_lollipop_cherry' 						, title: 'L.O.L. Surprise Lollipop Cherry' 						, barcode: '594 8688 042057'	, hash: { _025: 1, drink 	: 1 	, lol 			: 1 , }, },
 { id: 'mac_coffee_025_original' 								, title: 'Mac Coffee Original' 									, barcode: '888 7290 112024' 	, hash: { _025: 1, coffee 	: 1 	, mac_coffee 	: 1 , }, date: '2025-08-22', },
 { id: 'maison_perrier_025_forever_lime' 						, title: 'Maison Perrier Forever Lime' 							, barcode: '844 5291 045637' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
 { id: 'maison_perrier_025_magnetic_juice_pineapple_mango' 		, title: 'Maison Perrier Magnetic Juice Pineapple Mango' 		, barcode: '844 5291 047617' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
