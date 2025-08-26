@@ -43,6 +43,7 @@ const arrListJarsName = [
 	{ id: 'cola' 					, title: 'Cola' 					, } ,
 	{ id: 'cola_vegan' 				, title: 'Cola Vegan' 				, } ,
 	{ id: 'cortes' 					, title: 'Cortes' 					, } ,
+	{ id: 'cult' 					, title: 'Cult' 					, } ,
 	{ id: 'double_seven' 			, title: 'Double Seven' 			, } ,
 	{ id: 'douwe_egberts' 			, title: 'Douwe Egberts' 			, } ,
 	{ id: 'dr_pepper' 				, title: 'Dr Pepper' 				, } ,
