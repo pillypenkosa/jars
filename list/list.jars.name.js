@@ -29,7 +29,7 @@ const arrListJarsName = [
 	{ id: 'black' 					, title: 'Black' 					, } ,
 	{ id: 'bomba' 					, title: 'Bomba B!' 				, } ,
 	{ id: 'bos' 					, title: 'Bos' 						, } ,
-	{ id: 'bud' 					, title: 'Bbud' 					, } ,
+	{ id: 'bud' 					, title: 'Bud' 						, } ,
 	{ id: 'budvar' 					, title: 'Budvar' 					, } ,
 	{ id: 'bum_bum' 				, title: 'Bum Bum' 					, } ,
 	{ id: 'burn' 					, title: 'Burn' 					, } ,
