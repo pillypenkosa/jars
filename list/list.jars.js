@@ -547,6 +547,7 @@ const arrListJars = [
 { id: 'sherwood_05_strawberry_cream_taste' 							, title: 'Sherwood Strawberry & Cream Taste' 		, barcode: '470 0301 236755' 	, hash: { _05: 1 	, cider 			: 1 	, sherwood 					: 1, }, },
 { id: 'stammgast_gold_alkoholfrei_05_ba' 							, title: 'Stammgast Gold Alkoholfrei' 				, barcode: '410 1940 141658' 	, hash: { _05: 1 	, beer0 			: 1 	, stammgast 				: 1, }, },
 { id: 'svijany_05_ba_svijansky_vozka' 								, title: 'Svijany Svijansky Vozka' 					, barcode: '859 4030 013137' 	, hash: { _05: 1 	, beer0 			: 1 	, svijany 					: 1, }, },
+{ id: 'tanker_05_ba_select_0' 										, title: 'Tanker Select 0.0' 						, barcode: '474 4109 011784' 	, hash: { _05: 1 	, beer0 			: 1 	, tanker					: 1, }, date: '2025-08-28', },
 { id: 'tauras_05_ba_ekstra' 										, title: 'Tauras Ekstra 0,0' 						, barcode: '477 0477 233886' 	, hash: { _05: 1 	, beer0 			: 1 	, tauras 					: 1, }, },
 { id: 'tauras_05_ba_tradicinis' 									, title: 'Tauras Tradicinis 0.0' 					, barcode: '477 0477 229957' 	, hash: { _05: 1 	, beer0 			: 1 	, tauras 					: 1, }, },
 { id: 'tuborg_05_raspberry' 										, title: 'Tuborg Zero Raspberry' 					, barcode: '482 0250 942105' 	, hash: { _05: 1 	, beer0 			: 1 	, tuborg 					: 1, }, },

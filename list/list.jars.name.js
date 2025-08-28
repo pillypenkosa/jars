@@ -145,6 +145,7 @@ const arrListJarsName = [
 	{ id: 'stumble_guys' 			, title: 'Stumble Guys' 			, } ,
 	{ id: 'svijany' 				, title: 'Svijany' 					, } ,
 	{ id: 'tango' 					, title: 'Tango' 					, } ,
+	{ id: 'tanker' 					, title: 'Tanker' 					, } ,
 	{ id: 'tauras' 					, title: 'Tauras' 					, } ,
 	{ id: 'tuborg' 					, title: 'Tuborg' 					, } ,
 	{ id: 'ukie' 					, title: 'Ukie' 					, } ,
