@@ -128,6 +128,7 @@ const arrListJarsName = [
 	{ id: 'r_whtes' 				, title: 'R Whtes' 					, } ,
 	{ id: 'red_bull' 				, title: 'Red Bull' 				, } ,
 	{ id: 'regenera' 				, title: 'Regenera' 				, } ,
+	{ id: 'revo' 					, title: 'Revo' 					, } ,
 	{ id: 'ritterburg' 				, title: 'Ritterburg' 				, } ,
 	{ id: 'roar' 					, title: 'Roar' 					, } ,
 	{ id: 'rockstar_refresh' 		, title: 'Rockstar Refresh' 		, } ,
