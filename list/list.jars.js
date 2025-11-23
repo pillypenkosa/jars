@@ -146,6 +146,7 @@ const arrListJars = [
 { id: 'maison_perrier_025_magnetic_juice_pineapple_mango' 		, title: 'Maison Perrier Magnetic Juice Pineapple Mango' 		, barcode: '844 5291 047617' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
 { id: 'maison_perrier_025_magnetic_juice_lemon_guava' 			, title: 'Maison Perrier Magnetic Juice Lemon Guava' 			, barcode: '844 5291 047570' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
 { id: 'maison_perrier_025_magnetic_juice_peach_cherry' 			, title: 'Maison Perrier Magnetic Juice Peach Cherry' 			, barcode: '844 5291 047655' 	, hash: { _025: 1, water 	: 1 	, perrier 		: 1 , }, },
+{ id: 'milkis_025_original' 									, title: 'Milkis Original' 										, barcode: '872 0663 431134' 	, hash: { _025: 1, drink 	: 1 	, milkis  		: 1 , } , },
 { id: 'minions_025_kinder_cola' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
 { id: 'minions_025_kinder_cola_2' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
 { id: 'minions_025_kinder_cola_3' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , date: '2025-08-22', },

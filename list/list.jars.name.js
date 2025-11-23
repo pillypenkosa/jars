@@ -103,6 +103,7 @@ const arrListJarsName = [
 	{ id: 'maaza' 					, title: 'Maaza' 					, } ,
 	{ id: 'mac_coffee' 				, title: 'Mac Coffee' 				, } ,
 	{ id: 'meister' 				, title: 'Meister' 					, } ,
+	{ id: 'milkis' 					, title: 'Milkis' 					, } ,
 	{ id: 'minions' 				, title: 'Minions' 					, } ,
 	{ id: 'mirinda' 				, title: 'Mirinda' 					, } ,
 	{ id: 'mojito' 					, title: 'Mojito' 					, } ,
