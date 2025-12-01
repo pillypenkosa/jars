@@ -160,6 +160,7 @@ const arrListJarsName = [
 	{ id: 'zibert' 					, title: 'Zibert' 					, } ,
 	{ id: 'zipfer' 					, title: 'Zipfer' 					, } ,
 	{ id: 'warheads' 				, title: 'WarHeads' 				, } ,
+	{ id: 'westfalen' 				, title: 'Westfalen' 				, } ,
 	{ id: '_0_non_alco' 			, title: '0 Non Alcoholic' 			, } ,
 	{ id: 'bile' 					, title: 'Біле' 					, } ,
 	{ id: 'vyatrachok' 				, title: 'Вятрачок' 				, } ,
@@ -172,7 +173,6 @@ const arrListJarsName = [
 	{ id: 'rozmay_lisovy' 			, title: 'Розмай лісовий' 			, } ,
 	{ id: 'chayka' 					, title: 'Чайка ' 					, } ,
 	{ id: 'chernigivske' 			, title: 'Чернігівське ' 			, } ,
-	
 	{ id: 'kvass' 					, title: 'Квас' 					, } ,
 	{ id: 'kvass_premium' 			, title: '- Kvass Premium' 			, } ,
 	{ id: 'kvass_tail' 				, title: '- Kvastail' 				, } ,

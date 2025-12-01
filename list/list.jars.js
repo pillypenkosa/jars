@@ -108,6 +108,7 @@ const arrListJars = [
 { id: 'hell_025_zero_red_currant_grapefruit' 					, title: 'Hell Zero Red Currant Grapefruit' 					, barcode: '599 9571 050659' 	, hash: { _025: 1, energy 	: 1 	, hell 			: 1, }, },
 { id: 'hell_025_le_lime_flavour' 								, title: 'Hell Limited Edition Lime Spritz Flavour' 			, barcode: '599 9571 055692' 	, hash: { _025: 1, energy 	: 1 	, hell 			: 1, }, },
 { id: 'hell_025_le_maracuja_spritz_flavour' 					, title: 'Hell Limited Edition Maracuja Spritz Flavour' 		, barcode: '599 9571 055678' 	, hash: { _025: 1, energy 	: 1 	, hell 			: 1, }, },
+{ id: 'hell_025_sparkler' 										, title: 'Hell Sparkler' 										, barcode: '599 9571 055173' 	, hash: { _025: 1, energy 	: 1 	, hell 			: 1, }, date: '2025-11-30', },
 { id: 'hello_kitty_025_strawberry_apple' 						, title: 'Hello Kitty Strawberry Apple' 						, barcode: '594 0733 900008' 	, hash: { _025: 1, drink 	: 1 	, hello_kitty 	: 1, }, date: '2025-08-22', },
 { id: 'iron_025_classic' 										, title: 'Iron Classic' 										, barcode: '590 0552 080527' 	, hash: { _025: 1, energy 	: 1 	, iron 			: 1, }, },
 { id: 'iron_025_zero_sugar' 									, title: 'Iron Zero Sugar' 										, barcode: '590 0552 080541' 	, hash: { _025: 1, energy 	: 1 	, iron 			: 1, }, },
@@ -345,11 +346,10 @@ const arrListJars = [
 { id: 'kvas_taras_033_strawberry' 					, title: 'Квас Тарас Crazy Суниця М\'ята' 				, barcode: '482 0000 459310' 	, hash: { _033: 1, kvass_taras 	: 1 	, }, },
 { id: 'warheads_033_sour_black_cherry_soda' 		, title: 'WarHeads Sour Black Cherry Soda' 				, barcode: '8 50035 24863 8' 	, hash: { _033: 1, warheads 	: 1 	, }, },
 { id: 'warheads_033_sour_blue_raspberry_soda' 		, title: 'WarHeads Sour Blue Raspberry Soda' 			, barcode: '8 50035 24864 5' 	, hash: { _033: 1, warheads 	: 1 	, }, },
-
-
-
-
-
+{ id: 'westfalen_033_classic' 						, title: 'Westfalen Classic' 							, barcode: '5 902854 109258' 	, hash: { _033: 1, beer0 		: 1 	, westfalen 	: 1, }, date: '2025-12-01', },
+{ id: 'westfalen_033_dates_honey' 					, title: 'Westfalen Dates & Honey' 						, barcode: '5 902854 109289' 	, hash: { _033: 1, beer0 		: 1 	, westfalen 	: 1, }, date: '2025-12-01', },
+{ id: 'westfalen_033_dates_raisins' 				, title: 'Westfalen Dates & Raisins' 					, barcode: '5 902854 109296' 	, hash: { _033: 1, beer0 		: 1 	, westfalen 	: 1, }, date: '2025-12-01', },
+{ id: 'westfalen_033_pineapple' 					, title: 'Westfalen Pineapple' 							, barcode: '5 902854 109395' 	, hash: { _033: 1, beer0 		: 1 	, westfalen 	: 1, }, date: '2025-12-01', },
 
 
 
@@ -537,6 +537,8 @@ const arrListJars = [
 { id: 'non_stop_05_original_zero_sugar' 							, title: 'Non Stop Original Zero Sugar' 			, barcode: '482 0252 125360'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, date: '2025-11-20', },
 { id: 'non_stop_05_ultra' 											, title: 'Non Stop Ultra' 							, barcode: '482 0097 899952'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_zoom' 											, title: 'Non Stop Zoom' 							, barcode: '482 0252 124035'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
+{ id: 'non_stop_05_spark' 											, title: 'Non Stop Spark' 							, barcode: '482 0252 125612'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, date: '2025-11-30', },
+{ id: 'non_stop_05_20_years_edition' 								, title: 'Non Stop 20 Years Edition' 				, barcode: '482 0252 125636'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, date: '2025-11-30', },
 { id: 'non_stop_05_stalker' 										, title: 'Non Stop Stalker' 						, barcode: '482 0252 122413'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_stalker_2' 										, title: 'Non Stop Stalker' 						, barcode: '482 0252 122901'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_stalker_3' 										, title: 'Non Stop Stalker' 						, barcode: '482 0252 124837'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
