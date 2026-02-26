@@ -111,6 +111,7 @@ const arrListJarsName = [
 	{ id: 'molecola' 				, title: 'Molecola' 				, } ,
 	{ id: 'monster' 				, title: 'Monster' 					, } ,
 	{ id: 'mountain_dew' 			, title: 'Mountain Dew' 			, } ,
+	{ id: 'move_on' 				, title: 'Move On' 					, } ,
 	{ id: 'ngine' 					, title: 'Ngine' 					, } ,
 	{ id: 'nescafe' 				, title: 'Nescafe' 					, } ,
 	{ id: 'nestea' 					, title: 'Nestea' 					, } ,
