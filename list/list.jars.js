@@ -550,7 +550,7 @@ const arrListJars = [
 { id: 'monster_05_punch_rio' 										, title: 'Monster Punch Rio' 						, barcode: '505 6784 903476' 	, hash: { _05: 1 	, energy 			: 1 	, monster 					: 1, }, date: '2025-08-22', },
 { id: 'monster_05_rehab_tea_lemonade' 								, title: 'Monster Rehab Tea Lemonade' 				, barcode: '506 0166 698959' 	, hash: { _05: 1 	, energy 			: 1 	, monster 					: 1, }, },
 { id: 'monster_05_rehab_tea_peach' 									, title: 'Monster Rehab Tea Peach' 					, barcode: '506 0517 884833' 	, hash: { _05: 1 	, energy 			: 1 	, monster 					: 1, }, },
-{ id: 'move_on_05_original' 										, title: 'Move On Original' 						, barcode: '2 999300 114051' 	, hash: { _05: 1 	, energy 			: 1 	, move_on 					: 1, }, },
+{ id: 'move_on_05_original' 										, title: 'Move On Original' 						, barcode: '2 999300 114051' 	, hash: { _05: 1 	, energy 			: 1 	, move_on 					: 1, }, date: '2026-02-26', },
 { id: 'ngine_05_classic' 											, title: 'Ngine Classic' 							, barcode: '590 0552 085256'	, hash: { _05: 1 	, energy 			: 1 	, ngine 					: 1, }, },
 { id: 'non_stop_05_boost' 											, title: 'Non Stop Boost' 							, barcode: '482 0097 899167'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_jungle' 											, title: 'Non Stop Jungle' 							, barcode: '482 0097 897217'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
