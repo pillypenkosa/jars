@@ -553,6 +553,7 @@ const arrListJars = [
 { id: 'move_on_05_original' 										, title: 'Move On Original' 						, barcode: '2 999300 114051' 	, hash: { _05: 1 	, energy 			: 1 	, move_on 					: 1, }, date: '2026-02-26', },
 { id: 'ngine_05_classic' 											, title: 'Ngine Classic' 							, barcode: '590 0552 085256'	, hash: { _05: 1 	, energy 			: 1 	, ngine 					: 1, }, },
 { id: 'non_stop_05_boost' 											, title: 'Non Stop Boost' 							, barcode: '482 0097 899167'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
+{ id: 'non_stop_05_juice_series' 									, title: 'Non Stop Juice Series' 					, barcode: '4 820252 125759'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, date: '2026-03-26', },
 { id: 'non_stop_05_jungle' 											, title: 'Non Stop Jungle' 							, barcode: '482 0097 897217'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_original' 										, title: 'Non Stop Original' 						, barcode: '482 0097 890324'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, },
 { id: 'non_stop_05_original_zero_sugar' 							, title: 'Non Stop Original Zero Sugar' 			, barcode: '482 0252 125360'	, hash: { _05: 1 	, energy 			: 1 	, non_stop 					: 1, }, date: '2025-11-20', },
