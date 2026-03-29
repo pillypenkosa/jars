@@ -266,6 +266,7 @@ const arrListJars = [
 { id: 'charlies_033_raspberry_lime' 				, title: 'Charlie\'s Raspberry & Lime' 					, barcode: '871 8858 612031' 	, hash: { _033: 1, drink 		: 1 	, charlies 		: 1, }, },
 { id: 'coca_cola_033_light' 						, title: 'Coca-Cola Light' 								, barcode: '500 0112 545340' 	, hash: { _033: 1, drink 		: 1 	, coca_cola 	: 1, cola: 1, }, },
 { id: 'coca_cola_033_cherry' 						, title: 'Coca-Cola Cherry' 							, barcode: '574 0700 995774' 	, hash: { _033: 1, drink 		: 1 	, coca_cola 	: 1, cola: 1, }, },
+{ id: 'coca_cola_033_vanilla' 						, title: 'Coca-Cola Vanilla' 							, barcode: '5 449000 098917' 	, hash: { _033: 1, drink 		: 1 	, coca_cola 	: 1, cola: 1, }, date: '2025-11-22',},
 { id: 'double_seven_033' 							, title: 'Double Seven' 								, barcode: '842 3453 905913' 	, hash: { _033: 1, energy 		: 1 	, double_seven 	: 1, }, },
 { id: 'double_seven_033_zero' 						, title: 'Double Seven Zero' 							, barcode: '842 5402 788417' 	, hash: { _033: 1, energy 		: 1 	, double_seven 	: 1, }, },
 { id: 'dr_pepper_033' 								, title: 'Dr Pepper 23' 								, barcode: '843 5185 944009' 	, hash: { _033: 1, drink 		: 1 	, dr_pepper 	: 1, }, },
