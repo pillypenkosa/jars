@@ -165,6 +165,7 @@ const arrListJars = [
 { id: 'minions_025_kinder_cola' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
 { id: 'minions_025_kinder_cola_2' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , },
 { id: 'minions_025_kinder_cola_3' 								, title: 'Minions Kinder Cola' 									, barcode: '590 4730 983693' 	, hash: { _025: 1, drink 	: 1 	, minions 		: 1 , cola: 1, } , date: '2025-08-22', },
+{ id: 'mojo_025_mint_lime' 										, title: 'Mojo Mint Lime' 										, barcode: '4 820252 125674' 	, hash: { _025: 1, drink 	: 1 	, mojo 			: 1 , } , date: '2026-03-31',},
 { id: 'mole_cola_025' 											, title: 'Mole Cola' 											, barcode: '805 4377 870027' 	, hash: { _025: 1, drink 	: 1 	, molecola 		: 1 , cola: 1, } , },
 { id: 'nescafe_025_americano' 									, title: 'Nescafe Americano' 									, barcode: '844 5290 619167' 	, hash: { _025: 1, coffee 	: 1 	, nescafe 		: 1 , }, },
 { id: 'nescafe_025_cappucchino' 								, title: 'Nescafe Cappucchino' 									, barcode: '844 5290 618498' 	, hash: { _025: 1, coffee 	: 1 	, nescafe 		: 1 , }, },
