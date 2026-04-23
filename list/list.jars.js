@@ -470,6 +470,7 @@ const arrListJars = [
 { id: 'garage_05_ba_fun_zero_grapefruit' 							, title: 'Garage Fun Zero Grapefruit' 				, barcode: '482 0250 941948' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_fun_zero_lime' 									, title: 'Garage Fun Zero Lime' 					, barcode: '482 0250 941894' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_fun_zero_raspberry' 							, title: 'Garage Fun Zero Raspberry' 				, barcode: '482 0250 941917' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
+{ id: 'garage_05_ba_fun_zero_pomegranate' 							, title: 'Garage Fun Zero Pomegranate' 				, barcode: '4 820250 944789' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-04-23', },
 { id: 'geyser_05_exotic' 											, title: 'Geyser Exotic' 							, barcode: '482 0183 001634' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
 { id: 'geyser_05_forest_drop' 										, title: 'Geyser Forest Drop' 						, barcode: '482 0183 001627' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
 { id: 'geyser_05_original' 											, title: 'Geyser Original' 							, barcode: '482 0183 001610' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
