@@ -641,6 +641,7 @@ const arrListJars = [
 { id: 'chayka_05_ba_chornomorska_lemon_lime' 						, title: 'Чайка Чорноморська Лимон Лайм' 			, barcode: '482 0022 693112' 	, hash: { _05: 1 	, beer0 			: 1 	, chayka 					: 1, }, },
 { id: 'chernigivske_05_ba_blue' 									, title: 'Чернігівське 0.0' 						, barcode: '482 0034 923634' 	, hash: { _05: 1 	, beer0 			: 1 	, chernigivske 				: 1, }, },
 { id: 'chernigivske_05_ba_white' 									, title: 'Чернігівське 0.0' 						, barcode: '482 0034 923634' 	, hash: { _05: 1 	, beer0 			: 1 	, chernigivske 				: 1, }, },
+{ id: 'chernigivske_05_ba' 											, title: 'Чернігівське 0' 							, barcode: '4 820034 927694' 	, hash: { _05: 1 	, beer0 			: 1 	, chernigivske 				: 1, }, date: '2026-04-26', },
 { id: 'smetoniska_05_gira' 											, title: 'Smetoniska Gira' 							, barcode: '477 0301 229740' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass 					: 1, }, },
 { id: 'kvas_05_hlibny' 												, title: 'Квас Хлібний' 							, barcode: '299 9300 107329' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass 					: 1, }, },
 { id: 'kvas_05_starokyivsky' 										, title: 'Квас Старокиївський' 						, barcode: '482 0002 713090' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass 					: 1, }, },
