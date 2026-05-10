@@ -615,6 +615,7 @@ const arrListJars = [
 { id: '1_privatna_brovarnya_05_ba_bezalkogolne_n0_1' 				, title: '1ПБ №0' 									, barcode: '482 0046 963369' 	, hash: { _05: 1 	, beer0 			: 1 	, _1_priv_brov 				: 1, }, },
 { id: '1_privatna_brovarnya_05_ba_bezalkogolne_lemon_lime' 			, title: '1ПБ №0 Лимон Лайм' 						, barcode: '482 0046 964786' 	, hash: { _05: 1 	, beer0 			: 1 	, _1_priv_brov 				: 1, }, },
 { id: '1_privatna_brovarnya_05_ba_bezalkogolne_strawberry_cherry' 	, title: '1ПБ №0 Малина Вишня' 						, barcode: '482 0046 965479' 	, hash: { _05: 1 	, beer0 			: 1 	, _1_priv_brov 				: 1, }, },
+{ id: '1_privatna_brovarnya_05_ba_bezalkogolne_grapefruit_orange' 	, title: '1ПБ №0 Грейпфрут Апельсин' 				, barcode: '4 820046 964779' 	, hash: { _05: 1 	, beer0 			: 1 	, _1_priv_brov 				: 1, }, date: '2026-05-10', },
 { id: 'bile_05' 													, title: 'Біле' 									, barcode: '482 0034 920336' 	, hash: { _05: 1 	, beer 				: 1 	, bile 						: 1, }, },
 { id: 'bile_05_ba' 													, title: 'Біле 0 Alco' 								, barcode: '482 0034 925263' 	, hash: { _05: 1 	, beer0 			: 1 	, bile 						: 1, }, },
 { id: 'bile_05_ba_grapefruit' 										, title: 'Біле 0 Grapefruit' 						, barcode: '482 0034 927281' 	, hash: { _05: 1 	, beer0 			: 1 	, bile 						: 1, }, },
