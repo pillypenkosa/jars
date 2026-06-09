@@ -120,7 +120,8 @@ const arrListJars = [
 { id: 'jacobs_025_icepresso_latte_2' 							, title: 'Jacobs Ice Presso Latte' 								, barcode: '871 1000 710227' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, },
 { id: 'jacobs_025_icepresso_classic' 							, title: 'Jacobs Icepresso Classic' 							, barcode: '871 1000 582077' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, },
 { id: 'jacobs_025_icepresso_latte_3' 							, title: 'Jacobs Ice Presso Latte' 								, barcode: '871 1000 710227' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, },
-{ id: 'jacobs_025_icepresso_latte_4' 							, title: 'Jacobs Latte Ice Presso ' 							, barcode: '871 1000 582138' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, date: '2025-11-21', },
+{ id: 'jacobs_025_icepresso_latte_4' 							, title: 'Jacobs Latte Ice Presso' 								, barcode: '871 1000 582138' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, date: '2025-11-21', },
+{ id: 'jacobs_025_icepresso_latte_caramel' 						, title: 'Jacobs Latte Ice Presso Caramel' 						, barcode: '8 711000 609644' 	, hash: { _025: 1, coffee 	: 1 	, jacobs 		: 1, }, date: '2026-06-03', },
 { id: 'komodo_025_banana' 										, title: 'Komodo Banana' 										, barcode: '590 2854 102372' 	, hash: { _025: 1, energy 	: 1 	, komodo 		: 1, }, },
 { id: 'komodo_025_banana_2' 									, title: 'Komodo Banana' 										, barcode: '590 2854 102372' 	, hash: { _025: 1, energy 	: 1 	, komodo 		: 1, }, },
 { id: 'komodo_025_black_currant' 								, title: 'Komodo Black Currant' 								, barcode: '590 6213 010162' 	, hash: { _025: 1, energy 	: 1 	, komodo 		: 1, }, },
@@ -199,6 +200,7 @@ const arrListJars = [
 { id: 'pulse_025_black' 										, title: 'Pulse' 												, barcode: '477 1632 312637' 	, hash: { _025: 1, energy 	: 1 	, pulse 		: 1 , }, },
 { id: 'pulse_025_mango' 										, title: 'Pulse Mango' 											, barcode: '477 1632 314181' 	, hash: { _025: 1, energy 	: 1 	, pulse 		: 1 , }, },
 { id: 'pulse_025_white' 										, title: 'Pulse' 												, barcode: '477 1632 314211' 	, hash: { _025: 1, energy 	: 1 	, pulse 		: 1 , }, },
+{ id: 'pulse_025_blueberry' 									, title: 'Pulse Blueberry' 										, barcode: '4 771632 004785' 	, hash: { _025: 1, energy 	: 1 	, pulse 		: 1 , }, date: '2026-06-09', },
 { id: 'red_bull_025' 											, title: 'Red Bull З таурином' 									, barcode: '90 02490 100070' 	, hash: { _025: 1, energy 	: 1 	, red_bull 		: 1 , }, },
 { id: 'red_bull_025_olga_harlan' 								, title: 'Red Bull (Ольга Харлан)' 								, barcode: '90 02490 100070' 	, hash: { _025: 1, energy 	: 1 	, red_bull 		: 1 , }, },
 { id: 'red_bull_025_2' 											, title: 'Red Bull З таурином' 									, barcode: '9016 2800' 			, hash: { _025: 1, energy 	: 1 	, red_bull 		: 1 , }, },
@@ -230,8 +232,8 @@ const arrListJars = [
 { id: 'xixo_025_cola' 											, title: 'Xixo Cola' 											, barcode: '599 9885 747757' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , cola: 1, }, },
 { id: 'xixo_025_tutti_fruity' 									, title: 'Xixo Tutti Fruity' 									, barcode: '599 9571 050598' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , }, },
 { id: 'xixo_025_tutti_fruity_apple' 							, title: 'Xixo Tutti Fruity Apple' 								, barcode: '599 9571 051298' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , }, date: '2025-11-26', },
-//{ id: 'xixo_025_tutti_fruity_apple' 							, title: 'Xixo Tutti Fruity Apple' 								, barcode: '599 9571 051298' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , }, date: '2025-11-26', },
-
+{ id: 'xixo_025_lemonade' 										, title: 'Xixo Lemonade' 										, barcode: '5 999571 055227' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , }, date: '2026-06-03', },
+{ id: 'xixo_025_pink_lemonade' 									, title: 'Xixo Pink Lemonade' 									, barcode: '5 999571 052271' 	, hash: { _025: 1, energy 	: 1 	, xixo 			: 1 , }, date: '2026-06-03', },
 
 
 
@@ -461,6 +463,7 @@ const arrListJars = [
 { id: 'ever_aid_05_juice20_mango_orange' 							, title: 'Ever Aid Juice 20% Mango & Orange' 		, barcode: '482 0183 002259' 	, hash: { _05: 1 	, drink 			: 1 	, ever 						: 1, }, },
 { id: 'ever_aid_05_juice20_passion_fruit' 							, title: 'Ever Aid Juice 20% Passion Fruit' 		, barcode: '482 0183 002266' 	, hash: { _05: 1 	, drink 			: 1 	, ever 						: 1, }, },
 { id: 'faxe_05_ba_premium' 											, title: 'Faxe Premium 0.0%' 						, barcode: '574 1000 165591' 	, hash: { _05: 1 	, beer0 			: 1 	, faxe 						: 1, }, },
+{ id: 'faxe_05_ba_zero' 											, title: 'Faxe Zero' 								, barcode: '5 741000 165591' 	, hash: { _05: 1 	, beer0 			: 1 	, faxe 						: 1, }, date: '2026-06-09', },
 { id: 'feldschloesschen_05_ba' 										, title: 'Feldschloesschen Alcohol-Free' 			, barcode: '425 0594 210224' 	, hash: { _05: 1 	, beer0 			: 1 	, feldschloesschen 			: 1, }, },
 { id: 'frugo_energy_05_easy_boost_dragon' 							, title: 'Frugo Energy Dragon' 						, barcode: '590 0552 087885' 	, hash: { _05: 1 	, energy 			: 1 	, frugo 					: 1, }, },
 { id: 'frugo_energy_05_easy_boost_mango' 							, title: 'Frugo Energy Mango' 						, barcode: '590 0552 088127' 	, hash: { _05: 1 	, energy 			: 1 	, frugo 					: 1, }, },
@@ -659,6 +662,8 @@ const arrListJars = [
 { id: 'kvas_tail_05_west_indian_cooler' 							, title: 'Kvastail West Indian Cooler' 				, barcode: '482 0002 713915' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_tail 				: 1, }, },
 { id: 'kvas_05_kyivsky_bily' 										, title: 'Квас Київський Білий' 					, barcode: '482 0002 713106' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_kyivsky 			: 1, }, },
 { id: 'kvas_05_kyivsky_temny' 										, title: 'Квас Київський Темний' 					, barcode: '482 0002 713885' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_kyivsky 			: 1, }, },
+{ id: 'kvas_05_lvivsky_bily' 										, title: 'Квас Львівський Білий' 					, barcode: '4 820046 965707' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_lvivsky 			: 1, }, date: '2026-06-09', },
+{ id: 'kvas_05_lvivsky_chorny' 										, title: 'Квас Львівський Чорний' 					, barcode: '4 820046 965660' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_lvivsky 			: 1, }, date: '2026-06-09', },
 { id: 'kvas_05_opillia_bily' 										, title: 'Квас Опілля Білий' 						, barcode: '482 0158 673958' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_opillia 			: 1, }, },
 { id: 'kvas_05_opillia_domashny' 									, title: 'Квас Опілля Домашній' 					, barcode: '482 0158 673972' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_opillia 			: 1, }, },
 { id: 'kvas_05_opillia_chorny' 										, title: 'Квас Опілля Чорний' 						, barcode: '482 0158 674702' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_opillia 			: 1, }, },

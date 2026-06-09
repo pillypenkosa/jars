@@ -166,7 +166,6 @@ const arrListJarsName = [
 	{ id: 'xixo' 					, title: 'Xixo' 					, } ,
 	{ id: 'zibert' 					, title: 'Zibert' 					, } ,
 	{ id: 'zipfer' 					, title: 'Zipfer' 					, } ,
-	
 	{ id: '_0_non_alco' 			, title: '0 Non Alcoholic' 			, } ,
 	{ id: 'bile' 					, title: 'Біле' 					, } ,
 	{ id: 'vyatrachok' 				, title: 'Вятрачок' 				, } ,
@@ -184,6 +183,7 @@ const arrListJarsName = [
 	{ id: 'kvass_premium' 			, title: '- Kvass Premium' 			, } ,
 	{ id: 'kvass_tail' 				, title: '- Kvastail' 				, } ,
 	{ id: 'kvass_kyivsky' 			, title: '- Квас Київський' 		, } ,
+	{ id: 'kvass_lvivsky' 			, title: '- Квас Львівський' 		, } ,
 	{ id: 'kvass_opillia' 			, title: '- Квас Опілля' 			, } ,
 	{ id: 'kvass_taras' 			, title: '- Квас Тарас' 			, } ,
 
