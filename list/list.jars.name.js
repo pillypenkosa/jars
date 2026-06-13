@@ -140,6 +140,7 @@ const arrListJarsName = [
 	{ id: 'royal_club' 				, title: 'Royal Club' 				, } ,
 	{ id: 'rubicon' 				, title: 'Rubicon' 					, } ,
 	{ id: 'sanpellegrino' 			, title: 'Sanpellegrino' 			, } ,
+	{ id: 'shake' 					, title: 'Shake' 					, } ,
 	{ id: 'schweppes' 				, title: 'Schweppes' 				, } ,
 	{ id: 'schlitz' 				, title: 'Schlitz' 					, } ,
 	{ id: 'schwip_schwap' 			, title: 'Schwip Schwap' 			, } ,
