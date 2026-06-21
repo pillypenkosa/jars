@@ -611,6 +611,7 @@ const arrListJars = [
 { id: 'warsteiner_05_ba' 											, title: 'Warsteiner 0.0%' 							, barcode: '4 000856 006801' 	, hash: { _05: 1 	, beer0 			: 1 	, warsteiner 				: 1, }, date: '2025-12-19', },
 { id: 'x_energy_05_classic_taste_32_mg' 							, title: 'X Energy Classic Taste 32 mg' 			, barcode: '590 5689 314453' 	, hash: { _05: 1 	, energy 			: 1 	, x_energy 					: 1, }, date: '2025-11-27', },
 { id: 'x_energy_05_mojito' 											, title: 'X Energy Mojito' 							, barcode: '590 5689 314552' 	, hash: { _05: 1 	, energy 			: 1 	, x_energy 					: 1, }, date: '2025-11-27', },
+{ id: 'zibert_05_ba' 												, title: 'Zibert 0.0' 								, barcode: '4 820193 039603' 	, hash: { _05: 1 	, beer0 			: 1 	, zibert 					: 1, }, date: '2026-06-20', },
 { id: 'zibert_05_ba_grapefruit' 									, title: 'Zibert Grapefruit' 						, barcode: '482 0193 035971' 	, hash: { _05: 1 	, beer0 			: 1 	, zibert 					: 1, }, },
 { id: 'zipfer_05_ba_hell' 											, title: 'Zipfer Hell' 								, barcode: '902 8800 140796' 	, hash: { _05: 1 	, beer0 			: 1 	, zipfer 					: 1, }, },
 { id: '0_05_ba_nefiltrovane_plus_blue' 								, title: '0 Нефільтроване + 0' 						, barcode: '482 820193 032994' 	, hash: { _05: 1 	, beer0 			: 1 	, _0_non_alco 				: 1, }, },
