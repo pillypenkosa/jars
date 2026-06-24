@@ -48,6 +48,7 @@ const arrListJarsName = [
 	{ id: 'douwe_egberts' 			, title: 'Douwe Egberts' 			, } ,
 	{ id: 'dr_pepper' 				, title: 'Dr Pepper' 				, } ,
 	{ id: 'edelmeister' 			, title: 'Edelmeister' 				, } ,
+	{ id: 'energia_borjomi' 		, title: 'Energia by Borjomi ' 		, } ,
 	{ id: 'estrella' 				, title: 'Estrella' 				, } ,
 	{ id: 'ever' 					, title: 'Ever AID+' 				, } ,
 	{ id: 'evolution' 				, title: 'Evolution' 				, } ,

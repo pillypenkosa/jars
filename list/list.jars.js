@@ -68,6 +68,8 @@ const arrListJars = [
 { id: 'double_seven_025' 										, title: 'Double Seven' 										, barcode: '842 3453 905630' 	, hash: { _025: 1, energy 	: 1 	, double_seven 	: 1, }, },
 { id: 'douwe_egberts_025_cappuccino' 							, title: 'Douwe Egberts Cappuccino' 							, barcode: '871 1000 675298' 	, hash: { _025: 1, coffee 	: 1 	, douwe_egberts : 1, }, },
 { id: 'douwe_egberts_025_mocha_latte' 							, title: 'Douwe Egberts Mocha Latte' 							, barcode: '871 1000 675267' 	, hash: { _025: 1, coffee 	: 1 	, douwe_egberts : 1, }, },
+{ id: 'energia_borjomi_025_citrus_mix' 							, title: 'Energia by Borjomi Citrus Mix' 						, barcode: '4 860019 003685' 	, hash: { _025: 1, drink 	: 1 	, energia_borjomi 	: 1, }, date: '2026-06-24', },
+{ id: 'energia_borjomi_025_original' 							, title: 'Energia by Borjomi Original' 							, barcode: '4 860019 003623' 	, hash: { _025: 1, drink 	: 1 	, energia_borjomi 	: 1, }, date: '2026-06-24', },
 { id: 'evolution_025' 											, title: 'Evolution Baobab Fruit Extract' 						, barcode: '482 0097 898658' 	, hash: { _025: 1, energy 	: 1 	, evolution 	: 1, }, },
 { id: 'fanta_025_orange' 										, title: 'Fanta Orange' 										, barcode: '544 9000 000712' 	, hash: { _025: 1, drink 	: 1 	, fanta 		: 1, }, date: '2025-08-27', },
 { id: 'fanta_025_orange_2' 										, title: 'Fanta З апельсиновим соком' 							, barcode: '544 9000 000712' 	, hash: { _025: 1, drink 	: 1 	, fanta 		: 1, }, },
@@ -613,7 +615,9 @@ const arrListJars = [
 { id: 'x_energy_05_mojito' 											, title: 'X Energy Mojito' 							, barcode: '590 5689 314552' 	, hash: { _05: 1 	, energy 			: 1 	, x_energy 					: 1, }, date: '2025-11-27', },
 { id: 'zibert_05_ba' 												, title: 'Zibert 0.0' 								, barcode: '4 820193 039603' 	, hash: { _05: 1 	, beer0 			: 1 	, zibert 					: 1, }, date: '2026-06-20', },
 { id: 'zibert_05_ba_grapefruit' 									, title: 'Zibert Grapefruit' 						, barcode: '482 0193 035971' 	, hash: { _05: 1 	, beer0 			: 1 	, zibert 					: 1, }, },
+{ id: 'zibert_05_ba_grapefruit_2' 									, title: 'Zibert Grapefruit' 						, barcode: '4 820193 035971' 	, hash: { _05: 1 	, beer0 			: 1 	, zibert 					: 1, }, date: '2026-06-24', },
 { id: 'zipfer_05_ba_hell' 											, title: 'Zipfer Hell' 								, barcode: '902 8800 140796' 	, hash: { _05: 1 	, beer0 			: 1 	, zipfer 					: 1, }, },
+
 { id: '0_05_ba_nefiltrovane_plus_blue' 								, title: '0 Нефільтроване + 0' 						, barcode: '482 820193 032994' 	, hash: { _05: 1 	, beer0 			: 1 	, _0_non_alco 				: 1, }, },
 { id: '0_05_ba_nefiltrovane_plus_grey' 								, title: '0 Нефільтроване + Non Alcoholic' 			, barcode: '482 820193 032994' 	, hash: { _05: 1 	, beer0 			: 1 	, _0_non_alco 				: 1, }, },
 { id: '0_05_ba_vyshnya' 											, title: '0 Вишня Non Alcoholic' 					, barcode: '482 0193 036565'	, hash: { _05: 1 	, beer0 			: 1 	, _0_non_alco 				: 1, }, },
