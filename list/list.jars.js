@@ -435,6 +435,7 @@ const arrListJars = [
 { id: 'bitburger_05_ba' 											, title: 'Bitburger 0.0 %' 							, barcode: '410 2430 061395' 	, hash: { _05: 1 	, beer0 			: 1 	, bitburger 				: 1, }, },
 { id: 'bud_05_ba_non_alcoholic' 									, title: 'Bud Non-alcoholic' 						, barcode: '482 0034 923443' 	, hash: { _05: 1 	, beer0 			: 1 	, bud 						: 1, }, },
 { id: 'bud_05_ba_zero' 												, title: 'Bud Zero 0,0 %' 							, barcode: '482 0034 924891' 	, hash: { _05: 1 	, beer0 			: 1 	, bud 						: 1, }, },
+{ id: 'budvar_05_ba_0' 												, title: 'Budvar 0.0 %' 							, barcode: '8 594403 711103' 	, hash: { _05: 1 	, beer0 			: 1 	, budvar 					: 1, }, date: '2026-07-05', },
 { id: 'budvar_05_ba_nealko' 										, title: 'Budvar Nealko' 							, barcode: '859 4403 707663' 	, hash: { _05: 1 	, beer0 			: 1 	, budvar 					: 1, }, },
 { id: 'burn_05_apple_kiwi_green' 									, title: 'Burn Apple Kiwi' 							, barcode: '506 0466 510982' 	, hash: { _05: 1 	, energy 			: 1 	, burn 						: 1, }, },
 { id: 'burn_05_apple_kiwi_yellow' 									, title: 'Burn Apple kiwi' 							, barcode: '506 0466 510982' 	, hash: { _05: 1 	, energy 			: 1 	, burn 						: 1, }, },
@@ -479,14 +480,12 @@ const arrListJars = [
 { id: 'frugo_energy_05_ultra_power_wild_cherry' 					, title: 'Frugo Energy Zero Wild Cherry' 			, barcode: '590 0552 087861' 	, hash: { _05: 1 	, energy 			: 1 	, frugo 					: 1, }, },
 { id: 'g_energy_05_no_sleep' 										, title: 'G-Energy No Sleep' 						, barcode: '477 0063 234297' 	, hash: { _05: 1 	, energy 			: 1 	, g_energy 					: 1, }, },
 { id: 'g_energy_05_refresh' 										, title: 'G-Energy Refresh' 						, barcode: '477 0063 234303' 	, hash: { _05: 1 	, energy 			: 1 	, g_energy 					: 1, }, },
-
 { id: 'garage_05_ba_grapefruit' 									, title: 'Garage Grapefruit' 						, barcode: '4 820250 941948' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_lime' 											, title: 'Garage Lime' 								, barcode: '4 820250 941894' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_raspberry' 										, title: 'Garage Raspberry' 						, barcode: '4 820250 941917' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_grapefruit_2' 									, title: 'Garage Grapefruit' 						, barcode: '4 820250 941948' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-07-05', },
 { id: 'garage_05_ba_lime_2' 										, title: 'Garage Lime' 								, barcode: '4 820250 941894' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-05-08', },
 { id: 'garage_05_ba_pomegranate' 									, title: 'Garage Pomegranate' 						, barcode: '4 820250 944789' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-04-23', },
-
 { id: 'geyser_05_exotic' 											, title: 'Geyser Exotic' 							, barcode: '482 0183 001634' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
 { id: 'geyser_05_forest_drop' 										, title: 'Geyser Forest Drop' 						, barcode: '482 0183 001627' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
 { id: 'geyser_05_original' 											, title: 'Geyser Original' 							, barcode: '482 0183 001610' 	, hash: { _05: 1 	, energy 			: 1 	, geyser 					: 1, }, },
