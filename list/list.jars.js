@@ -397,19 +397,9 @@ const arrListJars = [
 { id: 'baltika_05_ba_malina' 										, title: 'Baltika 0 Малина' 						, barcode: '482 0250 940101' 	, hash: { _05: 1 	, beer0 			: 1 	, baltika 					: 1, }, },
 { id: 'baltika_05_ba_phenichny_solod' 								, title: 'Baltika 0 Пшеничний солод' 				, barcode: '482 0000 458276' 	, hash: { _05: 1 	, beer0 			: 1 	, baltika 					: 1, }, },
 { id: 'battery_05' 													, title: 'Battery' 									, barcode: '4 820250 943072' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
-
-
 { id: 'battery_05_cola' 											, title: 'Battery Cola' 							, barcode: '4 820250 944628' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, cola: 1, }, date: '2026-07-05', },
-
-
-
-
 { id: 'battery_05_frsh' 											, title: 'Battery Frsh' 							, barcode: '4 820250 943010' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
 { id: 'battery_05_electric' 										, title: 'Battery Electric' 						, barcode: '4 820250 945014' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, date: '2026-05-21', },
-
-
-
-
 { id: 'battery_05_exotic' 											, title: 'Battery Exotic' 							, barcode: '4 820250 942990' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
 { id: 'battery_05_mix' 												, title: 'Battery Mix' 								, barcode: '4 820250 943034' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
 { id: 'battery_juiced_05_super_charge' 								, title: 'Battery Super Charge' 					, barcode: '4 820250 945076' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, date: '2026-05-21', },
@@ -490,6 +480,13 @@ const arrListJars = [
 { id: 'g_energy_05_no_sleep' 										, title: 'G-Energy No Sleep' 						, barcode: '477 0063 234297' 	, hash: { _05: 1 	, energy 			: 1 	, g_energy 					: 1, }, },
 { id: 'g_energy_05_refresh' 										, title: 'G-Energy Refresh' 						, barcode: '477 0063 234303' 	, hash: { _05: 1 	, energy 			: 1 	, g_energy 					: 1, }, },
 { id: 'garage_05_ba_fun_zero_grapefruit' 							, title: 'Garage Fun Zero Grapefruit' 				, barcode: '4 820250 941948' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
+
+{ id: 'garage_05_ba_fun_zero_grapefruit_2' 							, title: 'Garage Fun Zero Grapefruit' 				, barcode: '4 820250 941948' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-07-05', },
+
+
+
+
+
 { id: 'garage_05_ba_fun_zero_lime' 									, title: 'Garage Fun Zero Lime' 					, barcode: '4 820250 941894' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
 { id: 'garage_05_ba_fun_zero_lime_2' 								, title: 'Garage Fun Zero Lime' 					, barcode: '4 820250 941894' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, date: '2026-05-08', },
 { id: 'garage_05_ba_fun_zero_raspberry' 							, title: 'Garage Fun Zero Raspberry' 				, barcode: '4 820250 941917' 	, hash: { _05: 1 	, beer0 			: 1 	, garage 					: 1, }, },
