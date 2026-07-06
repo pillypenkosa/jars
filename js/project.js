@@ -1,4 +1,4 @@
-const appProjectName = 'Jars DJS';
+const appProjectName = 'Jars';
 
 
 
