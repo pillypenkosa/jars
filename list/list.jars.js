@@ -401,6 +401,7 @@ const arrListJars = [
 { id: 'baltika_05_ba_phenichny_solod' 								, title: 'Baltika 0 Пшеничний солод' 				, barcode: '482 0000 458276' 	, hash: { _05: 1 	, beer0 			: 1 	, baltika 					: 1, }, },
 { id: 'battery_05' 													, title: 'Battery' 									, barcode: '4 820250 943072' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
 { id: 'battery_05_cola' 											, title: 'Battery Cola' 							, barcode: '4 820250 944628' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, cola: 1, }, date: '2026-07-05', },
+{ id: 'battery_05_cola_2' 											, title: 'Battery Cola' 							, barcode: '4 820250 944628' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, cola: 1, }, date: '2026-07-10', },
 { id: 'battery_05_frsh' 											, title: 'Battery Frsh' 							, barcode: '4 820250 943010' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
 { id: 'battery_05_electric' 										, title: 'Battery Electric' 						, barcode: '4 820250 945014' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, date: '2026-05-21', },
 { id: 'battery_05_exotic' 											, title: 'Battery Exotic' 							, barcode: '4 820250 942990' 	, hash: { _05: 1 	, energy 			: 1 	, battery 					: 1, }, },
