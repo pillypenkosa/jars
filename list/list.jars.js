@@ -27,6 +27,7 @@ const arrListJars = [
 { id: 'bellini_025_dolce_pesca' 								, title: 'Bellini Dolce Pesca' 									, barcode: '484 2338 000118' 	, hash: { _025: 1, wine 	: 1 	, bellini 			: 1, }, alco: '6.5', },
 { id: 'best_shot_025_blueberry' 								, title: 'Best Shot Blueberry' 									, barcode: '4 820022 693402'	, hash: { _025: 1, energy 	: 1 	, best_shot 		: 1, }, date: '2026-07-08', },
 { id: 'best_shot_025_original' 									, title: 'Best Shot Original' 									, barcode: '4 820022 693013'	, hash: { _025: 1, energy 	: 1 	, best_shot 		: 1, }, date: '2026-06-10', },
+{ id: 'best_shot_025_acai' 										, title: 'Best Shot Acai' 										, barcode: '4 820022 693372'	, hash: { _025: 1, energy 	: 1 	, best_shot 		: 1, }, date: '2026-07-18', },
 { id: 'big_energy_025_focus' 									, title: 'Big Energy Focus' 									, barcode: '482 0229 039539' 	, hash: { _025: 1, energy 	: 1 	, big_energy 		: 1, }, date: '2025-08-22', },
 { id: 'black_025_mango' 										, title: 'Black Mango' 											, barcode: '590 0552 058045' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, },	},
 { id: 'black_025_mojito' 										, title: 'Black Mojito' 										, barcode: '590 0552 032373' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, mojito: 1, }, },
