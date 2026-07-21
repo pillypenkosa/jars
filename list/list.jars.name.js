@@ -117,6 +117,7 @@ const arrListJarsName = [
 	{ id: 'ngine' 					, title: 'Ngine' 					, } ,
 	{ id: 'nescafe' 				, title: 'Nescafe' 					, } ,
 	{ id: 'nestea' 					, title: 'Nestea' 					, } ,
+	{ id: 'non_alco_beer' 			, title: 'Non-alco Beer' 			, } ,
 	{ id: 'non_stop' 				, title: 'Non Stop' 				, } ,
 	{ id: 'no_worries' 				, title: 'No Worries' 				, } ,
 	{ id: 'oettinger' 				, title: 'Oettinger' 				, } ,
