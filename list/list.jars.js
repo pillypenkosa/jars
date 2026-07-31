@@ -34,6 +34,8 @@ const arrListJars = [
 { id: 'black_025_original' 										, title: 'Black Original' 										, barcode: '590 0552 014713' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, }, },
 { id: 'black_025_original_zero_sugar' 							, title: 'Black Original Zero Sugar' 							, barcode: '590 0552 021865' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, }, },
 { id: 'black_025_sex_energy' 									, title: 'Black Sex Energy' 									, barcode: '590 0552 041429' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, }, date: '2025-12-13', },
+{ id: 'black_dragon_025_original' 								, title: 'Black Dragon Original' 								, barcode: '5 902854 109104' 	, hash: { _025: 1, energy 	: 1 	, black_dragon  	: 1, },	date: '2026-07-31', },
+{ id: 'black_dragon_025_zero_sugar' 							, title: 'Black Dragon Zero Sugar' 								, barcode: '5 902854 109111' 	, hash: { _025: 1, energy 	: 1 	, black_dragon  	: 1, },	date: '2026-07-31', },
 { id: 'black_after_alcohol_025_ultra_citrus' 					, title: 'Black After Alcohol Ultra Citrus' 					, barcode: '590 0552 063315' 	, hash: { _025: 1, energy 	: 1 	, black 			: 1, }, },
 { id: 'bos_025' 												, title: 'Bos' 													, barcode: '600 9801 704630' 	, hash: { _025: 1, tea 		: 1 	, bos 				: 1, }, },
 { id: 'bos_025_sparkling' 										, title: 'Bos Sparkling' 										, barcode: '600 9880 030071' 	, hash: { _025: 1, tea 		: 1 	, bos 				: 1, }, },

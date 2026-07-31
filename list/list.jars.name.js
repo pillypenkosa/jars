@@ -27,6 +27,7 @@ const arrListJarsName = [
 	{ id: 'bitburger' 				, title: 'Bitburger' 				, } ,
 	{ id: 'big_energy' 				, title: 'Big Energy' 				, } ,
 	{ id: 'black' 					, title: 'Black' 					, } ,
+	{ id: 'black_dragon' 			, title: 'Black Dragon' 			, } ,
 	{ id: 'bomba' 					, title: 'Bomba B!' 				, } ,
 	{ id: 'bos' 					, title: 'Bos' 						, } ,
 	{ id: 'bud' 					, title: 'Bud' 						, } ,
