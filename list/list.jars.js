@@ -299,6 +299,7 @@ const arrListJars = [
 { id: 'fanta_033_pineapple_grapefruit' 				, title: 'Fanta Pineapple & Grapefruit' 				, barcode: '544 9000 089359' 	, hash: { _033: 1, drink 		: 1 	, fanta 		: 1, }, },
 { id: 'fanta_033_strawberry_kiwi' 					, title: 'Fanta Strawberry & Kiwi' 						, barcode: '574 0700 987984' 	, hash: { _033: 1, drink 		: 1 	, fanta 		: 1, }, },
 { id: 'fanta_033_strawberry_kiwi_2' 				, title: 'Fanta Strawberry & Kiwi' 						, barcode: '574 0700 987984' 	, hash: { _033: 1, drink 		: 1 	, fanta 		: 1, }, },
+{ id: 'fanta_033_dark_cherry_flavour' 				, title: 'Fanta Dark Cherry Flavour' 					, barcode: '5 449000 097071' 	, hash: { _033: 1, drink 		: 1 	, fanta 		: 1, }, date: '2026-08-13', },
 { id: 'free_damm_033_ba' 							, title: 'Free Damm 0.0' 								, barcode: '841 0793 066138' 	, hash: { _033: 1, beer0 		: 1 	, free_damm 	: 1, }, },
 { id: 'free_damm_033_ba_limon' 						, title: 'Free Damm 0.0 Limon' 							, barcode: '841 0793 296139' 	, hash: { _033: 1, beer0 		: 1 	, free_damm 	: 1, }, },
 { id: 'guarana_antarctica_033_brazilian_original' 	, title: 'Guarana Antarctica The Brazilian Original' 	, barcode: '560 1045 300022' 	, hash: { _033: 1, drink 		: 1 	, guarana 		: 1, }, date: '2025-11-22', },
