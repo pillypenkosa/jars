@@ -83,6 +83,7 @@ const arrListJarsName = [
 	{ id: 'jaguar' 					, title: 'Jaguar' 					, } ,
 	{ id: 'jaguaro' 				, title: 'Jaguaro' 					, } ,
 	{ id: 'jaffa' 					, title: 'Jaffa' 					, } ,
+	{ id: 'jianlibao' 				, title: 'Jianlibao' 				, } ,
 	{ id: 'johan_freitag' 			, title: 'Johan Freitag' 			, } ,
 	{ id: 'jett' 					, title: 'Dжетт' 					, } ,
 	{ id: 'kaiserdom' 				, title: 'Kaiserdom' 				, } ,

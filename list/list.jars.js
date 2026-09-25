@@ -315,6 +315,8 @@ const arrListJars = [
 { id: 'jaffa_033_ananas' 							, title: 'Jaffa Ananas' 								, barcode: '641 3600 151289'	, hash: { _033: 1, drink 		: 1 	, jaffa 		: 1, }, },
 { id: 'jaffa_033_appelsiini' 						, title: 'Jaffa Appelsiini' 							, barcode: '641 3600 003496'	, hash: { _033: 1, drink 		: 1 	, jaffa 		: 1, }, },
 { id: 'jaffa_033_karibia' 							, title: 'Jaffa Karibia' 								, barcode: '641 3600 267966'	, hash: { _033: 1, drink 		: 1 	, jaffa 		: 1, }, },
+{ id: 'jianlibao_033_lemon_honey_flavors' 			, title: 'Jianlibao Lemon & Honey Flavors' 				, barcode: '6 901010 121119'	, hash: { _033: 1, drink 		: 1 	, jianlibao 	: 1, }, date: '2026-09-25', },
+{ id: 'jianlibao_033_orange' 						, title: 'Jianlibao Orange' 							, barcode: '6 901010 101180'	, hash: { _033: 1, drink 		: 1 	, jianlibao 	: 1, }, date: '2026-09-25', },
 { id: 'lipton_033_pfirsich' 						, title: 'Lipton Pfirsich' 								, barcode: '' 					, hash: { _033: 1, tea 			: 1 	, lipton 		: 1, }, },
 { id: 'lipton_033_sparkling' 						, title: 'Lipton Sparkling' 							, barcode: '' 					, hash: { _033: 1, tea 			: 1 	, lipton 		: 1, }, },
 { id: 'kronenbourg_033_1664_blanc' 					, title: 'Kronenbourg 1664 Blanc' 						, barcode: '482 0000 457309'	, hash: { _033: 1, beer 		: 1 	, kronenbourg 	: 1, }, },
