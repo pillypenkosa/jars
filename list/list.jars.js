@@ -706,6 +706,7 @@ const arrListJars = [
 { id: 'kvas_05_opillia_chorny' 										, title: 'Квас Опілля Чорний' 						, barcode: '482 0158 674702' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_opillia 			: 1, }, },
 { id: 'kvas_taras_05_flower_power' 									, title: 'Квас Тарас Flower Power' 					, barcode: '482 0250 943751' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_taras 				: 1, }, },
 { id: 'kvas_taras_05_bily' 											, title: 'Квас Тарас Білий' 						, barcode: '482 0000 457514' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_taras 				: 1, }, },
+{ id: 'kvas_taras_05_pryany' 											, title: 'Квас Тарас Пряний' 						, barcode: '4 820250 945342' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_taras 				: 1, }, date: '2026-10-27', },
 { id: 'kvas_taras_05_chorny' 										, title: 'Квас Тарас Чорний' 						, barcode: '482 0000 457521' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_taras 				: 1, }, },
 { id: 'kvas_taras_05_hlibny' 										, title: 'Квас Тарас Хлібний' 						, barcode: '482 0000 451895' 	, hash: { _05: 1 	, kvass_all 		: 1 	, kvass_taras 				: 1, }, },
 
